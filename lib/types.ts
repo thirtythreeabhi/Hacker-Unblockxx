@@ -17,9 +17,12 @@ export type IndexedContest = {
   contents: IndexedContent[];
   description?: string;
   kind?: string;
+  domain?: string;
   topics?: string[];
+  primaryTopics?: string[];
   course?: string | null;
   batch?: string | null;
+  location?: string | null;
   instructor?: string | null;
   institution?: string | null;
   year?: number | null;

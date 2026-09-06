@@ -119,7 +119,7 @@ try {
 }
 
 const enrichmentFields = [
-  "description", "kind", "topics", "course", "batch", "instructor", "institution", "year",
+  "description", "kind", "domain", "topics", "primaryTopics", "course", "batch", "location", "instructor", "institution", "year",
   "difficultyProfile", "languages", "tags", "confidence", "sourceQuality", "model", "generatedAt",
 ];
 for (const contest of indexedContests) {

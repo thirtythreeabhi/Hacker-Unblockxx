@@ -22,9 +22,9 @@ Progress is keyed by HackerBlocks `problemId` and falls back to `contentId` when
 
 ## Local contest enrichment
 
-`npm run enrich:contests -- --limit 20` runs a conservative, resumable Gemini enrichment sample. Set `GEMINI_API_KEYS` and `GEMINI_MODELS` to comma-separated values in `.env.local`; optional settings are `GEMINI_BATCH_SIZE`, `GEMINI_REQUEST_DELAY_MS`, `GEMINI_REQUEST_TIMEOUT_MS`, and `GEMINI_MAX_RETRIES`. Target one contest with `npm run enrich:contests -- --contest 10235`, or run all pending contests with `npm run enrich:contests`. The script writes only `data/contest-enrichment.jsonl` and `data/contest-enrichment-failures.jsonl`; raw crawler files are never changed.
+`npm run enrich:contests -- --limit 20` runs a conservative, resumable Gemini enrichment sample. Set `GEMINI_API_KEYS` and `GEMINI_MODELS` to comma-separated values in `.env.local`; optional settings are `GEMINI_BATCH_SIZE`, `GEMINI_CONCURRENCY`, `GEMINI_REQUEST_DELAY_MS`, `GEMINI_REQUEST_TIMEOUT_MS`, and `GEMINI_MAX_RETRIES`. Target one contest with `npm run enrich:contests -- --contest 10235`, or run all pending contests with `npm run enrich:contests`. Add `--force` with a target or limit to deliberately regenerate existing records; regenerated JSONL records are appended and the latest record wins when the index is built. The script writes only `data/contest-enrichment.jsonl` and `data/contest-enrichment-failures.jsonl`; raw crawler files are never changed.
 
-The generated enrichment file is optional. `npm run build:index` merges valid enrichment records into `public/data/index.json` when present and continues normally when it is absent.
+The generated enrichment file includes independent `kind` and `domain` fields, exhaustive `topics`, up to four `primaryTopics`, conservative `course`/`batch`/`location`/`instructor`/`institution` fields, deterministic `difficultyProfile`, and calibrated confidence. `npm run build:index` merges valid enrichment records into `public/data/index.json` when present and continues normally when it is absent.
 
 To verify a production build locally:
 
