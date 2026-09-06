@@ -6,6 +6,7 @@ import type { IndexedContent, ProblemSearchResult, Question } from "../lib/types
 import { useProgress } from "../lib/progress";
 import DifficultyBadge from "./DifficultyBadge";
 import AITools from "./AITools";
+import AskHackerBlocks from "./AskHackerBlocks";
 
 function TextSection({ title, value }: { title: string; value: string | null }) {
   if (!value) return null;
@@ -227,6 +228,7 @@ export default function QuestionDrawer({
             {user && <section className="question-section notes-section"><h3>Private note</h3><textarea value={notes} onChange={(event) => setNotes(event.target.value)} placeholder="Add a note for this problem…" rows={4} /><button className="secondary-button" onClick={() => void saveNote()} disabled={savingProgress}>Save note</button></section>}
 
             <AITools contestId={contestId} question={question} content={content} />
+            <AskHackerBlocks contestId={contestId} question={question} content={content} onOpenReference={openRelated} />
 
             <section className="related-section">
               <div className="related-heading"><div><h3>Related problems</h3><p>Vector neighbors from the shared problem corpus</p></div><div className="related-actions"><button className={relatedMode === "related" ? "active" : ""} onClick={() => void loadRelated("related")} disabled={relatedLoading}>Related</button><button className={relatedMode === "easier" ? "active" : ""} onClick={() => void loadRelated("easier")} disabled={relatedLoading}>Similar easier</button><button className={relatedMode === "harder" ? "active" : ""} onClick={() => void loadRelated("harder")} disabled={relatedLoading}>Similar harder</button></div></div>

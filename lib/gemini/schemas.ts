@@ -11,6 +11,7 @@ export const artifactSchemas: Record<GeminiTask, GeminiSchema> = {
   generated_tests: { type: "OBJECT", properties: { tests: { type: "ARRAY", items: { type: "OBJECT", properties: { name: stringField, input: stringField, expectedOutput: stringField, explanation: stringField }, required: ["name", "input", "expectedOutput", "explanation"] } } }, required: ["tests"] },
   complexity_target: { type: "OBJECT", properties: { targetTimeComplexity: stringField, targetSpaceComplexity: stringField, reasoning: stringField, confidence: { type: "NUMBER" } }, required: ["targetTimeComplexity", "targetSpaceComplexity", "reasoning", "confidence"] },
   simple_explanation: { type: "OBJECT", properties: { summary: stringField, inputs: stringField, goal: stringField, importantDetails: { type: "ARRAY", items: stringField } }, required: ["summary", "inputs", "goal", "importantDetails"] },
+  tutor: { type: "OBJECT", properties: { answer: stringField }, required: ["answer"] },
 };
 
 function nonEmptyString(value: unknown) {
@@ -49,5 +50,6 @@ export function validateArtifact(task: GeminiTask, value: unknown, language?: st
   }
   if (task === "complexity_target" && (!["targetTimeComplexity", "targetSpaceComplexity", "reasoning"].every((key) => nonEmptyString(payload[key])) || typeof payload.confidence !== "number")) throw new Error("Complexity response was invalid.");
   if (task === "simple_explanation" && (!["summary", "inputs", "goal"].every((key) => nonEmptyString(payload[key])) || !Array.isArray(payload.importantDetails))) throw new Error("Simple explanation response was invalid.");
+  if (task === "tutor" && (!nonEmptyString(payload.answer) || String(payload.answer).length > 12000)) throw new Error("Tutor response was invalid.");
   return payload;
 }

@@ -53,3 +53,9 @@ This writes `data/problem-near-duplicates.json` using a conservative threshold (
 ## Practice next
 
 Authenticated users can request deterministic recommendations from `GET /api/recommendations` with `mode=continue`, `harder`, `bookmarked`, `random`, or `weak`, plus `limit`, `topic`, and `currentProblemId`. Completed problems are excluded by default. The route reads only the signed-in user's progress, scores shared corpus rows by cosine similarity, topic overlap, difficulty progression, bookmark state, and a per-user daily rotation seed, then removes known near-duplicate pairs from the selected set. No generative Gemini call is used for ranking or reasons.
+
+## Ask HackerBlocks tutor
+
+The question drawer includes a session-local `Ask HackerBlocks` panel with two modes. Current-problem mode trust-fetches one question and sends only its title, description, constraints, input/output formats, and official samples to the shared Gemini executor. It defaults to non-spoiler explanations and does not send starter code, solution explanations, or private notes.
+
+Corpus-search mode embeds the query with the existing embedding client, calls `match_problems`, fetches the matched canonical rows in one details query, and sends at most eight compact grounded rows to Gemini. References shown in the answer are copied from those retrieved rows, never invented by the model. The POST route is `/api/tutor`, requires an authenticated user, reads only that user's progress under RLS, and does not persist chat or create shared artifacts.

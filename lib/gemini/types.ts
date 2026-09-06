@@ -5,7 +5,8 @@ export type GeminiTask =
   | "hint_ladder"
   | "generated_tests"
   | "complexity_target"
-  | "simple_explanation";
+  | "simple_explanation"
+  | "tutor";
 
 export type GeminiSchema = Record<string, unknown>;
 
