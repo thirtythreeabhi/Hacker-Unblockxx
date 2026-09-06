@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import type { IndexedContent, Question } from "../lib/types";
 import { useProgress } from "../lib/progress";
 import DifficultyBadge from "./DifficultyBadge";
+import AITools from "./AITools";
 
 function TextSection({ title, value }: { title: string; value: string | null }) {
   if (!value) return null;
@@ -192,6 +193,8 @@ export default function QuestionDrawer({
 
             {progressError && <p className="progress-error" role="alert">{progressError}</p>}
             {user && <section className="question-section notes-section"><h3>Private note</h3><textarea value={notes} onChange={(event) => setNotes(event.target.value)} placeholder="Add a note for this problem…" rows={4} /><button className="secondary-button" onClick={() => void saveNote()} disabled={savingProgress}>Save note</button></section>}
+
+            <AITools contestId={contestId} question={question} content={content} />
 
             <TextSection title="Description" value={question.description} />
             <TextSection title="Constraints" value={question.constraints} />

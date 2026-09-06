@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "build:index": "node scripts/build-index.mjs",
+    "build:problem-corpus": "node scripts/build-problem-corpus.mjs",
+    "embed:problems": "node scripts/embed-problems.mjs",
     "enrich:contests": "node scripts/enrich-contests.mjs",
     "vercel-build": "npm run build:index && next build",
     "start": "next start"
@@ -15,7 +17,9 @@
     "@supabase/supabase-js": "^2.115.0",
     "next": "14.2.32",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@types/node": "22.10.2",

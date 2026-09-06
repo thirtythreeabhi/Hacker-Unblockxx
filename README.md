@@ -20,6 +20,10 @@ Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SUPABASE_URL` plus `NEX
 
 Progress is keyed by HackerBlocks `problemId` and falls back to `contentId` when no problem ID exists. Row Level Security restricts every progress operation to the signed-in user.
 
+## AI practice tools
+
+The question drawer includes on-demand Clean, Boilerplate, Approaches, Hints, Tests, Complexity, Explain simply, and deterministic Copy AI context actions. Run `supabase/migrations/20260907010000_create_ai_problem_artifacts.sql` after the progress migration. Add `SUPABASE_SERVICE_ROLE_KEY` only to server/Vercel environment variables; it is used solely by the validated artifact write path and must never be exposed to the browser. Gemini keys remain server-only in `GEMINI_API_KEYS`.
+
 ## Local contest enrichment
 
 `npm run enrich:contests -- --limit 20` runs a conservative, resumable Gemini enrichment sample. Set `GEMINI_API_KEYS` and `GEMINI_MODELS` to comma-separated values in `.env.local`; optional settings are `GEMINI_BATCH_SIZE`, `GEMINI_CONCURRENCY`, `GEMINI_REQUEST_DELAY_MS`, `GEMINI_REQUEST_TIMEOUT_MS`, and `GEMINI_MAX_RETRIES`. Target one contest with `npm run enrich:contests -- --contest 10235`, or run all pending contests with `npm run enrich:contests`. Add `--force` with a target or limit to deliberately regenerate existing records; regenerated JSONL records are appended and the latest record wins when the index is built. The script writes only `data/contest-enrichment.jsonl` and `data/contest-enrichment-failures.jsonl`; raw crawler files are never changed.
