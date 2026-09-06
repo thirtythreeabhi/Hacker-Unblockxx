@@ -2,12 +2,13 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import type { IndexData, IndexedContent } from "../lib/types";
+import type { IndexData, IndexedContent, ProblemSearchResult } from "../lib/types";
 import { useProgress } from "../lib/progress";
 import ContestCard from "./ContestCard";
 import { difficultyLabel } from "./DifficultyBadge";
 import QuestionDrawer from "./QuestionDrawer";
 import Stats from "./Stats";
+import SemanticSearchResults from "./SemanticSearchResults";
 
 const PAGE_SIZE = 50;
 
@@ -25,6 +26,10 @@ export default function BrowserApp() {
   const [index, setIndex] = useState<IndexData | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
+  const [searchMode, setSearchMode] = useState<"keyword" | "semantic">("keyword");
+  const [semanticResults, setSemanticResults] = useState<ProblemSearchResult[]>([]);
+  const [semanticLoading, setSemanticLoading] = useState(false);
+  const [semanticError, setSemanticError] = useState<string | null>(null);
   const [statusFilter, setStatusFilter] = useState("all");
   const [difficultyFilter, setDifficultyFilter] = useState("all");
   const [progressFilter, setProgressFilter] = useState("all");
@@ -87,6 +92,35 @@ export default function BrowserApp() {
     router.replace(`${pathname}?contest=${encodeURIComponent(contestId)}&content=${encodeURIComponent(content.contentId)}`, { scroll: false });
   }
 
+  async function submitSemanticSearch(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const query = search.trim();
+    if (!query) return;
+    setSemanticLoading(true);
+    setSemanticError(null);
+    try {
+      const params = new URLSearchParams({ query, limit: "12" });
+      if (difficultyFilter !== "all") params.set("difficulty", difficultyFilter);
+      if (progressFilter === "completed") params.set("completed", "true");
+      if (progressFilter === "incomplete") params.set("completed", "false");
+      if (progressFilter === "bookmarked") params.set("bookmarked", "true");
+      if (progressFilter === "bookmarked-incomplete") { params.set("bookmarked", "true"); params.set("completed", "false"); }
+      const response = await fetch(`/api/search/problems?${params.toString()}`);
+      const body = await response.json().catch(() => ({}));
+      if (!response.ok || body.available === false) throw new Error(body.error || "Semantic search is unavailable.");
+      setSemanticResults(Array.isArray(body.results) ? body.results as ProblemSearchResult[] : []);
+    } catch (error: unknown) {
+      setSemanticResults([]);
+      setSemanticError(error instanceof Error ? error.message : "Semantic search is unavailable.");
+    } finally {
+      setSemanticLoading(false);
+    }
+  }
+
+  function openSemanticResult(result: ProblemSearchResult) {
+    if (result.contestId && result.contentId) openQuestion(result.contestId, { contentId: result.contentId, problemId: result.problemId, name: result.name, difficulty: result.difficulty, type: "problem", verified: false });
+  }
+
   function toggleContest(contestId: string) {
     setOpenContests((current) => {
       const next = new Set(current);
@@ -110,7 +144,8 @@ export default function BrowserApp() {
           <div className="brand-row"><div className="brand-mark">HB</div><span className="brand-label">HACKERBLOCKS / DSA LIBRARY</span><div className="account-area">{user ? <><span className="account-email" title={user.email ?? undefined}>{signedInLabel}</span><button className="account-button" onClick={logout}>Log out</button></> : <><span className="account-email">{signedInLabel}</span><a className="account-button" href="/login">Log in</a><a className="account-button account-primary" href="/signup">Sign up</a></>}</div></div>
           <div className="hero-copy"><div><p className="eyebrow">A searchable contest archive</p><h1>HackerBlocks <span>Browser</span></h1><p className="hero-subtitle">Find a contest. Open a question. Get straight to the problem.</p></div><div className="hero-note"><span className="live-dot" /> Snapshot indexed locally <small>{index ? `${index.stats.contests.toLocaleString()} contests` : "…"}</small></div></div>
           <div className="search-panel">
-            <div className="search-wrap"><span className="search-icon">⌕</span><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search contests, questions, content IDs…" aria-label="Search contests and questions" />{search && <button className="clear-search" onClick={() => setSearch("")} aria-label="Clear search">×</button>}<kbd>⌘ K</kbd></div>
+            <form className="search-wrap" onSubmit={(event) => { if (searchMode === "semantic") void submitSemanticSearch(event); else event.preventDefault(); }}><span className="search-icon">⌕</span><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder={searchMode === "semantic" ? "Describe the problems you want to find…" : "Search contests, questions, content IDs…"} aria-label={searchMode === "semantic" ? "Semantic problem search" : "Search contests and questions"} />{search && <button type="button" className="clear-search" onClick={() => setSearch("")} aria-label="Clear search">×</button>}{searchMode === "semantic" && <button type="submit" className="semantic-submit" disabled={!search.trim() || semanticLoading}>{semanticLoading ? "Searching…" : "Search"}</button>}<kbd>⌘ K</kbd></form>
+            <div className="search-mode-row" role="group" aria-label="Search mode"><span>Search mode</span><button className={`filter-pill ${searchMode === "keyword" ? "active" : ""}`} onClick={() => setSearchMode("keyword")}>Keyword</button><button className={`filter-pill ${searchMode === "semantic" ? "active" : ""}`} onClick={() => setSearchMode("semantic")}>Semantic</button></div>
             <div className="filter-row" role="group" aria-label="Contest filters">
               {[["all", "All"], ["200", "HTTP 200"], ["403", "HTTP 403"]].map(([value, label]) => <button key={value} className={`filter-pill ${statusFilter === value ? "active" : ""}`} onClick={() => setStatusFilter(value)}>{label}</button>)}
               {[["all", "Any difficulty"], ["1", difficultyLabel(1)], ["2", difficultyLabel(2)], ["3", difficultyLabel(3)]].map(([value, label]) => <button key={`difficulty-${value}`} className={`filter-pill ${difficultyFilter === value ? "active" : ""}`} onClick={() => setDifficultyFilter(value)}>{label}</button>)}
@@ -124,10 +159,10 @@ export default function BrowserApp() {
       </header>
       {index && <Stats stats={index.stats} />}
       <section className="content-shell">
-        <div className="list-heading"><div><p className="eyebrow">CONTESTS</p><h2>{search || statusFilter !== "all" || difficultyFilter !== "all" || progressFilter !== "all" ? "Filtered contests" : "Your problem archive"}</h2></div><p className="snapshot-status">{statusText}</p></div>
+        <div className="list-heading"><div><p className="eyebrow">{searchMode === "semantic" ? "PROBLEM DISCOVERY" : "CONTESTS"}</p><h2>{searchMode === "semantic" ? "Semantic matches" : search || statusFilter !== "all" || difficultyFilter !== "all" || progressFilter !== "all" ? "Filtered contests" : "Your problem archive"}</h2></div><p className="snapshot-status">{statusText}</p></div>
         {progressError && user && <p className="progress-error">Progress could not be loaded: {progressError}</p>}
         {!user && progressFilter !== "all" && <div className="login-hint">Log in to use progress filters. <a href={`/login?next=${encodeURIComponent(pathname)}`}>Log in</a></div>}
-        {loadError ? <div className="full-error"><h2>Couldn’t load the contest index</h2><p>{loadError}</p><button className="secondary-button" onClick={() => window.location.reload()}>Reload</button></div> : !index ? <div className="index-loading"><div className="loading-orb" /><p>Loading your contest archive…</p></div> : visibleContests.length === 0 ? <div className="empty-state large"><div className="empty-icon">⌕</div><h2>No contests found</h2><p>{!user && progressFilter !== "all" ? "Log in to see your saved progress." : "Try a different search term or filter."}</p></div> : <div className="contest-list">{visibleContests.map((contest) => <ContestCard key={contest.contestId} contest={contest} open={openContests.has(contest.contestId)} onToggle={() => toggleContest(contest.contestId)} onOpenQuestion={(content) => openQuestion(contest.contestId, content)} progress={progress} />)}</div>}
+        {loadError ? <div className="full-error"><h2>Couldn’t load the contest index</h2><p>{loadError}</p><button className="secondary-button" onClick={() => window.location.reload()}>Reload</button></div> : !index ? <div className="index-loading"><div className="loading-orb" /><p>Loading your contest archive…</p></div> : searchMode === "semantic" ? <SemanticSearchResults results={semanticResults} loading={semanticLoading} error={semanticError} onOpen={openSemanticResult} /> : visibleContests.length === 0 ? <div className="empty-state large"><div className="empty-icon">⌕</div><h2>No contests found</h2><p>{!user && progressFilter !== "all" ? "Log in to see your saved progress." : "Try a different search term or filter."}</p></div> : <div className="contest-list">{visibleContests.map((contest) => <ContestCard key={contest.contestId} contest={contest} open={openContests.has(contest.contestId)} onToggle={() => toggleContest(contest.contestId)} onOpenQuestion={(content) => openQuestion(contest.contestId, content)} progress={progress} />)}</div>}
         {index && totalPages > 1 && <nav className="pagination" aria-label="Contest pages"><button className="page-button" disabled={page === 1} onClick={() => setPage((current) => current - 1)}>← Previous</button><span>Page <b>{page}</b> of <b>{totalPages}</b></span><button className="page-button" disabled={page === totalPages} onClick={() => setPage((current) => current + 1)}>Next →</button></nav>}
       </section>
       {selected && <QuestionDrawer contestId={selected.contestId} content={selected.content} onClose={closeQuestion} />}

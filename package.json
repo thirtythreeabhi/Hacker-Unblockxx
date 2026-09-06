@@ -8,6 +8,7 @@
     "build:index": "node scripts/build-index.mjs",
     "build:problem-corpus": "node scripts/build-problem-corpus.mjs",
     "embed:problems": "node scripts/embed-problems.mjs",
+    "find:near-duplicates": "node scripts/find-near-duplicates.mjs",
     "enrich:contests": "node scripts/enrich-contests.mjs",
     "vercel-build": "npm run build:index && next build",
     "start": "next start"

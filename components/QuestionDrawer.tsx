@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import type { IndexedContent, Question } from "../lib/types";
+import type { IndexedContent, ProblemSearchResult, Question } from "../lib/types";
 import { useProgress } from "../lib/progress";
 import DifficultyBadge from "./DifficultyBadge";
 import AITools from "./AITools";
@@ -47,6 +47,10 @@ export default function QuestionDrawer({
   const [notes, setNotes] = useState("");
   const [savingProgress, setSavingProgress] = useState(false);
   const [progressError, setProgressError] = useState<string | null>(null);
+  const [related, setRelated] = useState<ProblemSearchResult[]>([]);
+  const [relatedLoading, setRelatedLoading] = useState(false);
+  const [relatedMode, setRelatedMode] = useState<"related" | "easier" | "harder">("related");
+  const [relatedError, setRelatedError] = useState<string | null>(null);
 
   const progressProblemId = question?.problemId ?? content.problemId;
   const itemProgress = getProgress(progressProblemId, content.contentId);
@@ -86,6 +90,30 @@ export default function QuestionDrawer({
     setNotes(itemProgress?.notes ?? "");
   }, [itemProgress?.notes, progressProblemId, content.contentId]);
 
+  const loadRelated = useCallback(async (mode: "related" | "easier" | "harder") => {
+    if (!question?.problemId) {
+      setRelated([]);
+      setRelatedError("This question has no canonical problem embedding yet.");
+      return;
+    }
+    setRelatedMode(mode);
+    setRelatedLoading(true);
+    setRelatedError(null);
+    try {
+      const response = await fetch(`/api/search/problems?problemId=${encodeURIComponent(question.problemId)}&mode=${mode}&limit=6`);
+      const body = await response.json().catch(() => ({}));
+      if (!response.ok || body.available === false) throw new Error(body.error || "Related problems are not available yet.");
+      setRelated(Array.isArray(body.results) ? body.results as ProblemSearchResult[] : []);
+    } catch (fetchError: unknown) {
+      setRelated([]);
+      setRelatedError(fetchError instanceof Error ? fetchError.message : "Related problems are not available yet.");
+    } finally {
+      setRelatedLoading(false);
+    }
+  }, [question?.problemId]);
+
+  useEffect(() => { void loadRelated("related"); }, [loadRelated]);
+
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") onClose();
@@ -111,6 +139,10 @@ export default function QuestionDrawer({
 
   function requireLogin() {
     router.push(`/login?next=${encodeURIComponent(window.location.pathname + window.location.search)}`);
+  }
+
+  function openRelated(result: ProblemSearchResult) {
+    if (result.contestId && result.contentId) router.replace(`/?contest=${encodeURIComponent(result.contestId)}&content=${encodeURIComponent(result.contentId)}`, { scroll: false });
   }
 
   async function changeProgress(action: "bookmark" | "complete") {
@@ -195,6 +227,14 @@ export default function QuestionDrawer({
             {user && <section className="question-section notes-section"><h3>Private note</h3><textarea value={notes} onChange={(event) => setNotes(event.target.value)} placeholder="Add a note for this problem…" rows={4} /><button className="secondary-button" onClick={() => void saveNote()} disabled={savingProgress}>Save note</button></section>}
 
             <AITools contestId={contestId} question={question} content={content} />
+
+            <section className="related-section">
+              <div className="related-heading"><div><h3>Related problems</h3><p>Vector neighbors from the shared problem corpus</p></div><div className="related-actions"><button className={relatedMode === "related" ? "active" : ""} onClick={() => void loadRelated("related")} disabled={relatedLoading}>Related</button><button className={relatedMode === "easier" ? "active" : ""} onClick={() => void loadRelated("easier")} disabled={relatedLoading}>Similar easier</button><button className={relatedMode === "harder" ? "active" : ""} onClick={() => void loadRelated("harder")} disabled={relatedLoading}>Similar harder</button></div></div>
+              {relatedLoading && <p className="ai-loading">Finding vector neighbors…</p>}
+              {!relatedLoading && relatedError && <p className="ai-muted">{relatedError}</p>}
+              {!relatedLoading && !relatedError && related.length === 0 && <p className="ai-muted">No embedded neighbors are available yet.</p>}
+              {!relatedLoading && !relatedError && related.length > 0 && <div className="related-list">{related.map((result) => <button className="related-item" key={`${result.problemId}-${result.contentId ?? ""}`} onClick={() => openRelated(result)} disabled={!result.contestId || !result.contentId}><span><b>{result.name}</b><small>#{result.problemId}{result.primaryTopics.length ? ` · ${result.primaryTopics.join(", ")}` : ""}</small></span><span className="related-score"><DifficultyBadge difficulty={result.difficulty} />{Math.round(result.similarity * 100)}%</span></button>)}</div>}
+            </section>
 
             <TextSection title="Description" value={question.description} />
             <TextSection title="Constraints" value={question.constraints} />

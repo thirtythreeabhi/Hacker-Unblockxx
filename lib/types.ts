@@ -70,3 +70,17 @@ export type Question = {
   status: string | null;
   solutionStubs: SolutionStub[];
 };
+
+export type ProblemSearchResult = {
+  problemId: string;
+  contentId: string | null;
+  contestId: string | null;
+  name: string;
+  difficulty: Difficulty;
+  topics: string[];
+  primaryTopics: string[];
+  domain: string | null;
+  similarity: number;
+  completed?: boolean;
+  bookmarked?: boolean;
+};

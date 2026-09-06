@@ -37,3 +37,15 @@ GEMINI_EMBEDDING_DIMENSIONS=768
 ```
 
 The embedding job skips a row when both `source_hash` and `embedding_model` are unchanged, so it can be safely resumed. `EMBEDDING_CONCURRENCY` controls local workers.
+
+## Semantic discovery
+
+The browser's Semantic mode submits only the query text and supported filters to `GET /api/search/problems`; provider keys and model configuration remain server-side. The route embeds queries with `RETRIEVAL_QUERY`, calls `match_problems`, attaches a known contest/content appearance, and returns ranked results. Query embeddings are normalized and cached in memory for five minutes. Related, Similar easier, and Similar harder use the stored current-problem vector and never call the generative model.
+
+Potential near-duplicates can be reviewed with:
+
+```powershell
+node --env-file=.env.local scripts/find-near-duplicates.mjs
+```
+
+This writes `data/problem-near-duplicates.json` using a conservative threshold (default `0.94`). It reports candidates only; it never merges or deletes records.
