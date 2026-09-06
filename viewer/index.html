@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HackerBlocks Data Viewer</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: #161b22;
+      border-bottom: 1px solid #30363d;
+      padding: 18px 24px;
+    }
+    h1 { margin: 0 0 14px; font-size: 22px; }
+    .controls {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    input, select, button {
+      background: #0d1117;
+      color: #e6edf3;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 9px 12px;
+    }
+    input { flex: 1; min-width: 280px; }
+    button { cursor: pointer; }
+    .stats {
+      padding: 18px 24px 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 10px;
+    }
+    .stat {
+      padding: 13px;
+      border: 1px solid #30363d;
+      background: #161b22;
+      border-radius: 8px;
+    }
+    .stat strong { display: block; font-size: 22px; }
+    .stat span { color: #8b949e; font-size: 12px; }
+    main { padding: 20px 24px 60px; }
+    .contest {
+      border: 1px solid #30363d;
+      background: #161b22;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+    .contest-header {
+      padding: 13px 16px;
+      display: grid;
+      grid-template-columns: 100px 70px 1fr auto;
+      gap: 12px;
+      cursor: pointer;
+      align-items: center;
+    }
+    .contest-header:hover { background: #1c2128; }
+    .id { font-family: monospace; font-weight: 700; }
+    .muted { color: #8b949e; }
+    .badge {
+      border-radius: 999px;
+      padding: 3px 8px;
+      font-size: 12px;
+      font-weight: 700;
+      width: fit-content;
+    }
+    .ok { background: #193c2b; color: #56d364; }
+    .denied { background: #462c2c; color: #ff7b72; }
+    .other { background: #3d3419; color: #e3b341; }
+    .contents {
+      display: none;
+      border-top: 1px solid #30363d;
+      overflow-x: auto;
+    }
+    .contest.open .contents { display: block; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 9px 12px;
+      text-align: left;
+      border-bottom: 1px solid #21262d;
+    }
+    th { color: #8b949e; }
+    .empty { padding: 18px; color: #8b949e; }
+    #status {
+      margin-top: 10px;
+      color: #8b949e;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>HackerBlocks Crawl Viewer</h1>
+
+  <div class="controls">
+    <input id="search" placeholder="Search contest ID, contest name, problem name, content ID...">
+    <select id="statusFilter">
+      <option value="all">All statuses</option>
+      <option value="200">200 only</option>
+      <option value="403">403 only</option>
+    </select>
+    <button id="refresh">Refresh now</button>
+  </div>
+
+  <div id="status">Loading...</div>
+</header>
+
+<div class="stats">
+  <div class="stat"><strong id="contestCount">0</strong><span>crawled contests</span></div>
+  <div class="stat"><strong id="accessibleCount">0</strong><span>HTTP 200</span></div>
+  <div class="stat"><strong id="deniedCount">0</strong><span>HTTP 403</span></div>
+  <div class="stat"><strong id="membershipCount">0</strong><span>content memberships</span></div>
+  <div class="stat"><strong id="uniqueContentCount">0</strong><span>unique contents seen</span></div>
+  <div class="stat"><strong id="uniqueProblemCount">0</strong><span>unique problems seen</span></div>
+</div>
+
+<main id="root"></main>
+
+<script>
+let records = [];
+let contestNames = new Map();
+
+const root = document.querySelector("#root");
+const search = document.querySelector("#search");
+const statusFilter = document.querySelector("#statusFilter");
+
+function difficulty(value) {
+  return {
+    1: "Easy",
+    2: "Medium",
+    3: "Hard"
+  }[value] ?? value ?? "—";
+}
+
+async function load() {
+  const statusEl = document.querySelector("#status");
+  statusEl.textContent = "Refreshing...";
+
+  try {
+    const [contentsResponse, contestsResponse] = await Promise.all([
+      fetch("../data/contest-contents.jsonl?t=" + Date.now()),
+      fetch("../data/contests.json?t=" + Date.now())
+    ]);
+
+    const text = await contentsResponse.text();
+
+    // Since the crawler is still appending, the final line can temporarily
+    // be incomplete. Ignore anything that cannot be parsed yet.
+    records = text
+      .split("\n")
+      .filter(Boolean)
+      .flatMap(line => {
+        try {
+          return [JSON.parse(line)];
+        } catch {
+          return [];
+        }
+      });
+
+    if (contestsResponse.ok) {
+      const contests = await contestsResponse.json();
+
+      contestNames = new Map(
+        contests.map(c => [
+          String(c.id ?? c.attributes?.id),
+          c.attributes?.name ?? ""
+        ])
+      );
+    }
+
+    updateStats();
+    render();
+
+    statusEl.textContent =
+      `Last refreshed ${new Date().toLocaleTimeString()} · crawler file is live`;
+  } catch (err) {
+    statusEl.textContent = "Error: " + err.message;
+  }
+}
+
+function updateStats() {
+  const contents = new Set();
+  const problems = new Set();
+
+  let memberships = 0;
+  let accessible = 0;
+  let denied = 0;
+
+  for (const record of records) {
+    if (record.status === 200) accessible++;
+    if (record.status === 403) denied++;
+
+    for (const item of record.data ?? []) {
+      memberships++;
+
+      if (item.id != null)
+        contents.add(String(item.id));
+
+      const problemId =
+        item.relationships?.problem?.data?.id;
+
+      if (problemId != null)
+        problems.add(String(problemId));
+    }
+  }
+
+  document.querySelector("#contestCount").textContent =
+    records.length.toLocaleString();
+
+  document.querySelector("#accessibleCount").textContent =
+    accessible.toLocaleString();
+
+  document.querySelector("#deniedCount").textContent =
+    denied.toLocaleString();
+
+  document.querySelector("#membershipCount").textContent =
+    memberships.toLocaleString();
+
+  document.querySelector("#uniqueContentCount").textContent =
+    contents.size.toLocaleString();
+
+  document.querySelector("#uniqueProblemCount").textContent =
+    problems.size.toLocaleString();
+}
+
+function render() {
+  const query = search.value.trim().toLowerCase();
+  const wantedStatus = statusFilter.value;
+
+  const filtered = records
+    .filter(record => {
+      if (
+        wantedStatus !== "all" &&
+        String(record.status) !== wantedStatus
+      ) return false;
+
+      const contestName =
+        contestNames.get(String(record.contest_id)) ?? "";
+
+      const haystack = [
+        record.contest_id,
+        record.status,
+        contestName,
+        ...(record.data ?? []).flatMap(item => [
+          item.id,
+          item.attributes?.name,
+          item.attributes?.difficulty,
+          item.relationships?.problem?.data?.id
+        ])
+      ].join(" ").toLowerCase();
+
+      return !query || haystack.includes(query);
+    })
+    .sort((a, b) => Number(b.contest_id) - Number(a.contest_id));
+
+  root.innerHTML = "";
+
+  for (const record of filtered) {
+    const contest = document.createElement("section");
+    contest.className = "contest";
+
+    const badgeClass =
+      record.status === 200
+        ? "ok"
+        : record.status === 403
+          ? "denied"
+          : "other";
+
+    const contestName =
+      contestNames.get(String(record.contest_id)) || "Unknown contest";
+
+    contest.innerHTML = `
+      <div class="contest-header">
+        <span class="id">#${record.contest_id}</span>
+
+        <span class="badge ${badgeClass}">
+          ${record.status ?? "ERR"}
+        </span>
+
+        <span>
+          ${escapeHtml(contestName)}
+        </span>
+
+        <span class="muted">
+          ${(record.data ?? []).length} contents
+        </span>
+      </div>
+
+      <div class="contents">
+        ${
+          record.status !== 200
+            ? `<div class="empty">Contents unavailable (${record.status})</div>`
+            : !(record.data ?? []).length
+              ? `<div class="empty">No contents</div>`
+              : makeTable(record.data)
+        }
+      </div>
+    `;
+
+    contest.querySelector(".contest-header").onclick =
+      () => contest.classList.toggle("open");
+
+    root.appendChild(contest);
+  }
+}
+
+function makeTable(items) {
+  return `
+    <table>
+      <thead>
+        <tr>
+          <th>Content ID</th>
+          <th>Problem ID</th>
+          <th>Name</th>
+          <th>Difficulty</th>
+          <th>Type</th>
+          <th>Verified</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        ${items.map(item => `
+          <tr>
+            <td>${escapeHtml(item.id ?? "—")}</td>
+
+            <td>
+              ${escapeHtml(
+                item.relationships?.problem?.data?.id ?? "—"
+              )}
+            </td>
+
+            <td>
+              ${escapeHtml(item.attributes?.name ?? "—")}
+            </td>
+
+            <td>
+              ${escapeHtml(
+                difficulty(item.attributes?.difficulty)
+              )}
+            </td>
+
+            <td>
+              ${escapeHtml(item.attributes?.type ?? "—")}
+            </td>
+
+            <td>
+              ${item.attributes?.verified ? "Yes" : "No"}
+            </td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  `;
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+search.addEventListener("input", render);
+statusFilter.addEventListener("change", render);
+document.querySelector("#refresh").addEventListener("click", load);
+
+load();
+
+// Keep following the running crawler.
+setInterval(load, 10000);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,417 @@
+{
+  "contests": {
+    "total": 8615,
+    "successful": 4512,
+    "failed": 4103,
+    "empty": 182
+  },
+  "memberships": 263064,
+  "unique_contents": 2233,
+  "unique_problems": 2159,
+  "malformed_contents": 0,
+  "average_contents_per_contest": 30.53557748113755,
+  "most_reused_contents": [
+    {
+      "content_id": "543",
+      "contest_count": 1375
+    },
+    {
+      "content_id": "919",
+      "contest_count": 1337
+    },
+    {
+      "content_id": "1086",
+      "contest_count": 1235
+    },
+    {
+      "content_id": "206",
+      "contest_count": 1217
+    },
+    {
+      "content_id": "394",
+      "contest_count": 1195
+    },
+    {
+      "content_id": "736",
+      "contest_count": 1141
+    },
+    {
+      "content_id": "558",
+      "contest_count": 1135
+    },
+    {
+      "content_id": "1375",
+      "contest_count": 1124
+    },
+    {
+      "content_id": "413",
+      "contest_count": 1118
+    },
+    {
+      "content_id": "195",
+      "contest_count": 1101
+    },
+    {
+      "content_id": "1063",
+      "contest_count": 1099
+    },
+    {
+      "content_id": "401",
+      "contest_count": 1091
+    },
+    {
+      "content_id": "1066",
+      "contest_count": 1084
+    },
+    {
+      "content_id": "1087",
+      "contest_count": 1082
+    },
+    {
+      "content_id": "1376",
+      "contest_count": 1081
+    },
+    {
+      "content_id": "303",
+      "contest_count": 1077
+    },
+    {
+      "content_id": "1373",
+      "contest_count": 1076
+    },
+    {
+      "content_id": "1374",
+      "contest_count": 1072
+    },
+    {
+      "content_id": "80",
+      "contest_count": 1070
+    },
+    {
+      "content_id": "489",
+      "contest_count": 1069
+    },
+    {
+      "content_id": "1381",
+      "contest_count": 1067
+    },
+    {
+      "content_id": "1083",
+      "contest_count": 1067
+    },
+    {
+      "content_id": "292",
+      "contest_count": 1065
+    },
+    {
+      "content_id": "1064",
+      "contest_count": 1062
+    },
+    {
+      "content_id": "1353",
+      "contest_count": 1058
+    },
+    {
+      "content_id": "1054",
+      "contest_count": 1054
+    },
+    {
+      "content_id": "132",
+      "contest_count": 1051
+    },
+    {
+      "content_id": "1255",
+      "contest_count": 1050
+    },
+    {
+      "content_id": "708",
+      "contest_count": 1049
+    },
+    {
+      "content_id": "1314",
+      "contest_count": 1037
+    },
+    {
+      "content_id": "471",
+      "contest_count": 1037
+    },
+    {
+      "content_id": "78",
+      "contest_count": 1034
+    },
+    {
+      "content_id": "404",
+      "contest_count": 1030
+    },
+    {
+      "content_id": "146",
+      "contest_count": 1029
+    },
+    {
+      "content_id": "128",
+      "contest_count": 1029
+    },
+    {
+      "content_id": "437",
+      "contest_count": 1029
+    },
+    {
+      "content_id": "79",
+      "contest_count": 1028
+    },
+    {
+      "content_id": "1077",
+      "contest_count": 1016
+    },
+    {
+      "content_id": "370",
+      "contest_count": 1014
+    },
+    {
+      "content_id": "727",
+      "contest_count": 1009
+    },
+    {
+      "content_id": "446",
+      "contest_count": 1008
+    },
+    {
+      "content_id": "1254",
+      "contest_count": 1002
+    },
+    {
+      "content_id": "66",
+      "contest_count": 1002
+    },
+    {
+      "content_id": "1290",
+      "contest_count": 998
+    },
+    {
+      "content_id": "1051",
+      "contest_count": 993
+    },
+    {
+      "content_id": "1102",
+      "contest_count": 987
+    },
+    {
+      "content_id": "571",
+      "contest_count": 983
+    },
+    {
+      "content_id": "1012",
+      "contest_count": 983
+    },
+    {
+      "content_id": "966",
+      "contest_count": 982
+    },
+    {
+      "content_id": "754",
+      "contest_count": 980
+    }
+  ],
+  "most_reused_problems": [
+    {
+      "problem_id": "910",
+      "contest_count": 1375
+    },
+    {
+      "problem_id": "147",
+      "contest_count": 1337
+    },
+    {
+      "problem_id": "1291",
+      "contest_count": 1235
+    },
+    {
+      "problem_id": "58",
+      "contest_count": 1217
+    },
+    {
+      "problem_id": "361",
+      "contest_count": 1195
+    },
+    {
+      "problem_id": "389",
+      "contest_count": 1141
+    },
+    {
+      "problem_id": "241",
+      "contest_count": 1135
+    },
+    {
+      "problem_id": "356",
+      "contest_count": 1124
+    },
+    {
+      "problem_id": "211",
+      "contest_count": 1118
+    },
+    {
+      "problem_id": "215",
+      "contest_count": 1101
+    },
+    {
+      "problem_id": "362",
+      "contest_count": 1099
+    },
+    {
+      "problem_id": "1629",
+      "contest_count": 1091
+    },
+    {
+      "problem_id": "1045",
+      "contest_count": 1084
+    },
+    {
+      "problem_id": "886",
+      "contest_count": 1082
+    },
+    {
+      "problem_id": "445",
+      "contest_count": 1081
+    },
+    {
+      "problem_id": "1272",
+      "contest_count": 1077
+    },
+    {
+      "problem_id": "332",
+      "contest_count": 1076
+    },
+    {
+      "problem_id": "370",
+      "contest_count": 1072
+    },
+    {
+      "problem_id": "481",
+      "contest_count": 1070
+    },
+    {
+      "problem_id": "240",
+      "contest_count": 1069
+    },
+    {
+      "problem_id": "71",
+      "contest_count": 1067
+    },
+    {
+      "problem_id": "136",
+      "contest_count": 1067
+    },
+    {
+      "problem_id": "787",
+      "contest_count": 1065
+    },
+    {
+      "problem_id": "257",
+      "contest_count": 1062
+    },
+    {
+      "problem_id": "881",
+      "contest_count": 1058
+    },
+    {
+      "problem_id": "505",
+      "contest_count": 1054
+    },
+    {
+      "problem_id": "62",
+      "contest_count": 1051
+    },
+    {
+      "problem_id": "434",
+      "contest_count": 1050
+    },
+    {
+      "problem_id": "501",
+      "contest_count": 1049
+    },
+    {
+      "problem_id": "194",
+      "contest_count": 1037
+    },
+    {
+      "problem_id": "218",
+      "contest_count": 1037
+    },
+    {
+      "problem_id": "961",
+      "contest_count": 1034
+    },
+    {
+      "problem_id": "462",
+      "contest_count": 1030
+    },
+    {
+      "problem_id": "922",
+      "contest_count": 1029
+    },
+    {
+      "problem_id": "721",
+      "contest_count": 1029
+    },
+    {
+      "problem_id": "277",
+      "contest_count": 1029
+    },
+    {
+      "problem_id": "482",
+      "contest_count": 1028
+    },
+    {
+      "problem_id": "1288",
+      "contest_count": 1016
+    },
+    {
+      "problem_id": "1086",
+      "contest_count": 1014
+    },
+    {
+      "problem_id": "533",
+      "contest_count": 1009
+    },
+    {
+      "problem_id": "1569",
+      "contest_count": 1008
+    },
+    {
+      "problem_id": "428",
+      "contest_count": 1002
+    },
+    {
+      "problem_id": "901",
+      "contest_count": 1002
+    },
+    {
+      "problem_id": "737",
+      "contest_count": 998
+    },
+    {
+      "problem_id": "55",
+      "contest_count": 993
+    },
+    {
+      "problem_id": "185",
+      "contest_count": 987
+    },
+    {
+      "problem_id": "174",
+      "contest_count": 983
+    },
+    {
+      "problem_id": "439",
+      "contest_count": 983
+    },
+    {
+      "problem_id": "103",
+      "contest_count": 982
+    },
+    {
+      "problem_id": "391",
+      "contest_count": 980
+    }
+  ]
+}

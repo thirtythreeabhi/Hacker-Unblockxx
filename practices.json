@@ -1,0 +1,1631 @@
+{
+    "data": [
+        {
+            "type": "practices",
+            "id": "5",
+            "attributes": {
+                "id": "5",
+                "name": "Bitmasking",
+                "logo": "https://image.flaticon.com/icons/svg/526/526928.svg"
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "1172"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "6",
+            "attributes": {
+                "id": "6",
+                "name": "10 Days of Code",
+                "logo": "https://minio.codingblocks.com/hackerblocks-images/algo_w.png"
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "1184"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "14",
+            "attributes": {
+                "id": "14",
+                "name": "Uber_demo",
+                "logo": ""
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "3782"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "9",
+            "attributes": {
+                "id": "9",
+                "name": "10 Days of DP",
+                "logo": "https://minio.codingblocks.com/hackerblocks-images/algo_w.png"
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "1565"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "8",
+            "attributes": {
+                "id": "8",
+                "name": "15 Days Competitive Challenge",
+                "logo": "https://minio.codingblocks.com/hackerblocks-images/algo_w.png"
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "1492"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "15",
+            "attributes": {
+                "id": "15",
+                "name": "Trial",
+                "logo": ""
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "4466"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "1",
+            "attributes": {
+                "id": "1",
+                "name": "Algorithms",
+                "logo": "https://minio.codingblocks.com/hackerblocks-images/algo_w.png"
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "989"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "3",
+            "attributes": {
+                "id": "3",
+                "name": "Mathematics",
+                "logo": "https://minio.codingblocks.com/hackerblocks-images/maths_w.png"
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "991"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "2",
+            "attributes": {
+                "id": "2",
+                "name": "Data Structures",
+                "logo": "https://minio.codingblocks.com/hackerblocks-images/datas_w.png"
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "990"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "11",
+            "attributes": {
+                "id": "11",
+                "name": "TA Online",
+                "logo": ""
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "2257"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "12",
+            "attributes": {
+                "id": "12",
+                "name": "Interview Preparation",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTadDvWhUh3bJrQnN81D_Vwho7mmS1YRMQBAw&usqp=CAU"
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "2367"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "13",
+            "attributes": {
+                "id": "13",
+                "name": "Code-Skiller",
+                "logo": null
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "3587"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "19",
+            "attributes": {
+                "id": "19",
+                "name": "Interview Preparation(Super-150)",
+                "logo": "Interview Preparation(Super-150)"
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "6143"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "20",
+            "attributes": {
+                "id": "20",
+                "name": "Ritik's Practice",
+                "logo": ""
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "7372"
+                    }
+                }
+            }
+        },
+        {
+            "type": "practices",
+            "id": "21",
+            "attributes": {
+                "id": "21",
+                "name": "QUESTIONS",
+                "logo": ""
+            },
+            "relationships": {
+                "contest": {
+                    "data": {
+                        "type": "contests",
+                        "id": "8246"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "contests",
+            "id": "1172",
+            "attributes": {
+                "id": 1172,
+                "name": "Bitmasking",
+                "description": "Bitmasking Practice Problems",
+                "start-time": "2019-12-12T06:48:51.716Z",
+                "end-time": "2020-12-31T07:50:00.000Z",
+                "duration": null,
+                "created-by": 3238,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/maths_w.png",
+                "status": "draft",
+                "show-banner": false,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": false,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": "https://minio.codingblocks.com/hackerblocks-images/ds_badge.png",
+                "badge-theme": "orange",
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "show-leaderboard": true,
+                    "is-verification-required": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/1172/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "1184",
+            "attributes": {
+                "id": 1184,
+                "name": "10 Days of Code | Challenges for Beginners",
+                "description": "10 Days of Competitive Programming Practice for Beginners, Learn Competitive Coding by Solving Questions +  Watching Video Editorials!",
+                "start-time": "2019-12-22T15:12:48.272Z",
+                "end-time": "2019-12-31T16:10:00.000Z",
+                "duration": null,
+                "created-by": 7179,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/datas_w.png",
+                "status": "draft",
+                "show-banner": true,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": false,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": "https://minio.codingblocks.com/hackerblocks-images/algo_badge.png",
+                "badge-theme": "blue",
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "show-leaderboard": true,
+                    "is-verification-required": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/1184/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "3782",
+            "attributes": {
+                "id": 3782,
+                "name": "U_demo",
+                "description": "U_demo",
+                "start-time": "2022-12-07T10:39:42.610Z",
+                "end-time": "2022-12-07T11:39:42.611Z",
+                "duration": null,
+                "created-by": 313029,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": false,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": false,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": null,
+                "badge-theme": "red",
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "is-verification-required": true,
+                    "show-leaderboard": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/3782/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "1565",
+            "attributes": {
+                "id": 1565,
+                "name": "10 Days of DP",
+                "description": "Practice DP Contest",
+                "start-time": "2020-05-05T15:09:19.568Z",
+                "end-time": "2020-05-05T16:09:19.568Z",
+                "duration": null,
+                "created-by": 15449,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/datas_w.png",
+                "status": "draft",
+                "show-banner": false,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": false,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": null,
+                "badge-theme": "yellow",
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "show-leaderboard": true,
+                    "is-verification-required": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/1565/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "1492",
+            "attributes": {
+                "id": 1492,
+                "name": "15 days of Competitive Coding",
+                "description": "Level up your competitive programming by solving 15 problems in 15 days.",
+                "start-time": "2020-04-15T12:30:09.881Z",
+                "end-time": "2020-04-15T13:30:09.881Z",
+                "duration": null,
+                "created-by": 15449,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/algo_w.png",
+                "status": "draft",
+                "show-banner": false,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": false,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": "https://minio.cb.lk/public/gem.svg",
+                "badge-theme": "blue",
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "show-leaderboard": true,
+                    "is-verification-required": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/1492/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "4466",
+            "attributes": {
+                "id": 4466,
+                "name": "Trail 100 days",
+                "description": "Trail 100 days",
+                "start-time": "2023-05-24T13:45:00.000Z",
+                "end-time": "2023-06-07T14:45:00.000Z",
+                "duration": null,
+                "created-by": 132980,
+                "image": "",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": false,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": true,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": [
+                        {
+                            "title": "Name",
+                            "type": "text",
+                            "required": true,
+                            "name": "name",
+                            "placeholder": "name"
+                        },
+                        {
+                            "title": "College",
+                            "type": "text",
+                            "required": true,
+                            "name": "college",
+                            "placeholder": "college"
+                        },
+                        {
+                            "title": "Email",
+                            "type": "text",
+                            "required": true,
+                            "name": "email",
+                            "placeholder": "email"
+                        },
+                        {
+                            "title": "Contact_Number",
+                            "type": "text",
+                            "required": true,
+                            "name": "number",
+                            "placeholder": "number"
+                        },
+                        {
+                            "title": "Passing_Year",
+                            "type": "text",
+                            "required": true,
+                            "name": "year",
+                            "placeholder": "year"
+                        }
+                    ]
+                },
+                "badge-icon": null,
+                "badge-theme": "red",
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "is-verification-required": false,
+                    "show-leaderboard": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/4466/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "989",
+            "attributes": {
+                "id": 989,
+                "name": "Algorithms",
+                "description": "Algorithms Practice Contest",
+                "start-time": "2019-08-15T16:42:10.195Z",
+                "end-time": "2020-08-15T16:42:10.195Z",
+                "duration": null,
+                "created-by": 7179,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": true,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "js",
+                    "csharp",
+                    "java",
+                    "py3",
+                    "nodejs10"
+                ],
+                "allow-testcase-editorial-unlock": true,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": "https://minio.codingblocks.com/hackerblocks-images/algo_badge.png",
+                "badge-theme": "blue",
+                "reviewed-by-id": "7179",
+                "published-by-id": "8537",
+                "control-flags": {
+                    "show-leaderboard": true,
+                    "is-verification-required": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/989/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "991",
+            "attributes": {
+                "id": 991,
+                "name": "Mathematics",
+                "description": "Mathematics Practice Contest",
+                "start-time": "2019-08-15T16:51:16.725Z",
+                "end-time": "2020-08-15T16:51:16.725Z",
+                "duration": null,
+                "created-by": 7179,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": true,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "js",
+                    "csharp",
+                    "java",
+                    "py3"
+                ],
+                "allow-testcase-editorial-unlock": true,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": "https://minio.codingblocks.com/hackerblocks-images/math_badge.png",
+                "badge-theme": "yellow",
+                "reviewed-by-id": "7179",
+                "published-by-id": "8537",
+                "control-flags": {
+                    "show-leaderboard": true,
+                    "is-verification-required": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/991/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "990",
+            "attributes": {
+                "id": 990,
+                "name": "Data Structures",
+                "description": "Data Structures Practice Contest",
+                "start-time": "2019-08-15T16:47:10.455Z",
+                "end-time": "2024-12-31T16:45:00.000Z",
+                "duration": null,
+                "created-by": 7179,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": true,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "js",
+                    "csharp",
+                    "java",
+                    "py3"
+                ],
+                "allow-testcase-editorial-unlock": true,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [
+                    {
+                        "id": 10189,
+                        "name": "Sid Jain",
+                        "email": "sidjain2901@gmail.com",
+                        "verifiedemail": "sidjain2901@gmail.com",
+                        "verifiedmobile": null,
+                        "course": null,
+                        "access_token": "21WHA503SzSiZRmY22VP6buxScHHoV5mipIVNnlGd4VzSDCKcksTFDGxCycLzdJQ",
+                        "oauth_id": 8627,
+                        "role_id": 2,
+                        "photo": "https://avatars3.githubusercontent.com/u/12933013?v=4",
+                        "bestRank": 8704,
+                        "bestRankAcheivedOn": "2019-08-19T08:28:45.095Z",
+                        "session_started_at": null,
+                        "createdAt": "2018-04-30T07:54:25.627Z",
+                        "updatedAt": "2020-11-26T09:11:09.136Z",
+                        "collegeId": "67",
+                        "contest_registrations": {
+                            "id": "1",
+                            "form": null,
+                            "createdAt": "2019-08-19T08:08:07.946Z",
+                            "updatedAt": "2019-08-19T08:08:07.946Z",
+                            "contest_id": "990",
+                            "user_id": "10189"
+                        }
+                    }
+                ],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": "https://minio.codingblocks.com/hackerblocks-images/ds_badge.png",
+                "badge-theme": "orange",
+                "reviewed-by-id": "7179",
+                "published-by-id": "8537",
+                "control-flags": {
+                    "show-leaderboard": true,
+                    "is-verification-required": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": false,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/990/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "2257",
+            "attributes": {
+                "id": 2257,
+                "name": "TA new online",
+                "description": "new",
+                "start-time": "2021-05-20T05:32:21.506Z",
+                "end-time": "2021-05-20T07:30:00.000Z",
+                "duration": null,
+                "created-by": 17207,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": false,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": false,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": null,
+                "badge-theme": null,
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "is-verification-required": true,
+                    "show-leaderboard": false
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/2257/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "2367",
+            "attributes": {
+                "id": 2367,
+                "name": "Preparation",
+                "description": "Preparation",
+                "start-time": "2021-06-17T11:12:41.727Z",
+                "end-time": "2021-06-17T12:12:41.728Z",
+                "duration": null,
+                "created-by": 19807,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": true,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": false,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": "https://s3.ap-south-1.amazonaws.com/cb-s3-bucket-ind-1/526eaaf2-41a5-4c20-a22e-278f3952c73928779712-9502-45a8-865f-f0b0bb28972d.jpeg",
+                "badge-theme": "red",
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "is-verification-required": true,
+                    "show-leaderboard": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/2367/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "3587",
+            "attributes": {
+                "id": 3587,
+                "name": "Code-Skiller",
+                "description": "Practice and become a Skilled Coder",
+                "start-time": "2022-10-04T20:01:14.557Z",
+                "end-time": "2027-03-30T21:00:00.000Z",
+                "duration": null,
+                "created-by": 24173,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": false,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": false,
+                "public-page": false,
+                "is-listed": false,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": []
+                },
+                "badge-icon": "https://s3.ap-south-1.amazonaws.com/cb-s3-bucket-ind-1/2864e557-65c6-4772-a60d-6831d76a13937e4373e1-9cb9-44ab-9237-642349075c23.png",
+                "badge-theme": null,
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "is-verification-required": true,
+                    "show-leaderboard": true
+                },
+                "allow-paste": false,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": false,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/3587/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "6143",
+            "attributes": {
+                "id": 6143,
+                "name": "Interview Preparation(Super-150)",
+                "description": "Interview Preparation(Super-150)",
+                "start-time": "2024-06-05T18:30:00.000Z",
+                "end-time": "2024-07-31T18:25:00.000Z",
+                "duration": null,
+                "created-by": 19807,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": false,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": false,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": [
+                        {
+                            "title": "Name",
+                            "type": "text",
+                            "required": true,
+                            "name": "name",
+                            "placeholder": "name"
+                        },
+                        {
+                            "title": "College",
+                            "type": "text",
+                            "required": true,
+                            "name": "college",
+                            "placeholder": "college"
+                        },
+                        {
+                            "title": "Email",
+                            "type": "text",
+                            "required": true,
+                            "name": "email",
+                            "placeholder": "email"
+                        },
+                        {
+                            "title": "Contact_Number",
+                            "type": "text",
+                            "required": true,
+                            "name": "number",
+                            "placeholder": "number"
+                        },
+                        {
+                            "title": "Passing_Year",
+                            "type": "text",
+                            "required": true,
+                            "name": "year",
+                            "placeholder": "year"
+                        }
+                    ]
+                },
+                "badge-icon": "https://s3.ap-south-1.amazonaws.com/cb-s3-bucket-ind-1/091a2bb8-5422-468f-8a90-f4f1c0b16c69acaa9d63-bc7a-4c31-a6d0-76bf7b633f18.png",
+                "badge-theme": "orange",
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "is-verification-required": false,
+                    "show-leaderboard": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/6143/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "7372",
+            "attributes": {
+                "id": 7372,
+                "name": "Ritik's Practice",
+                "description": "dadas",
+                "start-time": "2025-01-22T13:39:53.280Z",
+                "end-time": "2025-10-30T14:40:00.000Z",
+                "duration": null,
+                "created-by": 331272,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": false,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": true,
+                "public-page": false,
+                "is-listed": true,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": [
+                        {
+                            "title": "Name",
+                            "type": "text",
+                            "required": true,
+                            "name": "name",
+                            "placeholder": "name"
+                        },
+                        {
+                            "title": "College",
+                            "type": "text",
+                            "required": true,
+                            "name": "college",
+                            "placeholder": "college"
+                        },
+                        {
+                            "title": "Email",
+                            "type": "text",
+                            "required": true,
+                            "name": "email",
+                            "placeholder": "email"
+                        },
+                        {
+                            "title": "Contact_Number",
+                            "type": "text",
+                            "required": true,
+                            "name": "number",
+                            "placeholder": "number"
+                        },
+                        {
+                            "title": "Passing_Year",
+                            "type": "text",
+                            "required": true,
+                            "name": "year",
+                            "placeholder": "year"
+                        }
+                    ]
+                },
+                "badge-icon": null,
+                "badge-theme": null,
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "is-verification-required": true,
+                    "show-leaderboard": true
+                },
+                "allow-paste": true,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/7372/relationships/contents"
+                    }
+                }
+            }
+        },
+        {
+            "type": "contests",
+            "id": "8246",
+            "attributes": {
+                "id": 8246,
+                "name": "QUESTIONS FOR PRACTICE ",
+                "description": "JAVA DSA",
+                "start-time": "2025-07-03T14:21:50.411Z",
+                "end-time": "2025-10-03T15:20:00.000Z",
+                "duration": null,
+                "created-by": 316335,
+                "image": "https://s1.postimg.org/wyhyiimtb/image.png",
+                "icon": "https://minio.codingblocks.com/hackerblocks-images/prize.png",
+                "status": "draft",
+                "show-banner": false,
+                "max-attempts": null,
+                "slot-size": 500,
+                "locked-contest": false,
+                "allowed-languages": [
+                    "cpp",
+                    "c",
+                    "py2",
+                    "py3",
+                    "js",
+                    "csharp",
+                    "java"
+                ],
+                "allow-testcase-editorial-unlock": false,
+                "public-page": false,
+                "is-listed": false,
+                "show-problem-score": true,
+                "plagiarism-filtering": false,
+                "contest-type": "practice",
+                "registered-user": [],
+                "accept-registrations": false,
+                "register-allowed-users-only": false,
+                "registration-form": {
+                    "fields": [
+                        {
+                            "title": "Name",
+                            "type": "text",
+                            "required": true,
+                            "name": "name",
+                            "placeholder": "name"
+                        },
+                        {
+                            "title": "College",
+                            "type": "text",
+                            "required": true,
+                            "name": "college",
+                            "placeholder": "college"
+                        },
+                        {
+                            "title": "Email",
+                            "type": "text",
+                            "required": true,
+                            "name": "email",
+                            "placeholder": "email"
+                        },
+                        {
+                            "title": "Contact_Number",
+                            "type": "text",
+                            "required": true,
+                            "name": "number",
+                            "placeholder": "number"
+                        },
+                        {
+                            "title": "Passing_Year",
+                            "type": "text",
+                            "required": true,
+                            "name": "year",
+                            "placeholder": "year"
+                        }
+                    ]
+                },
+                "badge-icon": null,
+                "badge-theme": null,
+                "reviewed-by-id": null,
+                "published-by-id": null,
+                "control-flags": {
+                    "is-verification-required": true,
+                    "show-leaderboard": true
+                },
+                "allow-paste": false,
+                "disallow-tab-switch": false,
+                "allowed-tab-switches-number": 0,
+                "allowed-no-faces-number": 0,
+                "allowed-multiple-faces-number": 0,
+                "allowed-window-moves-number": 0,
+                "multiple-faces-penalty": 0,
+                "tab-switch-penalty": 0,
+                "no-face-penalty": 0,
+                "window-resize-penalty": 0,
+                "window-move-penalty": 0,
+                "auto-submit-on-tab-switch": false,
+                "auto-submit-on-no-face": false,
+                "auto-submit-on-multiple-faces": false,
+                "auto-submit-on-window-resize": false,
+                "auto-submit-on-window-move": false,
+                "disallow-window-resize": false,
+                "disallow-window-move": false,
+                "disallow-no-face": false,
+                "disallow-multiple-faces": false,
+                "disallow-noise": false,
+                "enforce-fullscreen": false,
+                "exclusive": true,
+                "environment": false
+            },
+            "relationships": {
+                "contents": {
+                    "links": {
+                        "related": "/api/v2/contests/8246/relationships/contents"
+                    }
+                }
+            }
+        }
+    ]
+}

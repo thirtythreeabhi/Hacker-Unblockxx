@@ -1,0 +1,5885 @@
+`[
+    {
+        "id": 1,
+        "name": "BASICS",
+        "Domains": "{topic,course_domain}",
+        "domains": [
+            "topic",
+            "course_domain"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/66287de2-d804-4598-adcd-efbb763fdc10cblogo.jpeg",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.050845Z",
+        "updated-at": "2024-05-24T04:37:49.124834Z",
+        "deleted-at": null
+    },
+    {
+        "id": 2,
+        "name": "HEAVY LIGHT DECOMPOSITION",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.104722Z",
+        "updated-at": "2022-02-01T09:31:19.104722Z",
+        "deleted-at": null
+    },
+    {
+        "id": 3,
+        "name": "PATTERN",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.148857Z",
+        "updated-at": "2022-02-01T09:31:19.148857Z",
+        "deleted-at": null
+    },
+    {
+        "id": 4,
+        "name": "TIME COMPLEXITY",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.193275Z",
+        "updated-at": "2022-02-01T09:31:19.193275Z",
+        "deleted-at": null
+    },
+    {
+        "id": 5,
+        "name": "SUDOKU",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.240157Z",
+        "updated-at": "2022-02-01T09:31:19.240157Z",
+        "deleted-at": null
+    },
+    {
+        "id": 6,
+        "name": "SETS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.284231Z",
+        "updated-at": "2022-02-01T09:31:19.284231Z",
+        "deleted-at": null
+    },
+    {
+        "id": 7,
+        "name": "DYNAMIC PROGRAMMING",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.331194Z",
+        "updated-at": "2022-02-01T09:31:19.331194Z",
+        "deleted-at": null
+    },
+    {
+        "id": 8,
+        "name": "SEGMENT TREE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.38774Z",
+        "updated-at": "2022-02-01T09:31:19.38774Z",
+        "deleted-at": null
+    },
+    {
+        "id": 10,
+        "name": "MERGE SORT",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.432232Z",
+        "updated-at": "2022-02-01T09:31:19.432232Z",
+        "deleted-at": null
+    },
+    {
+        "id": 11,
+        "name": "QUICK SORT",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.473988Z",
+        "updated-at": "2022-02-01T09:31:19.473988Z",
+        "deleted-at": null
+    },
+    {
+        "id": 12,
+        "name": "MATRIX EXPONENTIATION",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.515779Z",
+        "updated-at": "2022-02-01T09:31:19.515779Z",
+        "deleted-at": null
+    },
+    {
+        "id": 13,
+        "name": "online",
+        "Domains": "{topic,course_mode_type}",
+        "domains": [
+            "topic",
+            "course_mode_type"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.562658Z",
+        "updated-at": "2024-05-24T04:31:17.215316Z",
+        "deleted-at": null
+    },
+    {
+        "id": 14,
+        "name": "BST",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.609225Z",
+        "updated-at": "2022-02-01T09:31:19.609225Z",
+        "deleted-at": null
+    },
+    {
+        "id": 15,
+        "name": "GAME THEORY",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.651216Z",
+        "updated-at": "2022-02-01T09:31:19.651216Z",
+        "deleted-at": null
+    },
+    {
+        "id": 16,
+        "name": "STRING MATCHING",
+        "Domains": "{topic,competitive_programming}",
+        "domains": [
+            "topic",
+            "competitive_programming"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.692984Z",
+        "updated-at": "2024-05-24T04:33:11.24672Z",
+        "deleted-at": null
+    },
+    {
+        "id": 17,
+        "name": "MEMOISATION",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.734893Z",
+        "updated-at": "2022-02-01T09:31:19.734893Z",
+        "deleted-at": null
+    },
+    {
+        "id": 18,
+        "name": "COMBINATORICS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.776712Z",
+        "updated-at": "2022-02-01T09:31:19.776712Z",
+        "deleted-at": null
+    },
+    {
+        "id": 19,
+        "name": "TREES",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.818589Z",
+        "updated-at": "2022-02-01T09:31:19.818589Z",
+        "deleted-at": null
+    },
+    {
+        "id": 20,
+        "name": "SPARSE TABLE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.860308Z",
+        "updated-at": "2022-02-01T09:31:19.860308Z",
+        "deleted-at": null
+    },
+    {
+        "id": 21,
+        "name": "INTERVIEWS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.904705Z",
+        "updated-at": "2022-02-01T09:31:19.904705Z",
+        "deleted-at": null
+    },
+    {
+        "id": 22,
+        "name": "IMPLEMENTATION",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:19.946607Z",
+        "updated-at": "2022-02-01T09:31:19.946607Z",
+        "deleted-at": null
+    },
+    {
+        "id": 23,
+        "name": "DIVIDE AND CONQUER",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.003173Z",
+        "updated-at": "2022-11-27T18:36:32.792335Z",
+        "deleted-at": null
+    },
+    {
+        "id": 24,
+        "name": "GENERIC TREE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.047384Z",
+        "updated-at": "2022-02-01T09:31:20.047384Z",
+        "deleted-at": null
+    },
+    {
+        "id": 25,
+        "name": "TWO POINTERS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.089312Z",
+        "updated-at": "2022-02-01T09:31:20.089312Z",
+        "deleted-at": null
+    },
+    {
+        "id": 27,
+        "name": "LOGICAL",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.131271Z",
+        "updated-at": "2022-02-01T09:31:20.131271Z",
+        "deleted-at": null
+    },
+    {
+        "id": 28,
+        "name": "PIEGON HOLE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.172945Z",
+        "updated-at": "2022-02-01T09:31:20.172945Z",
+        "deleted-at": null
+    },
+    {
+        "id": 29,
+        "name": "STRINGS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.214845Z",
+        "updated-at": "2022-02-01T09:31:20.214845Z",
+        "deleted-at": null
+    },
+    {
+        "id": 30,
+        "name": "BITMASKING",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.25915Z",
+        "updated-at": "2022-02-01T09:31:20.25915Z",
+        "deleted-at": null
+    },
+    {
+        "id": 31,
+        "name": "SQRT DECOMPOSITION",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.305906Z",
+        "updated-at": "2022-02-01T09:31:20.305906Z",
+        "deleted-at": null
+    },
+    {
+        "id": 32,
+        "name": "GREEDY",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.347743Z",
+        "updated-at": "2022-02-01T09:31:20.347743Z",
+        "deleted-at": null
+    },
+    {
+        "id": 33,
+        "name": "ARRAYS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.392172Z",
+        "updated-at": "2022-02-01T09:31:20.392172Z",
+        "deleted-at": null
+    },
+    {
+        "id": 34,
+        "name": "GRAPH",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.436258Z",
+        "updated-at": "2022-02-01T09:31:20.436258Z",
+        "deleted-at": null
+    },
+    {
+        "id": 35,
+        "name": "STACK",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.483172Z",
+        "updated-at": "2022-02-01T09:31:20.483172Z",
+        "deleted-at": null
+    },
+    {
+        "id": 36,
+        "name": "Z ALGO",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.525019Z",
+        "updated-at": "2022-02-01T09:31:20.525019Z",
+        "deleted-at": null
+    },
+    {
+        "id": 37,
+        "name": "BINARY SEARCH",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.569366Z",
+        "updated-at": "2022-02-01T09:31:20.569366Z",
+        "deleted-at": null
+    },
+    {
+        "id": 38,
+        "name": "TRAVERSAL",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.623438Z",
+        "updated-at": "2022-02-01T09:31:20.623438Z",
+        "deleted-at": null
+    },
+    {
+        "id": 39,
+        "name": "BINARY TREE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.665261Z",
+        "updated-at": "2022-02-01T09:31:20.665261Z",
+        "deleted-at": null
+    },
+    {
+        "id": 40,
+        "name": "ETF",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.709608Z",
+        "updated-at": "2022-02-01T09:31:20.709608Z",
+        "deleted-at": null
+    },
+    {
+        "id": 41,
+        "name": "HEAP",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.758824Z",
+        "updated-at": "2022-02-01T09:31:20.758824Z",
+        "deleted-at": null
+    },
+    {
+        "id": 42,
+        "name": "BRUTEFORCE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.805574Z",
+        "updated-at": "2022-02-01T09:31:20.805574Z",
+        "deleted-at": null
+    },
+    {
+        "id": 43,
+        "name": "SERIES",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.849908Z",
+        "updated-at": "2022-02-01T09:31:20.849908Z",
+        "deleted-at": null
+    },
+    {
+        "id": 44,
+        "name": "LCA",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.894269Z",
+        "updated-at": "2022-02-01T09:31:20.894269Z",
+        "deleted-at": null
+    },
+    {
+        "id": 45,
+        "name": "HASHING",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.936046Z",
+        "updated-at": "2022-02-01T09:31:20.936046Z",
+        "deleted-at": null
+    },
+    {
+        "id": 46,
+        "name": "INCLUSION/EXCLUSION",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:20.977912Z",
+        "updated-at": "2022-02-01T09:31:20.977912Z",
+        "deleted-at": null
+    },
+    {
+        "id": 47,
+        "name": "MATH",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.022298Z",
+        "updated-at": "2022-02-01T09:31:21.022298Z",
+        "deleted-at": null
+    },
+    {
+        "id": 48,
+        "name": "STACKS AND QUEUES",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.066698Z",
+        "updated-at": "2022-02-01T09:31:21.066698Z",
+        "deleted-at": null
+    },
+    {
+        "id": 49,
+        "name": "HASHTABLE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.11081Z",
+        "updated-at": "2022-02-01T09:31:21.11081Z",
+        "deleted-at": null
+    },
+    {
+        "id": 50,
+        "name": "SORTING",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.15263Z",
+        "updated-at": "2022-02-01T09:31:21.15263Z",
+        "deleted-at": null
+    },
+    {
+        "id": 51,
+        "name": "NUMBER THEORY",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.194628Z",
+        "updated-at": "2022-02-01T09:31:21.194628Z",
+        "deleted-at": null
+    },
+    {
+        "id": 52,
+        "name": "ADHOC",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.238892Z",
+        "updated-at": "2022-02-01T09:31:21.238892Z",
+        "deleted-at": null
+    },
+    {
+        "id": 53,
+        "name": "MERGE SORT TREE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.28325Z",
+        "updated-at": "2022-02-01T09:31:21.28325Z",
+        "deleted-at": null
+    },
+    {
+        "id": 54,
+        "name": "BIT MANIPULATION",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.329998Z",
+        "updated-at": "2022-02-01T09:31:21.329998Z",
+        "deleted-at": null
+    },
+    {
+        "id": 55,
+        "name": "RECURSION",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.371729Z",
+        "updated-at": "2022-02-01T09:49:40.808519Z",
+        "deleted-at": null
+    },
+    {
+        "id": 56,
+        "name": "LIS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.413579Z",
+        "updated-at": "2022-02-01T09:31:21.413579Z",
+        "deleted-at": null
+    },
+    {
+        "id": 57,
+        "name": "LOOPS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.455425Z",
+        "updated-at": "2022-02-01T09:31:21.455425Z",
+        "deleted-at": null
+    },
+    {
+        "id": 58,
+        "name": "TOTIENT",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.497304Z",
+        "updated-at": "2022-02-01T09:31:21.497304Z",
+        "deleted-at": null
+    },
+    {
+        "id": 59,
+        "name": "BINARY INDEXED TREE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.539241Z",
+        "updated-at": "2022-02-01T09:31:21.539241Z",
+        "deleted-at": null
+    },
+    {
+        "id": 60,
+        "name": "EXPECTATION",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.580913Z",
+        "updated-at": "2022-02-01T09:31:21.580913Z",
+        "deleted-at": null
+    },
+    {
+        "id": 65,
+        "name": "DFS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.622892Z",
+        "updated-at": "2022-02-01T09:31:21.622892Z",
+        "deleted-at": null
+    },
+    {
+        "id": 66,
+        "name": "KMP",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.664671Z",
+        "updated-at": "2022-02-01T09:31:21.664671Z",
+        "deleted-at": null
+    },
+    {
+        "id": 67,
+        "name": "BFS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.706529Z",
+        "updated-at": "2022-02-01T09:31:21.706529Z",
+        "deleted-at": null
+    },
+    {
+        "id": 68,
+        "name": "GEOMETRY",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.750815Z",
+        "updated-at": "2022-02-01T09:31:21.750815Z",
+        "deleted-at": null
+    },
+    {
+        "id": 69,
+        "name": "MST",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.79516Z",
+        "updated-at": "2022-02-01T09:31:21.79516Z",
+        "deleted-at": null
+    },
+    {
+        "id": 70,
+        "name": "LINKED LIST",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.841943Z",
+        "updated-at": "2022-02-01T09:31:21.841943Z",
+        "deleted-at": null
+    },
+    {
+        "id": 71,
+        "name": "FIBONACCI",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.888688Z",
+        "updated-at": "2022-02-01T09:31:21.888688Z",
+        "deleted-at": null
+    },
+    {
+        "id": 72,
+        "name": "GOOGLE",
+        "Domains": "{faang,product_based,company}",
+        "domains": [
+            "faang",
+            "product_based",
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/6794c186-d7de-4c09-b903-40f4aa31bba6ggo.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.930552Z",
+        "updated-at": "2023-08-15T14:05:40.368202Z",
+        "deleted-at": null
+    },
+    {
+        "id": 73,
+        "name": "BACKTRACKING",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:21.97479Z",
+        "updated-at": "2022-02-01T09:31:21.97479Z",
+        "deleted-at": null
+    },
+    {
+        "id": 74,
+        "name": "QUEUE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.019146Z",
+        "updated-at": "2022-02-01T09:31:22.019146Z",
+        "deleted-at": null
+    },
+    {
+        "id": 75,
+        "name": "PROBABILITY",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.063445Z",
+        "updated-at": "2022-02-01T09:31:22.063445Z",
+        "deleted-at": null
+    },
+    {
+        "id": 76,
+        "name": "ARRA",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.105349Z",
+        "updated-at": "2022-02-01T09:31:22.105349Z",
+        "deleted-at": null
+    },
+    {
+        "id": 77,
+        "name": "TRIE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.147165Z",
+        "updated-at": "2022-02-01T09:31:22.147165Z",
+        "deleted-at": null
+    },
+    {
+        "id": 78,
+        "name": "REC",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.189158Z",
+        "updated-at": "2022-02-01T09:31:22.189158Z",
+        "deleted-at": null
+    },
+    {
+        "id": 79,
+        "name": "ARR",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.2333Z",
+        "updated-at": "2022-02-01T09:31:22.2333Z",
+        "deleted-at": null
+    },
+    {
+        "id": 80,
+        "name": "DYNAMI",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.277541Z",
+        "updated-at": "2022-02-01T09:31:22.277541Z",
+        "deleted-at": null
+    },
+    {
+        "id": 81,
+        "name": "GENE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.319456Z",
+        "updated-at": "2022-02-01T09:31:22.319456Z",
+        "deleted-at": null
+    },
+    {
+        "id": 82,
+        "name": "PATTER",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.361284Z",
+        "updated-at": "2022-02-01T09:31:22.361284Z",
+        "deleted-at": null
+    },
+    {
+        "id": 83,
+        "name": "ADH",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.403192Z",
+        "updated-at": "2022-02-01T09:31:22.403192Z",
+        "deleted-at": null
+    },
+    {
+        "id": 84,
+        "name": "LEVEL",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.445086Z",
+        "updated-at": "2022-02-01T09:31:22.445086Z",
+        "deleted-at": null
+    },
+    {
+        "id": 86,
+        "name": "LINKED",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.486827Z",
+        "updated-at": "2022-02-01T09:31:22.486827Z",
+        "deleted-at": null
+    },
+    {
+        "id": 87,
+        "name": "HAS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.528731Z",
+        "updated-at": "2023-05-29T07:48:54.941891Z",
+        "deleted-at": null
+    },
+    {
+        "id": 88,
+        "name": "PATT",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.570613Z",
+        "updated-at": "2022-02-01T09:31:22.570613Z",
+        "deleted-at": null
+    },
+    {
+        "id": 89,
+        "name": "RECU",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.614811Z",
+        "updated-at": "2022-02-01T09:31:22.614811Z",
+        "deleted-at": null
+    },
+    {
+        "id": 94,
+        "name": "ARRAY",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.656724Z",
+        "updated-at": "2022-02-01T09:31:22.656724Z",
+        "deleted-at": null
+    },
+    {
+        "id": 101,
+        "name": "PALINDROME",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.698606Z",
+        "updated-at": "2022-02-01T09:31:22.698606Z",
+        "deleted-at": null
+    },
+    {
+        "id": 103,
+        "name": "PREFIX",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.742782Z",
+        "updated-at": "2022-02-01T09:31:22.742782Z",
+        "deleted-at": null
+    },
+    {
+        "id": 110,
+        "name": "SANJEET",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.794611Z",
+        "updated-at": "2022-02-01T09:31:22.794611Z",
+        "deleted-at": null
+    },
+    {
+        "id": 112,
+        "name": "BINARY SEAR",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.836361Z",
+        "updated-at": "2022-02-01T09:31:22.836361Z",
+        "deleted-at": null
+    },
+    {
+        "id": 113,
+        "name": "BIT MA",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.878274Z",
+        "updated-at": "2022-02-01T09:31:22.878274Z",
+        "deleted-at": null
+    },
+    {
+        "id": 114,
+        "name": "BIT MANIP",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.922592Z",
+        "updated-at": "2022-02-01T09:31:22.922592Z",
+        "deleted-at": null
+    },
+    {
+        "id": 115,
+        "name": "DEQUE",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:22.96441Z",
+        "updated-at": "2022-02-01T09:31:22.96441Z",
+        "deleted-at": null
+    },
+    {
+        "id": 116,
+        "name": "AMAZON",
+        "Domains": "{company,faang,product_based}",
+        "domains": [
+            "company",
+            "faang",
+            "product_based"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/d44a16d2-63d9-45f0-890c-8342a557c6f7Amazonlogo.svg.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.009075Z",
+        "updated-at": "2023-04-07T08:38:56.914054Z",
+        "deleted-at": null
+    },
+    {
+        "id": 117,
+        "name": "META",
+        "Domains": "{company,faang,product_based}",
+        "domains": [
+            "company",
+            "faang",
+            "product_based"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/b1627622-106c-489a-819f-fdc2f72ff398metalogo.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.058129Z",
+        "updated-at": "2022-12-16T03:46:33.553032Z",
+        "deleted-at": null
+    },
+    {
+        "id": 118,
+        "name": "NETFLIX",
+        "Domains": "{company,faang,product_based}",
+        "domains": [
+            "company",
+            "faang",
+            "product_based"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/27828291-31d3-484a-83f3-7f56bd9bb791netflixlogo.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.099686Z",
+        "updated-at": "2022-12-16T03:07:19.209493Z",
+        "deleted-at": null
+    },
+    {
+        "id": 119,
+        "name": "APPLE",
+        "Domains": "{company,faang}",
+        "domains": [
+            "company",
+            "faang"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/b893e72c-fd09-4f0e-9c83-5348087e2e1capplelogo.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.141581Z",
+        "updated-at": "2023-04-07T08:40:51.572144Z",
+        "deleted-at": null
+    },
+    {
+        "id": 120,
+        "name": "MICROSOFT",
+        "Domains": "{company,product_based}",
+        "domains": [
+            "company",
+            "product_based"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/b138874b-cf0f-4777-933f-615990f82b97microsoftlogo.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.183462Z",
+        "updated-at": "2023-08-15T12:31:23.440194Z",
+        "deleted-at": null
+    },
+    {
+        "id": 121,
+        "name": "MATRIX",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/f8218ba6-8abd-4d1d-8edd-156b5fef0b53MatrixLogo150x.webp",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.225355Z",
+        "updated-at": "2022-12-23T09:01:01.858785Z",
+        "deleted-at": null
+    },
+    {
+        "id": 122,
+        "name": "MORGAN STANLEY",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/40218910-935f-4cb5-88f2-b362aebbf16eMorganStanleyLogo1.svg.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.26961Z",
+        "updated-at": "2023-04-07T08:39:31.89263Z",
+        "deleted-at": null
+    },
+    {
+        "id": 123,
+        "name": "ADOBE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/353967b5-b156-4df2-b1d6-9fa7fc2c24754373057acrobatadobelogologosicon.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.311489Z",
+        "updated-at": "2023-04-26T08:33:12.791716Z",
+        "deleted-at": null
+    },
+    {
+        "id": 124,
+        "name": "IBM",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/80a86022-d2d0-413b-a487-bacac30676b1download4.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.360815Z",
+        "updated-at": "2022-12-23T09:00:06.750346Z",
+        "deleted-at": null
+    },
+    {
+        "id": 125,
+        "name": "BLOOMBERG",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/80176ad1-200e-465a-9229-113a9c259509download.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.405013Z",
+        "updated-at": "2023-08-15T13:07:34.416451Z",
+        "deleted-at": null
+    },
+    {
+        "id": 126,
+        "name": "GOLDMAN SACHS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/3e4a28e8-fecb-48df-8c39-1f882c56e99edownload1.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.449357Z",
+        "updated-at": "2022-12-23T08:57:47.993682Z",
+        "deleted-at": null
+    },
+    {
+        "id": 127,
+        "name": "ORACLE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/a33a7257-1a92-4d9b-bb51-9adf4f1c769aOraclelogo.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.491268Z",
+        "updated-at": "2023-04-12T14:17:44.615316Z",
+        "deleted-at": null
+    },
+    {
+        "id": 128,
+        "name": "UBER",
+        "Domains": "{company,product_based}",
+        "domains": [
+            "company",
+            "product_based"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/51aee7e1-cd21-4102-b5e2-5a46ce3d4ac5Uberlogo2018.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.535519Z",
+        "updated-at": "2023-04-07T08:40:17.32681Z",
+        "deleted-at": null
+    },
+    {
+        "id": 129,
+        "name": "EXPEDIA",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/eda30e72-fd31-4fb7-9ec9-e14fecc23e5ddownload3.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.577317Z",
+        "updated-at": "2022-12-23T08:59:31.053834Z",
+        "deleted-at": null
+    },
+    {
+        "id": 130,
+        "name": "PAYPAL",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/0292ef87-00e9-4179-b804-a9188873409edownload5.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.619294Z",
+        "updated-at": "2022-12-23T09:01:44.194797Z",
+        "deleted-at": null
+    },
+    {
+        "id": 131,
+        "name": "TWITTER",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/fd5861fd-a924-4f3b-bc14-4bbc822aa784Twitterlogo.svg.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.663426Z",
+        "updated-at": "2022-12-23T09:02:52.069334Z",
+        "deleted-at": null
+    },
+    {
+        "id": 132,
+        "name": "WALMART LABS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/89bae9a5-0e40-4b07-8ff3-14f16ab78681walmartlabsbusinesslogoretailpngfavpngACRr6N1NdDDz85fsKUUZarymG.jpeg",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.707764Z",
+        "updated-at": "2023-04-12T14:11:29.001108Z",
+        "deleted-at": null
+    },
+    {
+        "id": 133,
+        "name": "PAYTM",
+        "Domains": "{company,product_based}",
+        "domains": [
+            "company",
+            "product_based"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/321ce1f0-6d5e-4804-8c7c-11811e7a19a5paytmlogo.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.749667Z",
+        "updated-at": "2022-12-23T09:04:33.759039Z",
+        "deleted-at": null
+    },
+    {
+        "id": 134,
+        "name": "SNAPDEAL",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/ff678eda-b151-45d8-8eae-f7e5313fffb4images.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.791485Z",
+        "updated-at": "2022-12-23T09:06:05.33049Z",
+        "deleted-at": null
+    },
+    {
+        "id": 135,
+        "name": "QUALCOMM",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/f90b7b92-7053-4c57-a8d4-af08caa076b2download.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.833473Z",
+        "updated-at": "2022-12-23T09:07:49.38437Z",
+        "deleted-at": null
+    },
+    {
+        "id": 136,
+        "name": "G-S",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.875207Z",
+        "updated-at": "2022-02-01T09:31:23.875207Z",
+        "deleted-at": null
+    },
+    {
+        "id": 137,
+        "name": "SAMSUNG",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/6e127237-247d-47b3-9f29-dbb90a4e9057gnbdesktop120x32.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.919475Z",
+        "updated-at": "2022-12-23T09:09:46.884287Z",
+        "deleted-at": null
+    },
+    {
+        "id": 138,
+        "name": "CITRIX",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/544d3fdc-6327-4ede-99cc-5e692047fc1eCitrixSystemslogo.svg.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:23.961385Z",
+        "updated-at": "2024-02-06T08:47:42.80536Z",
+        "deleted-at": null
+    },
+    {
+        "id": 139,
+        "name": "INNOVATION LABS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/629a8de9-c2ed-46b7-8618-6b83c6c9f47blogo.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.005566Z",
+        "updated-at": "2022-12-23T09:53:37.618532Z",
+        "deleted-at": null
+    },
+    {
+        "id": 140,
+        "name": "VISA",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/534ec73f-1e8d-4351-9f1a-27d493a04e3bdownload2.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.049987Z",
+        "updated-at": "2022-12-23T10:02:38.578777Z",
+        "deleted-at": null
+    },
+    {
+        "id": 141,
+        "name": "SAP LABS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/c4c91ebc-3593-46ab-9b0b-1034db1c82cddownload1.jpg",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.096762Z",
+        "updated-at": "2022-12-23T10:07:32.44764Z",
+        "deleted-at": null
+    },
+    {
+        "id": 142,
+        "name": "GRAB",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/1534cbd1-fe2f-42c6-8670-885a68aca600download4.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.138674Z",
+        "updated-at": "2022-12-23T10:09:25.82315Z",
+        "deleted-at": null
+    },
+    {
+        "id": 143,
+        "name": "SALES FORCE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/9b48fed7-1c56-4ab3-9378-afd9dde5a4c1images1.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.18537Z",
+        "updated-at": "2022-12-23T10:11:38.063219Z",
+        "deleted-at": null
+    },
+    {
+        "id": 144,
+        "name": "FLIPKART",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/3f0a1a2a-1af0-44a9-b4dc-6b235e884f3bdownload6.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.227252Z",
+        "updated-at": "2022-12-23T10:12:24.175027Z",
+        "deleted-at": null
+    },
+    {
+        "id": 145,
+        "name": "BYTEDANCE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/eb610ca2-c5db-4513-8911-06c8b67786b0download4.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.271575Z",
+        "updated-at": "2022-12-23T11:13:56.674313Z",
+        "deleted-at": null
+    },
+    {
+        "id": 146,
+        "name": "MYNTRA",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/32fcb6c5-f459-44a7-92b1-50eb7b11ace2download5.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.315772Z",
+        "updated-at": "2022-12-23T10:10:20.196315Z",
+        "deleted-at": null
+    },
+    {
+        "id": 147,
+        "name": "SLIDING WINDOW",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.362714Z",
+        "updated-at": "2023-04-18T10:33:20.743273Z",
+        "deleted-at": null
+    },
+    {
+        "id": 148,
+        "name": "ROBOLOX",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/b6bfe435-b9c8-446f-98f2-5c7f21fad949download.jpg",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.406878Z",
+        "updated-at": "2022-12-23T10:01:54.0975Z",
+        "deleted-at": null
+    },
+    {
+        "id": 149,
+        "name": "ACCOLITE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/b22a0bc9-68e7-4ed4-a3e5-aa88ae480c50download3.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.451249Z",
+        "updated-at": "2022-12-23T10:04:16.223196Z",
+        "deleted-at": null
+    },
+    {
+        "id": 150,
+        "name": "MAKE MY TRIP",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/8f83b97d-c173-4377-a071-43cfe0a8886adownload.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.495498Z",
+        "updated-at": "2022-12-23T10:13:58.825876Z",
+        "deleted-at": null
+    },
+    {
+        "id": 151,
+        "name": "WIPRO",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/234559b9-69ff-4cdd-84e0-a084c95258a8download1.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.537414Z",
+        "updated-at": "2022-12-23T10:14:38.243085Z",
+        "deleted-at": null
+    },
+    {
+        "id": 152,
+        "name": "OLA",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/2a0ec56a-37bb-47d8-981b-17bcd4d196a5download.jpg",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.579313Z",
+        "updated-at": "2022-12-23T10:15:26.955326Z",
+        "deleted-at": null
+    },
+    {
+        "id": 153,
+        "name": "DE SHAW",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/8ce31cab-48e0-44fa-9673-b1e6a7471a8edownload2.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.625953Z",
+        "updated-at": "2022-12-23T10:16:07.910494Z",
+        "deleted-at": null
+    },
+    {
+        "id": 154,
+        "name": "EBAY",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/8713149a-1611-4b92-b5e9-fb6834c15803download3.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.667788Z",
+        "updated-at": "2022-12-23T10:17:40.178058Z",
+        "deleted-at": null
+    },
+    {
+        "id": 155,
+        "name": "VM WARE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/2308cccd-c560-46dc-8ae5-d3fe4c2ddab0vmwarelogoicon249251.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.71228Z",
+        "updated-at": "2024-04-03T11:37:27.258878Z",
+        "deleted-at": null
+    },
+    {
+        "id": 156,
+        "name": "TWILIO",
+        "Domains": "{company,product_based}",
+        "domains": [
+            "company",
+            "product_based"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/81c2c941-1b9c-411f-b7ea-e3375b49a428images.png",
+        "isActive": false,
+        "created-at": "2022-02-01T09:31:24.754088Z",
+        "updated-at": "2023-07-26T13:42:49.504082Z",
+        "deleted-at": null
+    },
+    {
+        "id": 157,
+        "name": "BYTE DANCE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/58b82269-214f-4adc-a98c-4625aa23099eimages1.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.795823Z",
+        "updated-at": "2022-12-23T10:18:58.77629Z",
+        "deleted-at": null
+    },
+    {
+        "id": 158,
+        "name": "INTEL",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/d00704da-e6ce-4980-a237-49f00e1b0a3ddownload4.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.847744Z",
+        "updated-at": "2022-12-23T10:19:46.289632Z",
+        "deleted-at": null
+    },
+    {
+        "id": 159,
+        "name": "MATHWORKS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/d6cf9e3d-22a7-444f-a6de-5bd3afd4f8a1mathworks.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.889649Z",
+        "updated-at": "2024-05-08T11:54:08.037323Z",
+        "deleted-at": null
+    },
+    {
+        "id": 160,
+        "name": "CISCO",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/f4588ddd-ebf3-48e1-96a1-4a5a847c6831download5.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.931535Z",
+        "updated-at": "2022-12-23T10:21:09.313056Z",
+        "deleted-at": null
+    },
+    {
+        "id": 161,
+        "name": "YANDEX",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/435e37d5-0984-4ef3-82fb-a19ea0eed8a9download.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:24.973449Z",
+        "updated-at": "2022-12-23T10:22:02.696297Z",
+        "deleted-at": null
+    },
+    {
+        "id": 162,
+        "name": "TESLA",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/43e286a3-dc82-4b6e-9365-9682a9aed771download1.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.017701Z",
+        "updated-at": "2022-12-23T10:22:31.858223Z",
+        "deleted-at": null
+    },
+    {
+        "id": 163,
+        "name": "SERVICE NOW",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/acdb758c-ca2f-4596-8c1a-3467b3679a67download2.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.059862Z",
+        "updated-at": "2022-12-23T10:23:07.175302Z",
+        "deleted-at": null
+    },
+    {
+        "id": 164,
+        "name": "YAHOO",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/d214b8ec-6ee5-480f-aade-09dc0552ac68download3.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.103778Z",
+        "updated-at": "2022-12-23T10:23:36.529724Z",
+        "deleted-at": null
+    },
+    {
+        "id": 165,
+        "name": "WISH",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/92b2296a-eb67-4188-ac84-c79bb96376fbdownload4.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.145579Z",
+        "updated-at": "2022-12-23T10:24:04.322817Z",
+        "deleted-at": null
+    },
+    {
+        "id": 166,
+        "name": "SNAPCHAT",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/002f63e6-2bd5-469c-b7fe-74a9663ca48fdownload5.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.187533Z",
+        "updated-at": "2022-12-23T10:24:35.693543Z",
+        "deleted-at": null
+    },
+    {
+        "id": 167,
+        "name": "HULU",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/712f6481-ab19-458c-9fa0-f8419393aa21download6.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.229424Z",
+        "updated-at": "2022-12-23T10:25:14.128393Z",
+        "deleted-at": null
+    },
+    {
+        "id": 168,
+        "name": "BOOKINGCOM",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/b814e505-202f-40a9-84cc-13b7836efae2images.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.273597Z",
+        "updated-at": "2022-12-23T10:25:50.036981Z",
+        "deleted-at": null
+    },
+    {
+        "id": 169,
+        "name": "NUTANIX",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/c16f3fa3-dda8-43e6-ba50-318418630634images.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.322998Z",
+        "updated-at": "2022-12-23T10:26:41.805253Z",
+        "deleted-at": null
+    },
+    {
+        "id": 170,
+        "name": "INTUIT",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/528288fc-0780-491f-9ec8-fff691c16a38download.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.367202Z",
+        "updated-at": "2022-12-23T10:27:11.561539Z",
+        "deleted-at": null
+    },
+    {
+        "id": 171,
+        "name": "CITADEL",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/404df591-0f90-4652-add8-556382f7b72ddownload.jpg",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.41402Z",
+        "updated-at": "2022-12-23T10:52:34.108967Z",
+        "deleted-at": null
+    },
+    {
+        "id": 172,
+        "name": "YELP",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/83e81dbb-4a10-4804-a16c-ebfede8b11a0download1.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.458317Z",
+        "updated-at": "2022-12-23T10:53:38.517878Z",
+        "deleted-at": null
+    },
+    {
+        "id": 173,
+        "name": "LINKEDIN",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/38f19df8-eeaa-472b-8bf4-b5118cf0696bdownload2.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.502562Z",
+        "updated-at": "2022-12-23T10:54:29.39092Z",
+        "deleted-at": null
+    },
+    {
+        "id": 174,
+        "name": "OYO",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/60657ee2-f5b1-40b2-a38e-5c963621dbccdownload3.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.544526Z",
+        "updated-at": "2022-12-23T10:55:01.326345Z",
+        "deleted-at": null
+    },
+    {
+        "id": 175,
+        "name": "TCS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/b523e230-3aa0-406a-a279-742245ecc969download1.jpg",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.588747Z",
+        "updated-at": "2022-12-23T10:55:31.871503Z",
+        "deleted-at": null
+    },
+    {
+        "id": 176,
+        "name": "INFOSYS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/f3dcec4d-dc63-49f0-bc07-97655e251274download4.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.630641Z",
+        "updated-at": "2022-12-23T10:55:59.880092Z",
+        "deleted-at": null
+    },
+    {
+        "id": 177,
+        "name": "HIKE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/dfe024b4-5a0e-4388-9242-e2e3849d513fdownload5.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.672445Z",
+        "updated-at": "2022-12-23T10:56:35.555398Z",
+        "deleted-at": null
+    },
+    {
+        "id": 178,
+        "name": "MAQ SOFTWARE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/22c40e70-1aa0-40df-9088-1d16f030b446download6.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.716734Z",
+        "updated-at": "2022-12-23T10:57:02.602816Z",
+        "deleted-at": null
+    },
+    {
+        "id": 179,
+        "name": "FACTEST",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/3556ff04-9384-428b-84b3-4cc10fdd4c56download7.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.758624Z",
+        "updated-at": "2022-12-23T10:57:34.305583Z",
+        "deleted-at": null
+    },
+    {
+        "id": 180,
+        "name": "SPOTIFY",
+        "Domains": "{company,product_based}",
+        "domains": [
+            "company",
+            "product_based"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/42fdab49-74d8-4c5a-b99d-5c828fdc70d6download8.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.800345Z",
+        "updated-at": "2022-12-23T10:58:11.145107Z",
+        "deleted-at": null
+    },
+    {
+        "id": 181,
+        "name": "ZOHO",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/90c1f738-8fa9-4a1a-b2df-dec100fbee73download.jpg",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.857016Z",
+        "updated-at": "2022-12-23T10:58:56.156733Z",
+        "deleted-at": null
+    },
+    {
+        "id": 182,
+        "name": "OLA CABS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/b5b78646-81a5-4759-b1fa-d5695e2f1917download.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.903796Z",
+        "updated-at": "2022-12-23T10:59:31.105861Z",
+        "deleted-at": null
+    },
+    {
+        "id": 183,
+        "name": "BLIZZARD",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/a0fcd609-5829-4565-9f68-125dede07093download1.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:25.979522Z",
+        "updated-at": "2022-12-23T11:00:05.261885Z",
+        "deleted-at": null
+    },
+    {
+        "id": 184,
+        "name": "LYFT",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/5f68026e-0e74-4663-bd88-c2125ae9ec15download2.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.02871Z",
+        "updated-at": "2022-12-23T11:00:43.068464Z",
+        "deleted-at": null
+    },
+    {
+        "id": 185,
+        "name": "ZILLOW",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/e3a97b1d-1593-4de3-b7f2-937b293b4ffddownload3.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.073128Z",
+        "updated-at": "2022-12-23T11:01:10.788135Z",
+        "deleted-at": null
+    },
+    {
+        "id": 186,
+        "name": "JP MORGAN",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/d8d8c583-43f6-46a2-9b3d-20b49476ff9cdownload4.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.114801Z",
+        "updated-at": "2022-12-23T11:01:50.472473Z",
+        "deleted-at": null
+    },
+    {
+        "id": 187,
+        "name": "ATLASSIAN",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/12419e77-a7d8-4a10-b97c-7869c44a3638download.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.161546Z",
+        "updated-at": "2022-12-23T11:02:38.61049Z",
+        "deleted-at": null
+    },
+    {
+        "id": 188,
+        "name": "BARCLAYS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/960d996d-ec1f-4093-8e2d-cb8da0a9d2e2download1.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.208398Z",
+        "updated-at": "2022-12-23T11:03:27.923037Z",
+        "deleted-at": null
+    },
+    {
+        "id": 204,
+        "name": "SPLUNK",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/9bce4be8-35c9-469c-99f4-3c9c92dbedb3download2.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.252754Z",
+        "updated-at": "2022-12-23T11:04:04.061461Z",
+        "deleted-at": null
+    },
+    {
+        "id": 205,
+        "name": "AUDIBLE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/56aa2a85-bc5d-4632-a444-28243127581fdownload3.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.294562Z",
+        "updated-at": "2022-12-23T11:04:40.566674Z",
+        "deleted-at": null
+    },
+    {
+        "id": 206,
+        "name": "TENCENT",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/1a8dfa04-a097-4c9a-a855-816b09744549download4.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.336324Z",
+        "updated-at": "2022-12-23T11:05:13.495672Z",
+        "deleted-at": null
+    },
+    {
+        "id": 207,
+        "name": "EPIC SYSTEMS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/e75c25c1-aaa6-4852-9c08-81015668afa1download5.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.380737Z",
+        "updated-at": "2022-12-23T11:05:45.412901Z",
+        "deleted-at": null
+    },
+    {
+        "id": 208,
+        "name": "COUPANG",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/9e915593-aa78-40d3-993d-b641631d91bbdownload6.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.425129Z",
+        "updated-at": "2022-12-23T11:06:12.099554Z",
+        "deleted-at": null
+    },
+    {
+        "id": 209,
+        "name": "LIVERAMP",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/8eeb2bbc-19d3-4e93-8302-aa095d87b8bddownload7.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.471772Z",
+        "updated-at": "2022-12-23T11:06:38.133893Z",
+        "deleted-at": null
+    },
+    {
+        "id": 210,
+        "name": "AIRBNB",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/e434788c-9801-4ad4-99df-5eb981a2372bdownload.jpg",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.516056Z",
+        "updated-at": "2022-12-23T11:07:13.738619Z",
+        "deleted-at": null
+    },
+    {
+        "id": 211,
+        "name": "ZENEFITS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/e701bb7a-8ba9-4ba1-9a9f-cbb83f66b857download8.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.567749Z",
+        "updated-at": "2022-12-23T11:08:13.814009Z",
+        "deleted-at": null
+    },
+    {
+        "id": 212,
+        "name": "CAPITAL ONE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/fb998edf-d59f-4682-a49b-d79d8d350705download9.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.621946Z",
+        "updated-at": "2022-12-23T11:09:52.188834Z",
+        "deleted-at": null
+    },
+    {
+        "id": 213,
+        "name": "JUGNOO",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/a567800e-098c-4484-aaf3-dae493cd5ca8download.jpg",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.66623Z",
+        "updated-at": "2022-12-23T11:11:00.124765Z",
+        "deleted-at": null
+    },
+    {
+        "id": 214,
+        "name": "RUBRIK",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/68f10ebd-8262-4f06-ac89-c6c55a70dbcddownload.png",
+        "isActive": true,
+        "created-at": "2022-02-01T09:31:26.713253Z",
+        "updated-at": "2022-12-23T11:11:31.175982Z",
+        "deleted-at": null
+    },
+    {
+        "id": 215,
+        "name": "2D Array",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.413668Z",
+        "updated-at": "2022-02-01T09:33:03.413668Z",
+        "deleted-at": null
+    },
+    {
+        "id": 216,
+        "name": "AJAX",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.45801Z",
+        "updated-at": "2022-02-01T09:33:03.45801Z",
+        "deleted-at": null
+    },
+    {
+        "id": 217,
+        "name": "Abstraction",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.502494Z",
+        "updated-at": "2022-02-01T09:33:03.502494Z",
+        "deleted-at": null
+    },
+    {
+        "id": 218,
+        "name": "Advanced Algorithms",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.548992Z",
+        "updated-at": "2022-02-01T09:33:03.548992Z",
+        "deleted-at": null
+    },
+    {
+        "id": 219,
+        "name": "Algorithms",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.593334Z",
+        "updated-at": "2022-02-01T09:33:03.593334Z",
+        "deleted-at": null
+    },
+    {
+        "id": 221,
+        "name": "Amazon Interview Questions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.679654Z",
+        "updated-at": "2022-02-01T09:33:03.679654Z",
+        "deleted-at": null
+    },
+    {
+        "id": 222,
+        "name": "AndroidX",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.723821Z",
+        "updated-at": "2022-02-01T09:33:03.723821Z",
+        "deleted-at": null
+    },
+    {
+        "id": 223,
+        "name": "Angular Basics",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.768127Z",
+        "updated-at": "2022-02-01T09:33:03.768127Z",
+        "deleted-at": null
+    },
+    {
+        "id": 224,
+        "name": "Angular Directives",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.812534Z",
+        "updated-at": "2022-02-01T09:33:03.812534Z",
+        "deleted-at": null
+    },
+    {
+        "id": 225,
+        "name": "Angular Services",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.861637Z",
+        "updated-at": "2022-02-01T09:33:03.861637Z",
+        "deleted-at": null
+    },
+    {
+        "id": 227,
+        "name": "Arrays and Strings",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.952847Z",
+        "updated-at": "2022-02-01T09:33:03.952847Z",
+        "deleted-at": null
+    },
+    {
+        "id": 228,
+        "name": "Artificial Integllience",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:03.994668Z",
+        "updated-at": "2022-02-01T09:33:03.994668Z",
+        "deleted-at": null
+    },
+    {
+        "id": 229,
+        "name": "Backend",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.041345Z",
+        "updated-at": "2022-02-01T09:33:04.041345Z",
+        "deleted-at": null
+    },
+    {
+        "id": 230,
+        "name": "Backpropagation",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.083304Z",
+        "updated-at": "2022-02-01T09:33:04.083304Z",
+        "deleted-at": null
+    },
+    {
+        "id": 232,
+        "name": "BeautifulSoup",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.17251Z",
+        "updated-at": "2022-02-01T09:33:04.17251Z",
+        "deleted-at": null
+    },
+    {
+        "id": 233,
+        "name": "Beginners",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.216133Z",
+        "updated-at": "2022-02-01T09:33:04.216133Z",
+        "deleted-at": null
+    },
+    {
+        "id": 234,
+        "name": "BitManipulation",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.257988Z",
+        "updated-at": "2022-02-01T09:33:04.257988Z",
+        "deleted-at": null
+    },
+    {
+        "id": 237,
+        "name": "Boolean Algebra",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.38853Z",
+        "updated-at": "2022-02-01T09:33:04.38853Z",
+        "deleted-at": null
+    },
+    {
+        "id": 238,
+        "name": "Bootstrap",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.430265Z",
+        "updated-at": "2022-02-01T09:33:04.430265Z",
+        "deleted-at": null
+    },
+    {
+        "id": 239,
+        "name": "Brute Force",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.476977Z",
+        "updated-at": "2022-02-01T09:33:04.476977Z",
+        "deleted-at": null
+    },
+    {
+        "id": 240,
+        "name": "C++",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.518907Z",
+        "updated-at": "2022-02-01T09:50:43.401972Z",
+        "deleted-at": null
+    },
+    {
+        "id": 241,
+        "name": "C++ Basics",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.56821Z",
+        "updated-at": "2022-02-01T09:33:04.56821Z",
+        "deleted-at": null
+    },
+    {
+        "id": 242,
+        "name": "C++ STL",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.614943Z",
+        "updated-at": "2022-02-01T09:33:04.614943Z",
+        "deleted-at": null
+    },
+    {
+        "id": 243,
+        "name": "CNN",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.664025Z",
+        "updated-at": "2022-02-01T09:33:04.664025Z",
+        "deleted-at": null
+    },
+    {
+        "id": 244,
+        "name": "CSS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.706178Z",
+        "updated-at": "2022-02-01T09:33:04.706178Z",
+        "deleted-at": null
+    },
+    {
+        "id": 246,
+        "name": "Chinese Remainder Theorem",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.794621Z",
+        "updated-at": "2022-02-01T09:33:04.794621Z",
+        "deleted-at": null
+    },
+    {
+        "id": 247,
+        "name": "Classical DP Variations",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.843887Z",
+        "updated-at": "2022-02-01T09:33:04.843887Z",
+        "deleted-at": null
+    },
+    {
+        "id": 248,
+        "name": "Classification",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.88591Z",
+        "updated-at": "2022-02-01T09:33:04.88591Z",
+        "deleted-at": null
+    },
+    {
+        "id": 249,
+        "name": "Codechef",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.932524Z",
+        "updated-at": "2022-02-01T09:33:04.932524Z",
+        "deleted-at": null
+    },
+    {
+        "id": 250,
+        "name": "Codeforces",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:04.976733Z",
+        "updated-at": "2022-02-01T09:33:04.976733Z",
+        "deleted-at": null
+    },
+    {
+        "id": 251,
+        "name": "Collections",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.018668Z",
+        "updated-at": "2022-02-01T09:33:05.018668Z",
+        "deleted-at": null
+    },
+    {
+        "id": 252,
+        "name": "Comparators",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.065325Z",
+        "updated-at": "2022-02-01T09:33:05.065325Z",
+        "deleted-at": null
+    },
+    {
+        "id": 253,
+        "name": "Competitive Programmming",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.109645Z",
+        "updated-at": "2022-02-01T09:33:05.109645Z",
+        "deleted-at": null
+    },
+    {
+        "id": 254,
+        "name": "Components",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.158862Z",
+        "updated-at": "2022-02-01T09:33:05.158862Z",
+        "deleted-at": null
+    },
+    {
+        "id": 255,
+        "name": "Computer Networks",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.200793Z",
+        "updated-at": "2022-02-01T09:33:05.200793Z",
+        "deleted-at": null
+    },
+    {
+        "id": 256,
+        "name": "DBMS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.242664Z",
+        "updated-at": "2022-02-01T09:33:05.242664Z",
+        "deleted-at": null
+    },
+    {
+        "id": 257,
+        "name": "DP",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.284489Z",
+        "updated-at": "2022-02-01T09:33:05.284489Z",
+        "deleted-at": null
+    },
+    {
+        "id": 258,
+        "name": "DP Hard Problems",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.326245Z",
+        "updated-at": "2022-02-01T09:33:05.326245Z",
+        "deleted-at": null
+    },
+    {
+        "id": 259,
+        "name": "DP Interview Questions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.373103Z",
+        "updated-at": "2022-02-01T09:33:05.373103Z",
+        "deleted-at": null
+    },
+    {
+        "id": 260,
+        "name": "DP Optimisation",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.41983Z",
+        "updated-at": "2022-02-01T09:33:05.41983Z",
+        "deleted-at": null
+    },
+    {
+        "id": 261,
+        "name": "DP on Graphs",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.461685Z",
+        "updated-at": "2022-02-01T09:33:05.461685Z",
+        "deleted-at": null
+    },
+    {
+        "id": 262,
+        "name": "DP on Intervals",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.508457Z",
+        "updated-at": "2022-02-01T09:33:05.508457Z",
+        "deleted-at": null
+    },
+    {
+        "id": 263,
+        "name": "DP on Trees",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.555294Z",
+        "updated-at": "2022-02-01T09:33:05.555294Z",
+        "deleted-at": null
+    },
+    {
+        "id": 264,
+        "name": "DP with Bitmasks",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.59711Z",
+        "updated-at": "2022-02-01T09:33:05.59711Z",
+        "deleted-at": null
+    },
+    {
+        "id": 265,
+        "name": "DP with Convex Hull Trick",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.641478Z",
+        "updated-at": "2022-02-01T09:33:05.641478Z",
+        "deleted-at": null
+    },
+    {
+        "id": 266,
+        "name": "DSA",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.688077Z",
+        "updated-at": "2022-02-01T09:33:05.688077Z",
+        "deleted-at": null
+    },
+    {
+        "id": 267,
+        "name": "Data Science",
+        "Domains": "{topic,course_domain}",
+        "domains": [
+            "topic",
+            "course_domain"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.735213Z",
+        "updated-at": "2024-06-16T09:11:55.342439Z",
+        "deleted-at": null
+    },
+    {
+        "id": 268,
+        "name": "Data Structures",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.786755Z",
+        "updated-at": "2022-02-01T09:33:05.786755Z",
+        "deleted-at": null
+    },
+    {
+        "id": 270,
+        "name": "Data Visualization",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.875217Z",
+        "updated-at": "2022-02-01T09:33:05.875217Z",
+        "deleted-at": null
+    },
+    {
+        "id": 271,
+        "name": "Database Design",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.91702Z",
+        "updated-at": "2022-02-01T09:33:05.91702Z",
+        "deleted-at": null
+    },
+    {
+        "id": 272,
+        "name": "Databases",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:05.958889Z",
+        "updated-at": "2022-02-01T09:33:05.958889Z",
+        "deleted-at": null
+    },
+    {
+        "id": 273,
+        "name": "Deadlocks",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.000725Z",
+        "updated-at": "2022-02-01T09:33:06.000725Z",
+        "deleted-at": null
+    },
+    {
+        "id": 274,
+        "name": "Deep Learning",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.062374Z",
+        "updated-at": "2022-02-01T09:33:06.062374Z",
+        "deleted-at": null
+    },
+    {
+        "id": 276,
+        "name": "Deque STL",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.153498Z",
+        "updated-at": "2022-02-01T09:33:06.153498Z",
+        "deleted-at": null
+    },
+    {
+        "id": 277,
+        "name": "Development",
+        "Domains": "{topic,course_domain}",
+        "domains": [
+            "topic",
+            "course_domain"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.197607Z",
+        "updated-at": "2024-05-24T04:38:22.248797Z",
+        "deleted-at": null
+    },
+    {
+        "id": 278,
+        "name": "Digit DP",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.239545Z",
+        "updated-at": "2022-02-01T09:33:06.239545Z",
+        "deleted-at": null
+    },
+    {
+        "id": 279,
+        "name": "Digital Marketing",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.281443Z",
+        "updated-at": "2022-02-01T09:33:06.281443Z",
+        "deleted-at": null
+    },
+    {
+        "id": 283,
+        "name": "Electron Architecture",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.45369Z",
+        "updated-at": "2022-02-01T09:33:06.45369Z",
+        "deleted-at": null
+    },
+    {
+        "id": 284,
+        "name": "Electron Basics",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.498042Z",
+        "updated-at": "2022-02-01T09:33:06.498042Z",
+        "deleted-at": null
+    },
+    {
+        "id": 285,
+        "name": "Electron Menu",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.53998Z",
+        "updated-at": "2022-02-01T09:33:06.53998Z",
+        "deleted-at": null
+    },
+    {
+        "id": 286,
+        "name": "Electron Network Request",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.589096Z",
+        "updated-at": "2022-02-01T09:33:06.589096Z",
+        "deleted-at": null
+    },
+    {
+        "id": 287,
+        "name": "Electron Shortcut",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.633315Z",
+        "updated-at": "2022-02-01T09:33:06.633315Z",
+        "deleted-at": null
+    },
+    {
+        "id": 288,
+        "name": "Encapsulation",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.675341Z",
+        "updated-at": "2022-02-01T09:33:06.675341Z",
+        "deleted-at": null
+    },
+    {
+        "id": 289,
+        "name": "Ensemble Learning",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.71707Z",
+        "updated-at": "2022-02-01T09:33:06.71707Z",
+        "deleted-at": null
+    },
+    {
+        "id": 290,
+        "name": "Error Handling",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.761346Z",
+        "updated-at": "2022-02-01T09:33:06.761346Z",
+        "deleted-at": null
+    },
+    {
+        "id": 291,
+        "name": "Euler Totient",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.805662Z",
+        "updated-at": "2022-02-01T09:33:06.805662Z",
+        "deleted-at": null
+    },
+    {
+        "id": 292,
+        "name": "Exception Handling",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:06.852515Z",
+        "updated-at": "2022-02-01T09:33:06.852515Z",
+        "deleted-at": null
+    },
+    {
+        "id": 293,
+        "name": "Exchange Argument DP",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.138041Z",
+        "updated-at": "2022-02-01T09:33:07.138041Z",
+        "deleted-at": null
+    },
+    {
+        "id": 294,
+        "name": "Exploratory Data Analysis",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.179965Z",
+        "updated-at": "2022-02-01T09:33:07.179965Z",
+        "deleted-at": null
+    },
+    {
+        "id": 295,
+        "name": "Express",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.221622Z",
+        "updated-at": "2022-02-01T09:33:07.221622Z",
+        "deleted-at": null
+    },
+    {
+        "id": 296,
+        "name": "FAANG",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.266058Z",
+        "updated-at": "2022-02-01T09:33:07.266058Z",
+        "deleted-at": null
+    },
+    {
+        "id": 297,
+        "name": "FAANG Interview questions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.315265Z",
+        "updated-at": "2022-02-01T09:33:07.315265Z",
+        "deleted-at": null
+    },
+    {
+        "id": 298,
+        "name": "FANG",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.359485Z",
+        "updated-at": "2022-02-01T09:33:07.359485Z",
+        "deleted-at": null
+    },
+    {
+        "id": 299,
+        "name": "FANG Interview Questions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.406274Z",
+        "updated-at": "2022-02-01T09:33:07.406274Z",
+        "deleted-at": null
+    },
+    {
+        "id": 300,
+        "name": "FFT",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.448145Z",
+        "updated-at": "2022-02-01T09:33:07.448145Z",
+        "deleted-at": null
+    },
+    {
+        "id": 302,
+        "name": "Facebook Interview Questions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.534252Z",
+        "updated-at": "2022-02-01T09:33:07.534252Z",
+        "deleted-at": null
+    },
+    {
+        "id": 303,
+        "name": "Fashion MNIST",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.578773Z",
+        "updated-at": "2022-02-01T09:33:07.578773Z",
+        "deleted-at": null
+    },
+    {
+        "id": 304,
+        "name": "Fast I/IO",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.625433Z",
+        "updated-at": "2022-02-01T09:33:07.625433Z",
+        "deleted-at": null
+    },
+    {
+        "id": 305,
+        "name": "Fermat Theorem",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.67225Z",
+        "updated-at": "2022-02-01T09:33:07.67225Z",
+        "deleted-at": null
+    },
+    {
+        "id": 306,
+        "name": "File Handling",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.714158Z",
+        "updated-at": "2022-02-01T09:33:07.714158Z",
+        "deleted-at": null
+    },
+    {
+        "id": 308,
+        "name": "Firebase",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.814879Z",
+        "updated-at": "2022-02-01T09:33:07.814879Z",
+        "deleted-at": null
+    },
+    {
+        "id": 309,
+        "name": "Floyd’s Cycle",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.859269Z",
+        "updated-at": "2022-02-01T09:33:07.859269Z",
+        "deleted-at": null
+    },
+    {
+        "id": 310,
+        "name": "Free Course",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.903465Z",
+        "updated-at": "2022-02-01T09:33:07.903465Z",
+        "deleted-at": null
+    },
+    {
+        "id": 311,
+        "name": "Frontend",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.945447Z",
+        "updated-at": "2022-02-01T09:33:07.945447Z",
+        "deleted-at": null
+    },
+    {
+        "id": 312,
+        "name": "Functions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:07.987286Z",
+        "updated-at": "2022-02-01T09:33:07.987286Z",
+        "deleted-at": null
+    },
+    {
+        "id": 314,
+        "name": "Functors",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.0736Z",
+        "updated-at": "2022-02-01T09:33:08.0736Z",
+        "deleted-at": null
+    },
+    {
+        "id": 316,
+        "name": "Git",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.157017Z",
+        "updated-at": "2022-02-01T09:33:08.157017Z",
+        "deleted-at": null
+    },
+    {
+        "id": 317,
+        "name": "Git branch",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.201491Z",
+        "updated-at": "2022-02-01T09:33:08.201491Z",
+        "deleted-at": null
+    },
+    {
+        "id": 318,
+        "name": "Git merge",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.243316Z",
+        "updated-at": "2022-02-01T09:33:08.243316Z",
+        "deleted-at": null
+    },
+    {
+        "id": 320,
+        "name": "Google CodeJam",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.329505Z",
+        "updated-at": "2022-02-01T09:33:08.329505Z",
+        "deleted-at": null
+    },
+    {
+        "id": 321,
+        "name": "Google Interview Questions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.374122Z",
+        "updated-at": "2022-02-01T09:33:08.374122Z",
+        "deleted-at": null
+    },
+    {
+        "id": 322,
+        "name": "Google Kickstart",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.418074Z",
+        "updated-at": "2022-02-01T09:33:08.418074Z",
+        "deleted-at": null
+    },
+    {
+        "id": 323,
+        "name": "Google Maps",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.459907Z",
+        "updated-at": "2022-02-01T09:33:08.459907Z",
+        "deleted-at": null
+    },
+    {
+        "id": 324,
+        "name": "Gradient Descent",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.50167Z",
+        "updated-at": "2022-02-01T09:33:08.50167Z",
+        "deleted-at": null
+    },
+    {
+        "id": 325,
+        "name": "Graphs",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.54612Z",
+        "updated-at": "2022-02-01T09:33:08.54612Z",
+        "deleted-at": null
+    },
+    {
+        "id": 329,
+        "name": "Greedy Algorithms",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.728226Z",
+        "updated-at": "2022-02-01T09:33:08.728226Z",
+        "deleted-at": null
+    },
+    {
+        "id": 331,
+        "name": "Grid DP",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.816747Z",
+        "updated-at": "2022-02-01T09:33:08.816747Z",
+        "deleted-at": null
+    },
+    {
+        "id": 332,
+        "name": "HLD",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.86357Z",
+        "updated-at": "2022-02-01T09:33:08.86357Z",
+        "deleted-at": null
+    },
+    {
+        "id": 333,
+        "name": "HTML",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:08.910317Z",
+        "updated-at": "2022-02-01T09:33:08.910317Z",
+        "deleted-at": null
+    },
+    {
+        "id": 335,
+        "name": "Hardware Sensors",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.013808Z",
+        "updated-at": "2022-02-01T09:33:09.013808Z",
+        "deleted-at": null
+    },
+    {
+        "id": 339,
+        "name": "Heaps",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.220571Z",
+        "updated-at": "2022-02-01T09:33:09.220571Z",
+        "deleted-at": null
+    },
+    {
+        "id": 341,
+        "name": "Image Captioning",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.30424Z",
+        "updated-at": "2022-02-01T09:33:09.30424Z",
+        "deleted-at": null
+    },
+    {
+        "id": 342,
+        "name": "Inheritance",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.356006Z",
+        "updated-at": "2022-02-01T09:33:09.356006Z",
+        "deleted-at": null
+    },
+    {
+        "id": 343,
+        "name": "Interface",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.400127Z",
+        "updated-at": "2022-02-01T09:33:09.400127Z",
+        "deleted-at": null
+    },
+    {
+        "id": 344,
+        "name": "Interview Questions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.447004Z",
+        "updated-at": "2022-02-01T09:33:09.447004Z",
+        "deleted-at": null
+    },
+    {
+        "id": 345,
+        "name": "Java Basics",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.488805Z",
+        "updated-at": "2022-02-01T09:33:09.488805Z",
+        "deleted-at": null
+    },
+    {
+        "id": 346,
+        "name": "JavaScript",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.530678Z",
+        "updated-at": "2022-02-01T09:33:09.530678Z",
+        "deleted-at": null
+    },
+    {
+        "id": 348,
+        "name": "JetPack",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.62419Z",
+        "updated-at": "2022-02-01T09:33:09.62419Z",
+        "deleted-at": null
+    },
+    {
+        "id": 349,
+        "name": "Keras",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.666074Z",
+        "updated-at": "2022-02-01T09:33:09.666074Z",
+        "deleted-at": null
+    },
+    {
+        "id": 350,
+        "name": "Kotlin",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.707909Z",
+        "updated-at": "2022-02-01T09:33:09.707909Z",
+        "deleted-at": null
+    },
+    {
+        "id": 351,
+        "name": "LSTM",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.75475Z",
+        "updated-at": "2022-02-01T09:33:09.75475Z",
+        "deleted-at": null
+    },
+    {
+        "id": 352,
+        "name": "Layout Design",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.798904Z",
+        "updated-at": "2022-02-01T09:33:09.798904Z",
+        "deleted-at": null
+    },
+    {
+        "id": 353,
+        "name": "Lazy Propagation",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.843222Z",
+        "updated-at": "2022-02-01T09:33:09.843222Z",
+        "deleted-at": null
+    },
+    {
+        "id": 356,
+        "name": "Long Challenge",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:09.971373Z",
+        "updated-at": "2022-02-01T09:33:09.971373Z",
+        "deleted-at": null
+    },
+    {
+        "id": 359,
+        "name": "MLKit",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.109072Z",
+        "updated-at": "2022-02-01T09:33:10.109072Z",
+        "deleted-at": null
+    },
+    {
+        "id": 360,
+        "name": "Machine Intelligence",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.155974Z",
+        "updated-at": "2022-02-01T09:33:10.155974Z",
+        "deleted-at": null
+    },
+    {
+        "id": 361,
+        "name": "Markov Chains",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.19767Z",
+        "updated-at": "2022-02-01T09:33:10.19767Z",
+        "deleted-at": null
+    },
+    {
+        "id": 362,
+        "name": "Material Design",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.242043Z",
+        "updated-at": "2022-02-01T09:33:10.242043Z",
+        "deleted-at": null
+    },
+    {
+        "id": 363,
+        "name": "Maths Problems",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.286274Z",
+        "updated-at": "2022-02-01T09:33:10.286274Z",
+        "deleted-at": null
+    },
+    {
+        "id": 364,
+        "name": "Matplotlib",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.328193Z",
+        "updated-at": "2022-02-01T09:33:10.328193Z",
+        "deleted-at": null
+    },
+    {
+        "id": 367,
+        "name": "Mini",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.458785Z",
+        "updated-at": "2022-02-01T09:33:10.458785Z",
+        "deleted-at": null
+    },
+    {
+        "id": 368,
+        "name": "Mini Course",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.502979Z",
+        "updated-at": "2022-02-01T09:33:10.502979Z",
+        "deleted-at": null
+    },
+    {
+        "id": 369,
+        "name": "MobileNets",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.547353Z",
+        "updated-at": "2022-02-01T09:33:10.547353Z",
+        "deleted-at": null
+    },
+    {
+        "id": 370,
+        "name": "MongoDB",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.591557Z",
+        "updated-at": "2022-02-01T09:33:10.591557Z",
+        "deleted-at": null
+    },
+    {
+        "id": 371,
+        "name": "Multidimensional DP",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.633454Z",
+        "updated-at": "2022-02-01T09:33:10.633454Z",
+        "deleted-at": null
+    },
+    {
+        "id": 372,
+        "name": "Multiprocessing",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.680206Z",
+        "updated-at": "2022-02-01T09:33:10.680206Z",
+        "deleted-at": null
+    },
+    {
+        "id": 373,
+        "name": "Multiset",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.722132Z",
+        "updated-at": "2022-02-01T09:33:10.722132Z",
+        "deleted-at": null
+    },
+    {
+        "id": 374,
+        "name": "Multithreading",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.763982Z",
+        "updated-at": "2022-02-01T09:33:10.763982Z",
+        "deleted-at": null
+    },
+    {
+        "id": 375,
+        "name": "Music Generation",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.81087Z",
+        "updated-at": "2022-02-01T09:33:10.81087Z",
+        "deleted-at": null
+    },
+    {
+        "id": 376,
+        "name": "MySQL",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.855042Z",
+        "updated-at": "2022-02-01T09:33:10.855042Z",
+        "deleted-at": null
+    },
+    {
+        "id": 377,
+        "name": "NIM Game",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.901697Z",
+        "updated-at": "2022-02-01T09:33:10.901697Z",
+        "deleted-at": null
+    },
+    {
+        "id": 378,
+        "name": "NLTK",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.946133Z",
+        "updated-at": "2022-02-01T09:33:10.946133Z",
+        "deleted-at": null
+    },
+    {
+        "id": 379,
+        "name": "Naive Bayes",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:10.988029Z",
+        "updated-at": "2022-02-01T09:33:10.988029Z",
+        "deleted-at": null
+    },
+    {
+        "id": 380,
+        "name": "Natural language processing",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.029636Z",
+        "updated-at": "2022-02-01T09:33:11.029636Z",
+        "deleted-at": null
+    },
+    {
+        "id": 382,
+        "name": "Netflix Interview Questions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.116024Z",
+        "updated-at": "2022-02-01T09:33:11.116024Z",
+        "deleted-at": null
+    },
+    {
+        "id": 383,
+        "name": "Neural Nets",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.165717Z",
+        "updated-at": "2022-02-01T09:33:11.165717Z",
+        "deleted-at": null
+    },
+    {
+        "id": 384,
+        "name": "Neural Networks",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.209416Z",
+        "updated-at": "2022-02-01T09:33:11.209416Z",
+        "deleted-at": null
+    },
+    {
+        "id": 385,
+        "name": "NodeJS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.253747Z",
+        "updated-at": "2022-02-01T09:47:24.289083Z",
+        "deleted-at": null
+    },
+    {
+        "id": 387,
+        "name": "NumPy",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.339919Z",
+        "updated-at": "2022-02-01T09:33:11.339919Z",
+        "deleted-at": null
+    },
+    {
+        "id": 389,
+        "name": "OOPS",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.430982Z",
+        "updated-at": "2022-02-01T09:33:11.430982Z",
+        "deleted-at": null
+    },
+    {
+        "id": 391,
+        "name": "OpenCV",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.526955Z",
+        "updated-at": "2022-02-01T09:33:11.526955Z",
+        "deleted-at": null
+    },
+    {
+        "id": 392,
+        "name": "Operating System",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.573692Z",
+        "updated-at": "2022-02-01T09:33:11.573692Z",
+        "deleted-at": null
+    },
+    {
+        "id": 393,
+        "name": "Pairs",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.617998Z",
+        "updated-at": "2022-02-01T09:33:11.617998Z",
+        "deleted-at": null
+    },
+    {
+        "id": 394,
+        "name": "Pandas",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.65993Z",
+        "updated-at": "2022-02-01T09:33:11.65993Z",
+        "deleted-at": null
+    },
+    {
+        "id": 395,
+        "name": "Parallel Programming",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.70668Z",
+        "updated-at": "2022-02-01T09:33:11.70668Z",
+        "deleted-at": null
+    },
+    {
+        "id": 396,
+        "name": "Pattern Matching",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.753413Z",
+        "updated-at": "2022-02-01T09:33:11.753413Z",
+        "deleted-at": null
+    },
+    {
+        "id": 397,
+        "name": "Patterns",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.795276Z",
+        "updated-at": "2022-02-01T09:33:11.795276Z",
+        "deleted-at": null
+    },
+    {
+        "id": 398,
+        "name": "Pigeonhole",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.83708Z",
+        "updated-at": "2022-02-01T09:33:11.83708Z",
+        "deleted-at": null
+    },
+    {
+        "id": 399,
+        "name": "Pokemon Classifier",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.878959Z",
+        "updated-at": "2022-02-01T09:33:11.878959Z",
+        "deleted-at": null
+    },
+    {
+        "id": 400,
+        "name": "Polymorphism",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.928202Z",
+        "updated-at": "2022-02-01T09:33:11.928202Z",
+        "deleted-at": null
+    },
+    {
+        "id": 401,
+        "name": "Popular",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:11.97996Z",
+        "updated-at": "2022-02-01T09:33:11.97996Z",
+        "deleted-at": null
+    },
+    {
+        "id": 402,
+        "name": "Priority Queue",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.026683Z",
+        "updated-at": "2022-02-01T09:33:12.026683Z",
+        "deleted-at": null
+    },
+    {
+        "id": 403,
+        "name": "Priority Queue STL",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.068569Z",
+        "updated-at": "2022-02-01T09:33:12.068569Z",
+        "deleted-at": null
+    },
+    {
+        "id": 405,
+        "name": "Problem Solving",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.194163Z",
+        "updated-at": "2022-02-01T09:33:12.194163Z",
+        "deleted-at": null
+    },
+    {
+        "id": 406,
+        "name": "Process Management",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.243371Z",
+        "updated-at": "2022-02-01T09:33:12.243371Z",
+        "deleted-at": null
+    },
+    {
+        "id": 407,
+        "name": "Product Companies Interview Questions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.290091Z",
+        "updated-at": "2022-02-01T09:33:12.290091Z",
+        "deleted-at": null
+    },
+    {
+        "id": 408,
+        "name": "Programming Basics",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.336879Z",
+        "updated-at": "2022-02-01T09:33:12.336879Z",
+        "deleted-at": null
+    },
+    {
+        "id": 409,
+        "name": "Projects",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.381143Z",
+        "updated-at": "2022-02-01T09:33:12.381143Z",
+        "deleted-at": null
+    },
+    {
+        "id": 410,
+        "name": "Pull request",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.428001Z",
+        "updated-at": "2022-02-01T09:33:12.428001Z",
+        "deleted-at": null
+    },
+    {
+        "id": 411,
+        "name": "Push Notifications",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.472201Z",
+        "updated-at": "2022-02-01T09:33:12.472201Z",
+        "deleted-at": null
+    },
+    {
+        "id": 412,
+        "name": "PyTorch",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.521435Z",
+        "updated-at": "2022-02-01T09:33:12.521435Z",
+        "deleted-at": null
+    },
+    {
+        "id": 413,
+        "name": "Python",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.565701Z",
+        "updated-at": "2022-02-01T09:33:12.565701Z",
+        "deleted-at": null
+    },
+    {
+        "id": 414,
+        "name": "Python Basics",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.60768Z",
+        "updated-at": "2022-02-01T09:33:12.60768Z",
+        "deleted-at": null
+    },
+    {
+        "id": 416,
+        "name": "RNN",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.701043Z",
+        "updated-at": "2022-02-01T09:33:12.701043Z",
+        "deleted-at": null
+    },
+    {
+        "id": 418,
+        "name": "Regression",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.789749Z",
+        "updated-at": "2022-02-01T09:33:12.789749Z",
+        "deleted-at": null
+    },
+    {
+        "id": 419,
+        "name": "Responsive Design",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.831672Z",
+        "updated-at": "2022-02-01T09:33:12.831672Z",
+        "deleted-at": null
+    },
+    {
+        "id": 420,
+        "name": "Rest APIs",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.876012Z",
+        "updated-at": "2022-02-01T09:33:12.876012Z",
+        "deleted-at": null
+    },
+    {
+        "id": 421,
+        "name": "SPOJ",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.917722Z",
+        "updated-at": "2022-02-01T09:33:12.917722Z",
+        "deleted-at": null
+    },
+    {
+        "id": 422,
+        "name": "SQL",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:12.959609Z",
+        "updated-at": "2022-02-01T09:33:12.959609Z",
+        "deleted-at": null
+    },
+    {
+        "id": 423,
+        "name": "STL",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.001409Z",
+        "updated-at": "2022-02-01T09:33:13.001409Z",
+        "deleted-at": null
+    },
+    {
+        "id": 424,
+        "name": "SVM",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.043359Z",
+        "updated-at": "2022-02-01T09:33:13.043359Z",
+        "deleted-at": null
+    },
+    {
+        "id": 425,
+        "name": "Scrapy",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.085107Z",
+        "updated-at": "2022-02-01T09:33:13.085107Z",
+        "deleted-at": null
+    },
+    {
+        "id": 426,
+        "name": "Seaborn",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.127061Z",
+        "updated-at": "2022-02-01T09:33:13.127061Z",
+        "deleted-at": null
+    },
+    {
+        "id": 428,
+        "name": "Segment Trees",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.216742Z",
+        "updated-at": "2022-02-01T09:33:13.216742Z",
+        "deleted-at": null
+    },
+    {
+        "id": 429,
+        "name": "Sentiment Analysis",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.262385Z",
+        "updated-at": "2022-02-01T09:33:13.262385Z",
+        "deleted-at": null
+    },
+    {
+        "id": 430,
+        "name": "Server Programming",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.304273Z",
+        "updated-at": "2022-02-01T09:33:13.304273Z",
+        "deleted-at": null
+    },
+    {
+        "id": 431,
+        "name": "Set",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.350995Z",
+        "updated-at": "2022-02-01T09:33:13.350995Z",
+        "deleted-at": null
+    },
+    {
+        "id": 432,
+        "name": "Short Contests",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.397749Z",
+        "updated-at": "2022-02-01T09:33:13.397749Z",
+        "deleted-at": null
+    },
+    {
+        "id": 433,
+        "name": "Shortest Paths",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.444582Z",
+        "updated-at": "2022-02-01T09:33:13.444582Z",
+        "deleted-at": null
+    },
+    {
+        "id": 434,
+        "name": "Socket.IO",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.48888Z",
+        "updated-at": "2022-02-01T09:33:13.48888Z",
+        "deleted-at": null
+    },
+    {
+        "id": 437,
+        "name": "Staging",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.624241Z",
+        "updated-at": "2022-02-01T09:33:13.624241Z",
+        "deleted-at": null
+    },
+    {
+        "id": 438,
+        "name": "Standard Template Library",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.668645Z",
+        "updated-at": "2022-02-01T09:33:13.668645Z",
+        "deleted-at": null
+    },
+    {
+        "id": 439,
+        "name": "Static",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.712858Z",
+        "updated-at": "2022-02-01T09:33:13.712858Z",
+        "deleted-at": null
+    },
+    {
+        "id": 441,
+        "name": "System Design",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.799016Z",
+        "updated-at": "2022-02-01T09:33:13.799016Z",
+        "deleted-at": null
+    },
+    {
+        "id": 442,
+        "name": "Templates",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.845788Z",
+        "updated-at": "2022-02-01T09:33:13.845788Z",
+        "deleted-at": null
+    },
+    {
+        "id": 443,
+        "name": "Tensorflow",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:13.897446Z",
+        "updated-at": "2022-02-01T09:33:13.897446Z",
+        "deleted-at": null
+    },
+    {
+        "id": 446,
+        "name": "Tries and Sets",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:14.032995Z",
+        "updated-at": "2022-02-01T09:33:14.032995Z",
+        "deleted-at": null
+    },
+    {
+        "id": 447,
+        "name": "Vectors",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:14.074778Z",
+        "updated-at": "2022-02-01T09:33:14.074778Z",
+        "deleted-at": null
+    },
+    {
+        "id": 448,
+        "name": "Web API",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:14.118963Z",
+        "updated-at": "2022-02-01T09:33:14.118963Z",
+        "deleted-at": null
+    },
+    {
+        "id": 449,
+        "name": "Web Apps",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:14.165862Z",
+        "updated-at": "2022-02-01T09:33:14.165862Z",
+        "deleted-at": null
+    },
+    {
+        "id": 450,
+        "name": "Web Automation",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:14.210155Z",
+        "updated-at": "2022-02-01T09:33:14.210155Z",
+        "deleted-at": null
+    },
+    {
+        "id": 451,
+        "name": "Web Scraping",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:14.254402Z",
+        "updated-at": "2022-02-01T09:33:14.254402Z",
+        "deleted-at": null
+    },
+    {
+        "id": 452,
+        "name": "Web Scrapping",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:14.296312Z",
+        "updated-at": "2022-02-01T09:33:14.296312Z",
+        "deleted-at": null
+    },
+    {
+        "id": 453,
+        "name": "Web Technologies",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:14.338119Z",
+        "updated-at": "2022-02-01T09:33:14.338119Z",
+        "deleted-at": null
+    },
+    {
+        "id": 454,
+        "name": "Apple Interview Questions",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:14.38491Z",
+        "updated-at": "2022-02-07T11:53:55.532223Z",
+        "deleted-at": null
+    },
+    {
+        "id": 455,
+        "name": "Java",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-01T09:33:14.426781Z",
+        "updated-at": "2022-02-02T14:26:13.995744Z",
+        "deleted-at": null
+    },
+    {
+        "id": 456,
+        "name": "",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": false,
+        "created-at": "2022-02-03T16:23:53.713254Z",
+        "updated-at": "2022-02-03T16:24:23.740141Z",
+        "deleted-at": null
+    },
+    {
+        "id": 460,
+        "name": "DATA ANALYST",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-02-04T15:27:38.063918Z",
+        "updated-at": "2022-02-04T15:27:38.063918Z",
+        "deleted-at": null
+    },
+    {
+        "id": 462,
+        "name": "Software Developer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:34:26.027453Z",
+        "updated-at": "2022-10-23T09:34:26.027453Z",
+        "deleted-at": null
+    },
+    {
+        "id": 463,
+        "name": "SDE-1",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:34:38.1151Z",
+        "updated-at": "2022-10-23T09:34:38.1151Z",
+        "deleted-at": null
+    },
+    {
+        "id": 464,
+        "name": "SDE-2",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:34:49.635434Z",
+        "updated-at": "2022-10-23T09:34:49.635434Z",
+        "deleted-at": null
+    },
+    {
+        "id": 465,
+        "name": "Full Stack Developer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:35:00.852218Z",
+        "updated-at": "2022-10-23T09:35:00.852218Z",
+        "deleted-at": null
+    },
+    {
+        "id": 466,
+        "name": "Frontend Engineer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:35:39.376572Z",
+        "updated-at": "2022-10-23T09:35:39.376572Z",
+        "deleted-at": null
+    },
+    {
+        "id": 467,
+        "name": "Backend Engineer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:35:46.572203Z",
+        "updated-at": "2022-10-23T09:35:46.572203Z",
+        "deleted-at": null
+    },
+    {
+        "id": 468,
+        "name": "Android Developer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:36:09.885102Z",
+        "updated-at": "2022-10-23T09:36:09.885102Z",
+        "deleted-at": null
+    },
+    {
+        "id": 469,
+        "name": "IOS Developer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:36:39.806922Z",
+        "updated-at": "2022-10-23T09:36:39.806922Z",
+        "deleted-at": null
+    },
+    {
+        "id": 470,
+        "name": "UI / UX Design",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:36:54.74741Z",
+        "updated-at": "2022-10-23T09:36:54.74741Z",
+        "deleted-at": null
+    },
+    {
+        "id": 471,
+        "name": "Sr. Software Developer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:37:04.339464Z",
+        "updated-at": "2022-10-23T09:37:04.339464Z",
+        "deleted-at": null
+    },
+    {
+        "id": 472,
+        "name": "Sr. Software Engineer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:37:16.191834Z",
+        "updated-at": "2022-10-23T09:37:16.191834Z",
+        "deleted-at": null
+    },
+    {
+        "id": 473,
+        "name": "Dev Ops Engineer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:37:52.13242Z",
+        "updated-at": "2022-10-23T09:37:52.13242Z",
+        "deleted-at": null
+    },
+    {
+        "id": 474,
+        "name": "IOS Developer\t",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-10-23T09:38:09.950258Z",
+        "updated-at": "2022-10-23T09:38:09.950258Z",
+        "deleted-at": null
+    },
+    {
+        "id": 475,
+        "name": "TIKTOK",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/e3765b8d-5a13-4fe4-ac23-29f82a323ae2download3.png",
+        "isActive": true,
+        "created-at": "2022-11-22T08:25:12.43357Z",
+        "updated-at": "2022-12-23T11:13:08.629998Z",
+        "deleted-at": null
+    },
+    {
+        "id": 476,
+        "name": "CHARACTER-ARRAY",
+        "Domains": "{topic}",
+        "domains": [
+            "topic"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-11-22T08:25:59.507322Z",
+        "updated-at": "2022-11-22T08:25:59.507322Z",
+        "deleted-at": null
+    },
+    {
+        "id": 477,
+        "name": "VMWARE",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/83a908aa-6e38-440a-9e98-f53fe84f26e5download2.png",
+        "isActive": true,
+        "created-at": "2022-11-22T08:26:46.833036Z",
+        "updated-at": "2022-12-23T11:12:37.39338Z",
+        "deleted-at": null
+    },
+    {
+        "id": 478,
+        "name": "Dummy tag",
+        "Domains": "{topic,tobedeleted}",
+        "domains": [
+            "topic",
+            "tobedeleted"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2022-11-22T08:30:45.271656Z",
+        "updated-at": "2022-11-22T08:30:45.271656Z",
+        "deleted-at": null
+    },
+    {
+        "id": 479,
+        "name": "ACTIVISION",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/ee610e83-a637-4f51-92bb-4d4914e45b95Act21logo200x50.png",
+        "isActive": true,
+        "created-at": "2022-11-22T09:10:37.194393Z",
+        "updated-at": "2023-03-31T14:49:23.181694Z",
+        "deleted-at": null
+    },
+    {
+        "id": 480,
+        "name": "Saurabh",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "",
+        "isActive": false,
+        "created-at": "2022-12-23T08:28:37.018193Z",
+        "updated-at": "2023-03-18T17:34:30.710077Z",
+        "deleted-at": null
+    },
+    {
+        "id": 481,
+        "name": "Act21",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/c21b75a7-fa40-427b-baaf-9b9001053df7Act21logo200x50.png",
+        "isActive": true,
+        "created-at": "2023-03-31T14:44:47.055929Z",
+        "updated-at": "2023-03-31T14:50:04.89891Z",
+        "deleted-at": null
+    },
+    {
+        "id": 482,
+        "name": "LOWE'S",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/4fa90368-a1e1-4b28-a1df-08b792b53f61LowesLogo.png",
+        "isActive": true,
+        "created-at": "2023-03-31T14:53:44.995819Z",
+        "updated-at": "2023-07-27T13:05:28.172023Z",
+        "deleted-at": null
+    },
+    {
+        "id": 483,
+        "name": "Associate Software Engineer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2023-03-31T14:56:24.121068Z",
+        "updated-at": "2023-03-31T14:56:24.121068Z",
+        "deleted-at": null
+    },
+    {
+        "id": 484,
+        "name": "BEACONSTAC",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/18599b4d-c0ae-4d04-9099-ae91fccfb636beaconstaclogowhitetm.png",
+        "isActive": true,
+        "created-at": "2023-03-31T15:00:20.176766Z",
+        "updated-at": "2023-03-31T15:02:50.999016Z",
+        "deleted-at": null
+    },
+    {
+        "id": 485,
+        "name": "Engineering Intern",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2023-03-31T15:05:47.350557Z",
+        "updated-at": "2023-03-31T15:05:47.350557Z",
+        "deleted-at": null
+    },
+    {
+        "id": 486,
+        "name": "Intern",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2023-03-31T15:06:49.982243Z",
+        "updated-at": "2023-03-31T15:06:49.982243Z",
+        "deleted-at": null
+    },
+    {
+        "id": 487,
+        "name": "AUXILIOBITS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/85e57e77-9649-44a5-8e44-f206ce8c5044auxilobits.png",
+        "isActive": true,
+        "created-at": "2023-03-31T15:08:58.251689Z",
+        "updated-at": "2023-03-31T15:09:13.618584Z",
+        "deleted-at": null
+    },
+    {
+        "id": 488,
+        "name": "RPA Developer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2023-03-31T15:10:46.351828Z",
+        "updated-at": "2023-03-31T15:10:46.351828Z",
+        "deleted-at": null
+    },
+    {
+        "id": 489,
+        "name": "ADEPTIA",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/2c5b91dd-6a81-4fb1-8b92-df88dbe13111adeptiavectorlogo.png",
+        "isActive": true,
+        "created-at": "2023-03-31T15:12:49.0595Z",
+        "updated-at": "2023-03-31T15:45:40.763232Z",
+        "deleted-at": null
+    },
+    {
+        "id": 490,
+        "name": "Software Engineer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2023-03-31T15:16:17.492372Z",
+        "updated-at": "2023-03-31T15:16:17.492372Z",
+        "deleted-at": null
+    },
+    {
+        "id": 491,
+        "name": "SAP ABAP Developer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2023-03-31T15:17:47.116564Z",
+        "updated-at": "2023-03-31T15:17:47.116564Z",
+        "deleted-at": null
+    },
+    {
+        "id": 492,
+        "name": "PRIMATHON",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/20a10407-35ff-465f-9453-33756b3a0ed4prima.png",
+        "isActive": true,
+        "created-at": "2023-03-31T15:20:25.659734Z",
+        "updated-at": "2023-03-31T15:47:00.924822Z",
+        "deleted-at": null
+    },
+    {
+        "id": 493,
+        "name": "HASHEDIN",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/5c521dce-6050-48fe-ba0d-989407440098hashedinlogo.png",
+        "isActive": true,
+        "created-at": "2023-03-31T15:26:42.296413Z",
+        "updated-at": "2023-03-31T15:26:58.637692Z",
+        "deleted-at": null
+    },
+    {
+        "id": 494,
+        "name": "Product Intern",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2023-03-31T15:30:58.478654Z",
+        "updated-at": "2023-03-31T15:30:58.478654Z",
+        "deleted-at": null
+    },
+    {
+        "id": 495,
+        "name": "SPRINKLER",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/e24b7dcc-9e8b-4a3e-b02d-2dbedaea54b4sprinkler.png",
+        "isActive": true,
+        "created-at": "2023-03-31T15:35:18.270645Z",
+        "updated-at": "2023-03-31T15:35:41.745934Z",
+        "deleted-at": null
+    },
+    {
+        "id": 496,
+        "name": "Product Engineer",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2023-03-31T15:37:18.982717Z",
+        "updated-at": "2023-03-31T15:37:18.982717Z",
+        "deleted-at": null
+    },
+    {
+        "id": 497,
+        "name": "PAYU",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/530471e7-f2a3-4113-859a-ab34c4c15fa3payu.png",
+        "isActive": true,
+        "created-at": "2023-03-31T15:39:46.267698Z",
+        "updated-at": "2023-03-31T15:40:04.268484Z",
+        "deleted-at": null
+    },
+    {
+        "id": 498,
+        "name": "TATA INSIGHTS AND QUANTS",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/59428c50-7f8f-472b-af2d-04d0b30389fctataiq.png",
+        "isActive": true,
+        "created-at": "2023-04-06T11:29:10.356203Z",
+        "updated-at": "2023-04-06T11:29:53.911224Z",
+        "deleted-at": null
+    },
+    {
+        "id": 499,
+        "name": "ACS",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2023-04-06T12:36:17.619492Z",
+        "updated-at": "2023-04-06T12:36:17.619492Z",
+        "deleted-at": null
+    },
+    {
+        "id": 500,
+        "name": "MASTERCARD",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/8743f67d-632a-4491-be5f-3d8d2d485fe7mastercardnew.png",
+        "isActive": true,
+        "created-at": "2023-04-06T12:37:32.409352Z",
+        "updated-at": "2023-07-27T13:05:43.877968Z",
+        "deleted-at": null
+    },
+    {
+        "id": 501,
+        "name": "MYANATOMY",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/8a0e04b5-7adb-4a05-ae6c-a655b064eefamyanatomynew.png",
+        "isActive": true,
+        "created-at": "2023-04-06T12:42:40.280571Z",
+        "updated-at": "2023-04-06T12:44:30.283893Z",
+        "deleted-at": null
+    },
+    {
+        "id": 502,
+        "name": "MEALFUL",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/cc9dda38-86f0-495f-b5db-95934611adcbmealful.png",
+        "isActive": true,
+        "created-at": "2023-04-06T12:51:13.005948Z",
+        "updated-at": "2023-04-06T12:51:29.090936Z",
+        "deleted-at": null
+    },
+    {
+        "id": 503,
+        "name": "Software Development Intern",
+        "Domains": "{job_role}",
+        "domains": [
+            "job_role"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2023-04-06T12:53:03.302399Z",
+        "updated-at": "2023-04-06T12:53:03.302399Z",
+        "deleted-at": null
+    },
+    {
+        "id": 504,
+        "name": "Capgemini",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/0bd252c9-d8a6-4fc3-b41e-01ffe08e909bCapgeminiLogo.png",
+        "isActive": true,
+        "created-at": "2023-12-27T09:13:27.296974Z",
+        "updated-at": "2024-03-23T06:58:01.737302Z",
+        "deleted-at": null
+    },
+    {
+        "id": 506,
+        "name": "Youtube",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/39280e39-6836-4e9f-940b-6cc8e8445f02YT.jpg",
+        "isActive": true,
+        "created-at": "2024-01-07T11:50:08.371603Z",
+        "updated-at": "2024-02-06T08:49:11.148156Z",
+        "deleted-at": null
+    },
+    {
+        "id": 507,
+        "name": "Internshala",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/bd3049ad-5378-426d-8219-da8a9f536528internshala.png",
+        "isActive": true,
+        "created-at": "2024-01-17T09:34:50.224524Z",
+        "updated-at": "2024-02-06T08:47:13.367374Z",
+        "deleted-at": null
+    },
+    {
+        "id": 508,
+        "name": "Cars24",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/52517ca0-4a23-4734-bd55-4f80f595e7f9Cars24logo.png",
+        "isActive": true,
+        "created-at": "2024-01-18T09:25:00.807899Z",
+        "updated-at": "2024-02-01T10:02:49.860144Z",
+        "deleted-at": null
+    },
+    {
+        "id": 512,
+        "name": "Cuemath",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/65dd5d77-52fa-42b5-925a-02b8a5862e1eCuemathFeaturedImage.webp",
+        "isActive": true,
+        "created-at": "2024-03-15T12:04:00.695007Z",
+        "updated-at": "2024-04-03T11:36:34.327411Z",
+        "deleted-at": null
+    },
+    {
+        "id": 513,
+        "name": "HSBC",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/9d91a015-0a33-42ed-a17d-56efd66b170aimages1.png",
+        "isActive": true,
+        "created-at": "2024-03-15T12:11:02.51897Z",
+        "updated-at": "2024-04-03T11:35:47.193203Z",
+        "deleted-at": null
+    },
+    {
+        "id": 515,
+        "name": "Lenskart",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/1c9e8e78-f54d-4569-b688-1220614ad1b1images.png",
+        "isActive": true,
+        "created-at": "2024-03-15T12:27:34.076115Z",
+        "updated-at": "2024-04-03T11:33:50.15153Z",
+        "deleted-at": null
+    },
+    {
+        "id": 516,
+        "name": "Paxcom",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/edeaf4e4-c882-4f13-a6cc-4aad4c298aeaPaxcomNewLogoedt.png",
+        "isActive": true,
+        "created-at": "2024-03-15T12:30:03.535215Z",
+        "updated-at": "2024-04-03T11:34:54.413933Z",
+        "deleted-at": null
+    },
+    {
+        "id": 517,
+        "name": "Urban Company",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/4719ed8a-80ec-446b-88df-43ca2a160116ddd8f4461e91b0978aac1cb07d886289.jpg",
+        "isActive": true,
+        "created-at": "2024-03-15T12:34:27.018421Z",
+        "updated-at": "2024-04-03T11:32:40.464083Z",
+        "deleted-at": null
+    },
+    {
+        "id": 518,
+        "name": "Park+",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/c75c4279-9aff-4da2-8906-14dce41f3430images2.png",
+        "isActive": true,
+        "created-at": "2024-03-15T12:41:31.326701Z",
+        "updated-at": "2024-04-03T11:38:16.422076Z",
+        "deleted-at": null
+    },
+    {
+        "id": 519,
+        "name": "Palo Alto",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/694ff7df-6404-4858-a13a-9039db470f17Parentlogo.webp",
+        "isActive": true,
+        "created-at": "2024-03-15T12:43:55.180238Z",
+        "updated-at": "2024-04-03T11:39:15.076858Z",
+        "deleted-at": null
+    },
+    {
+        "id": 520,
+        "name": "EPAM Systems",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/ee36197d-91ef-4bc0-86ff-ed899588a381logo1.png",
+        "isActive": true,
+        "created-at": "2024-04-03T11:25:18.04537Z",
+        "updated-at": "2024-04-03T11:31:52.005911Z",
+        "deleted-at": null
+    },
+    {
+        "id": 521,
+        "name": "ION",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/27f3684f-f5b2-4e90-8a4c-a39dacb77edbidxYXU3GZy.png",
+        "isActive": true,
+        "created-at": "2024-04-03T11:40:32.686435Z",
+        "updated-at": "2024-04-03T11:47:55.583854Z",
+        "deleted-at": null
+    },
+    {
+        "id": 522,
+        "name": "Truminds",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/faebf046-abdd-4a46-ab1a-d2d8b0d57635Logo2.png",
+        "isActive": true,
+        "created-at": "2024-04-03T11:53:06.386241Z",
+        "updated-at": "2024-04-03T11:53:36.406321Z",
+        "deleted-at": null
+    },
+    {
+        "id": 523,
+        "name": "Nine Leaps Technologies",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/8b6881d5-b581-48f3-a787-6cf1aac02c8cdownload2.jfif",
+        "isActive": true,
+        "created-at": "2024-04-10T12:11:52.867289Z",
+        "updated-at": "2024-04-10T12:34:03.982086Z",
+        "deleted-at": null
+    },
+    {
+        "id": 525,
+        "name": "Cloudera",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/dee06261-b474-4371-ad9e-1e5c33713acfclouderacard.webp",
+        "isActive": true,
+        "created-at": "2024-04-10T12:17:50.149459Z",
+        "updated-at": "2024-04-10T12:18:51.339967Z",
+        "deleted-at": null
+    },
+    {
+        "id": 526,
+        "name": "McAfee",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/9ca93ebb-73a9-4623-bc2b-bc222293b8bfimages3.png",
+        "isActive": true,
+        "created-at": "2024-04-10T12:26:45.870813Z",
+        "updated-at": "2024-04-10T12:28:40.693577Z",
+        "deleted-at": null
+    },
+    {
+        "id": 527,
+        "name": "Siemens",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/f2a68317-fd32-4874-b24e-c6d55d563a90Siemenslogo.png",
+        "isActive": true,
+        "created-at": "2024-04-12T12:07:04.218373Z",
+        "updated-at": "2024-04-12T12:07:39.346525Z",
+        "deleted-at": null
+    },
+    {
+        "id": 528,
+        "name": "Citi Bank",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/02ab4a80-1bcf-4c86-bfbc-63b01ce22519CitibankLogo.png",
+        "isActive": true,
+        "created-at": "2024-04-30T11:56:31.886084Z",
+        "updated-at": "2024-04-30T11:57:04.715981Z",
+        "deleted-at": null
+    },
+    {
+        "id": 529,
+        "name": "Hyper Verge",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/bdb4c63c-301e-4289-8dd8-1ccd5a7b5876hyperverge.webp",
+        "isActive": true,
+        "created-at": "2024-04-30T12:04:57.503312Z",
+        "updated-at": "2024-04-30T12:05:22.976933Z",
+        "deleted-at": null
+    },
+    {
+        "id": 530,
+        "name": "PhonePe",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/d5f599b8-ff51-481d-b6d9-bbcd3008d0a5download.png",
+        "isActive": true,
+        "created-at": "2024-05-01T07:14:51.35463Z",
+        "updated-at": "2024-05-01T07:15:42.727071Z",
+        "deleted-at": null
+    },
+    {
+        "id": 531,
+        "name": "Airtel",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/6ce93b65-4cdd-4fb2-9c01-fa2c89209666Airtellogo.png",
+        "isActive": true,
+        "created-at": "2024-05-01T12:07:32.693946Z",
+        "updated-at": "2024-05-01T12:08:02.538349Z",
+        "deleted-at": null
+    },
+    {
+        "id": 532,
+        "name": "Zop Smart",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/074d0eba-b930-442e-8aaf-6ce6af88e42chmemq22gbx3llksiufey.webp",
+        "isActive": true,
+        "created-at": "2024-05-02T12:38:18.266602Z",
+        "updated-at": "2024-05-02T12:38:41.260862Z",
+        "deleted-at": null
+    },
+    {
+        "id": 533,
+        "name": "Buy Hatke",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/2a8c8e99-28ff-4c17-9eaf-582749ec6aaedownload1.png",
+        "isActive": true,
+        "created-at": "2024-05-02T12:52:31.339091Z",
+        "updated-at": "2024-05-02T12:52:57.15478Z",
+        "deleted-at": null
+    },
+    {
+        "id": 534,
+        "name": "Shipsy",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/35547e27-9697-4ad9-891b-8527478a7ac8ShipsyLogo.jpg",
+        "isActive": true,
+        "created-at": "2024-05-03T11:36:29.585119Z",
+        "updated-at": "2024-05-03T11:43:51.492367Z",
+        "deleted-at": null
+    },
+    {
+        "id": 535,
+        "name": "Amdocs",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/b05b1aa1-af4d-4ce7-86b1-779d447d2f752560pxAmdocs2017brandmark.svg.png",
+        "isActive": true,
+        "created-at": "2024-05-03T11:44:23.194718Z",
+        "updated-at": "2024-05-03T11:44:47.033701Z",
+        "deleted-at": null
+    },
+    {
+        "id": 536,
+        "name": "Auzmor",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/af3c793d-fd8d-47f5-adb3-567c4f231f73images4.png",
+        "isActive": true,
+        "created-at": "2024-05-06T11:55:48.239529Z",
+        "updated-at": "2024-05-07T07:54:07.589167Z",
+        "deleted-at": null
+    },
+    {
+        "id": 537,
+        "name": "Traveloka",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/6c6416ef-25a5-4158-a57c-6ba3acf84b2ctraveloka9507.jpg",
+        "isActive": true,
+        "created-at": "2024-05-07T07:55:08.713821Z",
+        "updated-at": "2024-05-07T07:55:40.396091Z",
+        "deleted-at": null
+    },
+    {
+        "id": 538,
+        "name": "Jivox",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/fa51e46c-4626-4e2d-9724-0f5a7a537488jivox.png",
+        "isActive": true,
+        "created-at": "2024-05-08T11:45:12.592242Z",
+        "updated-at": "2024-05-08T11:46:08.433238Z",
+        "deleted-at": null
+    },
+    {
+        "id": 540,
+        "name": "Gojek",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/c39dafb0-19fc-4154-8def-90b6ce55a8c7Gojeklogo2022.svg.png",
+        "isActive": true,
+        "created-at": "2024-05-11T10:59:40.723311Z",
+        "updated-at": "2024-05-11T11:00:43.925622Z",
+        "deleted-at": null
+    },
+    {
+        "id": 541,
+        "name": "Amadeus",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/a7900bb1-3ce9-46c7-9bf0-0ff6adbfe747AmadeusLogo.png",
+        "isActive": true,
+        "created-at": "2024-05-15T12:38:38.187957Z",
+        "updated-at": "2024-05-15T12:40:25.693922Z",
+        "deleted-at": null
+    },
+    {
+        "id": 543,
+        "name": "Jungleworks",
+        "Domains": "{company}",
+        "domains": [
+            "company"
+        ],
+        "logo": "https://minio.codingblocks.com/taggether/0c18dbc9-ed17-4d84-abc7-b59088a10151OGJungleworks.png",
+        "isActive": true,
+        "created-at": "2024-05-15T12:47:19.812474Z",
+        "updated-at": "2024-05-15T12:57:49.286907Z",
+        "deleted-at": null
+    },
+    {
+        "id": 544,
+        "name": "classroom",
+        "Domains": "{course_mode_type}",
+        "domains": [
+            "course_mode_type"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2024-05-24T04:30:09.17557Z",
+        "updated-at": "2024-05-24T04:30:09.17557Z",
+        "deleted-at": null
+    },
+    {
+        "id": 545,
+        "name": "live",
+        "Domains": "{course_mode_type}",
+        "domains": [
+            "course_mode_type"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2024-05-24T04:30:21.507166Z",
+        "updated-at": "2024-05-24T04:30:21.507166Z",
+        "deleted-at": null
+    },
+    {
+        "id": 547,
+        "name": "advanced",
+        "Domains": "{course_domain}",
+        "domains": [
+            "course_domain"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2024-05-24T04:38:04.112472Z",
+        "updated-at": "2024-05-24T04:38:04.112472Z",
+        "deleted-at": null
+    },
+    {
+        "id": 548,
+        "name": "Machine Learning",
+        "Domains": "{course_domain}",
+        "domains": [
+            "course_domain"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2024-05-24T04:39:06.976615Z",
+        "updated-at": "2024-06-16T09:12:08.314207Z",
+        "deleted-at": null
+    },
+    {
+        "id": 549,
+        "name": "Interview Prep",
+        "Domains": "{course_domain}",
+        "domains": [
+            "course_domain"
+        ],
+        "logo": "",
+        "isActive": true,
+        "created-at": "2024-05-24T04:39:22.912233Z",
+        "updated-at": "2024-05-24T04:39:22.912233Z",
+        "deleted-at": null
+    }
+]
