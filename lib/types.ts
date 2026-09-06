@@ -15,6 +15,21 @@ export type IndexedContest = {
   status: number | null;
   contentCount: number;
   contents: IndexedContent[];
+  description?: string;
+  kind?: string;
+  topics?: string[];
+  course?: string | null;
+  batch?: string | null;
+  instructor?: string | null;
+  institution?: string | null;
+  year?: number | null;
+  difficultyProfile?: string;
+  languages?: string[];
+  tags?: string[];
+  confidence?: number;
+  sourceQuality?: string;
+  model?: string;
+  generatedAt?: string;
 };
 
 export type IndexData = {

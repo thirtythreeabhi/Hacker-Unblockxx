@@ -1,5 +1,6 @@
 import type { IndexedContest, IndexedContent } from "../lib/types";
 import QuestionTable from "./QuestionTable";
+import type { ProblemProgress } from "../lib/progress";
 
 function statusLabel(status: number | null) {
   return status === 200 ? "HTTP 200" : status === 403 ? "HTTP 403" : `HTTP ${status ?? "—"}`;
@@ -10,11 +11,13 @@ export default function ContestCard({
   open,
   onToggle,
   onOpenQuestion,
+  progress,
 }: {
   contest: IndexedContest;
   open: boolean;
   onToggle: () => void;
   onOpenQuestion: (content: IndexedContent) => void;
+  progress: Map<string, ProblemProgress>;
 }) {
   const statusClass = contest.status === 200 ? "status-ok" : contest.status === 403 ? "status-denied" : "status-other";
 
@@ -35,7 +38,7 @@ export default function ContestCard({
           ) : contest.contents.length === 0 ? (
             <div className="empty-state">No questions were returned for this contest.</div>
           ) : (
-            <QuestionTable contents={contest.contents} onOpen={onOpenQuestion} />
+            <QuestionTable contents={contest.contents} onOpen={onOpenQuestion} progress={progress} />
           )}
         </div>
       )}

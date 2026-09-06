@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 
 const CONTESTS_FILE = "data/contests.json";
 const CONTENTS_FILE = "data/contest-contents.jsonl";
+const ENRICHMENT_FILE = "data/contest-enrichment.jsonl";
 const OUTPUT_FILE = "public/data/index.json";
 
 function asId(value) {
@@ -99,6 +100,35 @@ for (const [contestId, record] of recordsByContest) {
 const indexedContests = [...contestMap.values()].sort(
   (a, b) => Number(b.contestId) - Number(a.contestId),
 );
+
+const enrichmentByContest = new Map();
+try {
+  const enrichmentText = await fs.readFile(ENRICHMENT_FILE, "utf8");
+  for (const line of enrichmentText.split(/\r?\n/)) {
+    if (!line.trim()) continue;
+    try {
+      const record = JSON.parse(line);
+      const contestId = asId(record?.contestId);
+      if (contestId) enrichmentByContest.set(contestId, record);
+    } catch {
+      // A partial final enrichment line should not prevent the index build.
+    }
+  }
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
+
+const enrichmentFields = [
+  "description", "kind", "topics", "course", "batch", "instructor", "institution", "year",
+  "difficultyProfile", "languages", "tags", "confidence", "sourceQuality", "model", "generatedAt",
+];
+for (const contest of indexedContests) {
+  const enrichment = enrichmentByContest.get(contest.contestId);
+  if (!enrichment) continue;
+  for (const field of enrichmentFields) {
+    if (Object.hasOwn(enrichment, field)) contest[field] = enrichment[field];
+  }
+}
 const successful = indexedContests.filter((contest) => contest.status === 200);
 const denied = indexedContests.filter((contest) => contest.status === 403);
 const allContents = successful.flatMap((contest) => contest.contents);
@@ -124,5 +154,6 @@ await fs.writeFile(OUTPUT_FILE, JSON.stringify(index), "utf8");
 
 console.log(
   `Built ${OUTPUT_FILE}: ${index.stats.contests} contests, ` +
-    `${index.stats.memberships} memberships, ${malformedLines} ignored malformed lines`,
+    `${index.stats.memberships} memberships, ${enrichmentByContest.size} enrichments, ` +
+    `${malformedLines} ignored malformed lines`,
 );

@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import type { IndexedContent, Question } from "../lib/types";
+import { useProgress } from "../lib/progress";
 import DifficultyBadge from "./DifficultyBadge";
 
 function TextSection({ title, value }: { title: string; value: string | null }) {
@@ -34,11 +36,19 @@ export default function QuestionDrawer({
   content: IndexedContent;
   onClose: () => void;
 }) {
+  const router = useRouter();
+  const { user, getProgress, toggleBookmark, toggleCompleted, saveNotes } = useProgress();
   const [question, setQuestion] = useState<Question | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [selectedLanguage, setSelectedLanguage] = useState("");
   const [copied, setCopied] = useState(false);
+  const [notes, setNotes] = useState("");
+  const [savingProgress, setSavingProgress] = useState(false);
+  const [progressError, setProgressError] = useState<string | null>(null);
+
+  const progressProblemId = question?.problemId ?? content.problemId;
+  const itemProgress = getProgress(progressProblemId, content.contentId);
 
   useEffect(() => {
     let active = true;
@@ -46,6 +56,8 @@ export default function QuestionDrawer({
     setError(null);
     setLoading(true);
     setCopied(false);
+    setNotes("");
+    setProgressError(null);
 
     fetch(`/api/question?contestId=${encodeURIComponent(contestId)}&contentId=${encodeURIComponent(content.contentId)}`)
       .then(async (response) => {
@@ -70,6 +82,10 @@ export default function QuestionDrawer({
   }, [contestId, content.contentId]);
 
   useEffect(() => {
+    setNotes(itemProgress?.notes ?? "");
+  }, [itemProgress?.notes, progressProblemId, content.contentId]);
+
+  useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") onClose();
     };
@@ -89,6 +105,43 @@ export default function QuestionDrawer({
       window.setTimeout(() => setCopied(false), 1800);
     } catch {
       setCopied(false);
+    }
+  }
+
+  function requireLogin() {
+    router.push(`/login?next=${encodeURIComponent(window.location.pathname + window.location.search)}`);
+  }
+
+  async function changeProgress(action: "bookmark" | "complete") {
+    if (!user) {
+      requireLogin();
+      return;
+    }
+    setSavingProgress(true);
+    setProgressError(null);
+    try {
+      if (action === "bookmark") await toggleBookmark(progressProblemId, content.contentId);
+      else await toggleCompleted(progressProblemId, content.contentId);
+    } catch (actionError: unknown) {
+      setProgressError(actionError instanceof Error ? actionError.message : "Progress could not be saved.");
+    } finally {
+      setSavingProgress(false);
+    }
+  }
+
+  async function saveNote() {
+    if (!user) {
+      requireLogin();
+      return;
+    }
+    setSavingProgress(true);
+    setProgressError(null);
+    try {
+      await saveNotes(progressProblemId, content.contentId, notes);
+    } catch (actionError: unknown) {
+      setProgressError(actionError instanceof Error ? actionError.message : "Note could not be saved.");
+    } finally {
+      setSavingProgress(false);
     }
   }
 
@@ -130,10 +183,15 @@ export default function QuestionDrawer({
                 <span>Content <b>#{question.contentId}</b></span>
               </div>
               <div className="drawer-actions">
+                <button className={`secondary-button progress-action ${itemProgress?.bookmarked ? "is-active" : ""}`} onClick={() => void changeProgress("bookmark")} disabled={savingProgress}>{itemProgress?.bookmarked ? "★ Bookmarked" : "☆ Bookmark"}</button>
+                <button className={`secondary-button progress-action ${itemProgress?.completed ? "is-active" : ""}`} onClick={() => void changeProgress("complete")} disabled={savingProgress}>{itemProgress?.completed ? "✓ Completed" : "○ Mark completed"}</button>
                 <button className="secondary-button" onClick={copyLink}>{copied ? "Link copied" : "Copy link"}</button>
                 <a className="secondary-button" href={`https://hack.codingblocks.com/app/contests/${contestId}`} target="_blank" rel="noreferrer">Original contest ↗</a>
               </div>
             </div>
+
+            {progressError && <p className="progress-error" role="alert">{progressError}</p>}
+            {user && <section className="question-section notes-section"><h3>Private note</h3><textarea value={notes} onChange={(event) => setNotes(event.target.value)} placeholder="Add a note for this problem…" rows={4} /><button className="secondary-button" onClick={() => void saveNote()} disabled={savingProgress}>Save note</button></section>}
 
             <TextSection title="Description" value={question.description} />
             <TextSection title="Constraints" value={question.constraints} />
