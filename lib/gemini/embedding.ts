@@ -28,8 +28,11 @@ export async function embedQuery(query: string) {
 
   let lastError: Error | null = null;
   const maxRetries = Math.max(2, Number.parseInt(process.env.GEMINI_EMBEDDING_MAX_RETRIES ?? "3", 10) || 3);
+  const disabledKeys = new Set<number>();
   for (let attempt = 0; attempt < maxRetries; attempt += 1) {
-    const key = keys[attempt % keys.length];
+    const keyIndex = attempt % keys.length;
+    if (disabledKeys.has(keyIndex)) continue;
+    const key = keys[keyIndex];
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), Math.max(5000, Number.parseInt(process.env.GEMINI_EMBEDDING_TIMEOUT_MS ?? "30000", 10) || 30000));
     try {
@@ -53,8 +56,12 @@ export async function embedQuery(query: string) {
       return values;
     } catch (error) {
       lastError = error instanceof Error ? error : new Error("Embedding request failed.");
+      const status = (error as { status?: number })?.status;
+      const credentialFailure = status === 401 || status === 403;
+      if (credentialFailure) disabledKeys.add(keyIndex);
       const retryable = (error as { transient?: boolean })?.transient || (error as { name?: string })?.name === "AbortError" || /network|fetch/i.test(lastError.message);
-      if (!retryable || attempt >= maxRetries - 1) break;
+      if ((!retryable && !credentialFailure) || attempt >= maxRetries - 1) break;
+      if (credentialFailure) continue;
       await new Promise((resolve) => setTimeout(resolve, Math.min(30000, 750 * 2 ** attempt)));
     } finally {
       clearTimeout(timeout);

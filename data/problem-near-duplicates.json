@@ -1,10 +1,2314 @@
 [
   {
     "label": "potential near-duplicates",
-    "problemIdA": "48",
-    "problemIdB": "47",
-    "similarity": 0.974868,
-    "nameA": "Manmohan Loves Patterns- II",
-    "nameB": "Manmohan Loves Patterns - I"
+    "problemIdA": "219",
+    "problemIdB": "220",
+    "similarity": 0.993023,
+    "nameA": "Arrays-Spiral Print Anticlockwise",
+    "nameB": "Arrays-Spiral Print Clockwise"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "317",
+    "problemIdB": "1287",
+    "similarity": 0.993003,
+    "nameA": "K-reverse",
+    "nameB": "K-reverse"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4978",
+    "problemIdB": "4966",
+    "similarity": 0.990837,
+    "nameA": "Distance of All Nodes in Binary Tree",
+    "nameB": "All Node Distance K in Binary Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4650",
+    "problemIdB": "4671",
+    "similarity": 0.990787,
+    "nameA": "Wet Cloth I",
+    "nameB": "Wet cloth II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "428",
+    "problemIdB": "434",
+    "similarity": 0.990169,
+    "nameA": "Optimal Game Strategy-I",
+    "nameB": "Optimal Game Strategy-II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2684",
+    "problemIdB": "4003",
+    "similarity": 0.989522,
+    "nameA": "Longest_Common_Subsequence",
+    "nameB": "Longest Common Subsequence(LCS)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "216",
+    "problemIdB": "218",
+    "similarity": 0.988643,
+    "nameA": "Arrays-Wave Print Row Wise",
+    "nameB": "Arrays-Wave print Column Wise"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3713",
+    "problemIdB": "4876",
+    "similarity": 0.988197,
+    "nameA": "Flatten the Binary tree to linked list",
+    "nameB": "Binary Tree to LL"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "69",
+    "problemIdB": "98",
+    "similarity": 0.98724,
+    "nameA": "Solve questions",
+    "nameB": "Solving Assignment Questions"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1157",
+    "problemIdB": "1158",
+    "similarity": 0.987187,
+    "nameA": "Game Theory - 2",
+    "nameB": "Game Theory - 3"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "82",
+    "problemIdB": "83",
+    "similarity": 0.9862,
+    "nameA": "R3 - Pattern 2",
+    "nameB": "R4 -- Pattern"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2650",
+    "problemIdB": "3413",
+    "similarity": 0.985848,
+    "nameA": "Move zeroes to the end",
+    "nameB": "Move all zero to the end"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2648",
+    "problemIdB": "2850",
+    "similarity": 0.984964,
+    "nameA": "Container With Most Water",
+    "nameB": "Container Containing Most Water"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2438",
+    "problemIdB": "2439",
+    "similarity": 0.984911,
+    "nameA": "Moving Average from Data Stream",
+    "nameB": "Moving Average from Data Stream"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4055",
+    "problemIdB": "3247",
+    "similarity": 0.98382,
+    "nameA": "Flipped Up",
+    "nameB": "Flip Off"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2948",
+    "problemIdB": "2943",
+    "similarity": 0.983187,
+    "nameA": "Word Distance - II",
+    "nameB": "Word Distance - I"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3012",
+    "problemIdB": "3579",
+    "similarity": 0.983081,
+    "nameA": "Binary Tree Maximum Path Sum",
+    "nameB": "Binary Tree Maximum Path Sum - Python"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1383",
+    "problemIdB": "3416",
+    "similarity": 0.982563,
+    "nameA": "Sort linked list using merge sort",
+    "nameB": "merge sort for linked list"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "953",
+    "problemIdB": "954",
+    "similarity": 0.982324,
+    "nameA": "Tree top view",
+    "nameB": "Tree bottom view"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4317",
+    "problemIdB": "4983",
+    "similarity": 0.981742,
+    "nameA": "Remove Duplicates",
+    "nameB": "Perform Removal Operation on Sorted List"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4000",
+    "problemIdB": "4236",
+    "similarity": 0.981721,
+    "nameA": "House Robber",
+    "nameB": "House Robber II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2395",
+    "problemIdB": "2997",
+    "similarity": 0.981542,
+    "nameA": "Rotated Array",
+    "nameB": "Minimum in Rotated Sorted Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2468",
+    "problemIdB": "3630",
+    "similarity": 0.981431,
+    "nameA": "Length of Longest Substring Without Repeating Characters",
+    "nameB": "Length of  longest substring without repeating characters"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "513",
+    "problemIdB": "2463",
+    "similarity": 0.981418,
+    "nameA": "Subset_problem ( Recursion )",
+    "nameB": "SUBSET PROBLEM"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2662",
+    "problemIdB": "3531",
+    "similarity": 0.981244,
+    "nameA": "Sorting In linear time",
+    "nameB": "Sorting In linear time - Python"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2676",
+    "problemIdB": "3413",
+    "similarity": 0.980831,
+    "nameA": "Move zeroes",
+    "nameB": "Move all zero to the end"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4838",
+    "problemIdB": "3260",
+    "similarity": 0.9808,
+    "nameA": "Are Strings Equal?",
+    "nameB": "Backspace String Compare"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4305",
+    "problemIdB": "4930",
+    "similarity": 0.980736,
+    "nameA": "Day at the Beach",
+    "nameB": "Coding Blocks and Beach Party"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "468",
+    "problemIdB": "1383",
+    "similarity": 0.980623,
+    "nameA": "Sort linked list using merge sort",
+    "nameB": "Sort linked list using merge sort"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3435",
+    "problemIdB": "5035",
+    "similarity": 0.980604,
+    "nameA": "Maximum Depth of Binary Tree",
+    "nameB": "Pranav and Trees"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3420",
+    "problemIdB": "4937",
+    "similarity": 0.980578,
+    "nameA": "Next Greater Element II",
+    "nameB": "Next Greater element -II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "365",
+    "problemIdB": "84",
+    "similarity": 0.980393,
+    "nameA": "Recursion-Nth Triangle",
+    "nameB": "Nth Triangle Recursion"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "343",
+    "problemIdB": "342",
+    "similarity": 0.980371,
+    "nameA": "Count , Remove , Replace hi Part - 2",
+    "nameB": "Count , Remove and Replace hi"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2443",
+    "problemIdB": "2865",
+    "similarity": 0.98032,
+    "nameA": "Shortest Subarray with Sum Atleast K",
+    "nameB": "Shortest Subarray with Sum not less than k"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "5736",
+    "problemIdB": "5737",
+    "similarity": 0.980312,
+    "nameA": "Recursion - Print 1 to N",
+    "nameB": "Recursion-Print N to 1"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2441",
+    "problemIdB": "2442",
+    "similarity": 0.979959,
+    "nameA": "Circular Queue",
+    "nameB": "Circular Deque"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "298",
+    "problemIdB": "261",
+    "similarity": 0.979792,
+    "nameA": "Linked List- Reverse a Linked List( Iterative , Pointer)",
+    "nameB": "Linked List - Reverse a linked list (iterative, data)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2909",
+    "problemIdB": "3584",
+    "similarity": 0.97975,
+    "nameA": "BST to Dll",
+    "nameB": "BST to Dll - Python"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4084",
+    "problemIdB": "4148",
+    "similarity": 0.979456,
+    "nameA": "Target Mayank",
+    "nameB": "Adarsh With his Friends"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "481",
+    "problemIdB": "4885",
+    "similarity": 0.979138,
+    "nameA": "Level Order ( Zigzag , Binary Tree)",
+    "nameB": "Traversal of Binary Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2676",
+    "problemIdB": "2650",
+    "similarity": 0.978954,
+    "nameA": "Move zeroes",
+    "nameB": "Move zeroes to the end"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4025",
+    "problemIdB": "4099",
+    "similarity": 0.97879,
+    "nameA": "Good Team",
+    "nameB": "Balanced Team"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4933",
+    "problemIdB": "3617",
+    "similarity": 0.978642,
+    "nameA": "String multiplication",
+    "nameB": "Multiply Strings"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "321",
+    "problemIdB": "322",
+    "similarity": 0.978566,
+    "nameA": "Recursion-Pattern_1 (Triangle)",
+    "nameB": "Recursion-Pattern_2 (Inverted Triangle)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2506",
+    "problemIdB": "4250",
+    "similarity": 0.977579,
+    "nameA": "Binary Watch",
+    "nameB": "Watch the Clock"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4798",
+    "problemIdB": "4159",
+    "similarity": 0.977565,
+    "nameA": "string reversal",
+    "nameB": "Reverse String"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4138",
+    "problemIdB": "4283",
+    "similarity": 0.977562,
+    "nameA": "Maximum Contiguous Sum of Subarray",
+    "nameB": "Maximum Subarray Sum"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3379",
+    "problemIdB": "4872",
+    "similarity": 0.977187,
+    "nameA": "Remove outermost parentheses.",
+    "nameB": "Parentheses Game"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3379",
+    "problemIdB": "4940",
+    "similarity": 0.976811,
+    "nameA": "Remove outermost parentheses.",
+    "nameB": "Remove outermost parentheses"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "506",
+    "problemIdB": "4882",
+    "similarity": 0.976198,
+    "nameA": "Lowest Common Ancestor (Binary Tree )",
+    "nameB": "Coding Test on Binary Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3719",
+    "problemIdB": "4874",
+    "similarity": 0.976175,
+    "nameA": "Remove All Adjacent Duplicates In String",
+    "nameB": "Duplicates in String"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3374",
+    "problemIdB": "3750",
+    "similarity": 0.976143,
+    "nameA": "Reverse first k elements",
+    "nameB": "Reverse elements in Queue"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "381",
+    "problemIdB": "379",
+    "similarity": 0.976093,
+    "nameA": "Mazepath_D(Count,  Print)",
+    "nameB": "Maze_path( Count,  Print)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2526",
+    "problemIdB": "2648",
+    "similarity": 0.976054,
+    "nameA": "Water Container Problem",
+    "nameB": "Container With Most Water"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3471",
+    "problemIdB": "5037",
+    "similarity": 0.976023,
+    "nameA": "Determine whether a binary tree is  subtree of another binary tree",
+    "nameB": "Subtree of Another Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2489",
+    "problemIdB": "4080",
+    "similarity": 0.975911,
+    "nameA": "Subsets",
+    "nameB": "Subsets"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "543",
+    "problemIdB": "549",
+    "similarity": 0.975294,
+    "nameA": "Bubble Sort ( Recursive , Linked List)",
+    "nameB": "Bubble Sort ( Iterative , Linked List)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2842",
+    "problemIdB": "3539",
+    "similarity": 0.975038,
+    "nameA": "Diagonal Traversal",
+    "nameB": "Diagonal Traversal - Python"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1289",
+    "problemIdB": "1268",
+    "similarity": 0.974931,
+    "nameA": "Maximum length Bitonic Subarray",
+    "nameB": "Maximum Length Bitonic Subsequence"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "173",
+    "problemIdB": "172",
+    "similarity": 0.974922,
+    "nameA": "Pattern Rhombus",
+    "nameB": "Pattern Triangle"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3373",
+    "problemIdB": "4871",
+    "similarity": 0.974901,
+    "nameA": "Validate Stack sequence",
+    "nameB": "Prove its a Stack!!!"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2648",
+    "problemIdB": "5010",
+    "similarity": 0.974765,
+    "nameA": "Container With Most Water",
+    "nameB": "Solve and Win"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "548",
+    "problemIdB": "544",
+    "similarity": 0.974183,
+    "nameA": "Selection Sort ( Iterative , Linked List)",
+    "nameB": "Selection Sort ( Recursive , Linked List)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4505",
+    "problemIdB": "4506",
+    "similarity": 0.974049,
+    "nameA": "Do you know Table?! 1",
+    "nameB": "Do you know Table?! 2"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4316",
+    "problemIdB": "4893",
+    "similarity": 0.973673,
+    "nameA": "Kartik bhaiya with odd Even Linked List",
+    "nameB": "Odd Even List"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3452",
+    "problemIdB": "3453",
+    "similarity": 0.973032,
+    "nameA": "Bottom View of a Binary Tree",
+    "nameB": "Top View of a Binary Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3636",
+    "problemIdB": "4884",
+    "similarity": 0.97249,
+    "nameA": "Determine whether a given binary tree is a BST or not",
+    "nameB": "Validate Binary Search Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4558",
+    "problemIdB": "4930",
+    "similarity": 0.972405,
+    "nameA": "Monu bhaiya and Derangements",
+    "nameB": "Coding Blocks and Beach Party"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3862",
+    "problemIdB": "2483",
+    "similarity": 0.972376,
+    "nameA": "Search rotated sorted array",
+    "nameB": "Rotated Search"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "172",
+    "problemIdB": "174",
+    "similarity": 0.972289,
+    "nameA": "Pattern Triangle",
+    "nameB": "Pattern Mountain"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "297",
+    "problemIdB": "298",
+    "similarity": 0.97216,
+    "nameA": "Linked List - Reverse a Linked List (Recursive, Pointer)",
+    "nameB": "Linked List- Reverse a Linked List( Iterative , Pointer)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1300",
+    "problemIdB": "2428",
+    "similarity": 0.971774,
+    "nameA": "Rain Water Trapping",
+    "nameB": "Rain Water Trapping 2"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2898",
+    "problemIdB": "5442",
+    "similarity": 0.971669,
+    "nameA": "Maximum Rectangle of 1's",
+    "nameB": "Largest Rectangle Area"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "516",
+    "problemIdB": "2650",
+    "similarity": 0.971469,
+    "nameA": "Push zeroes to end",
+    "nameB": "Move zeroes to the end"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4806",
+    "problemIdB": "2744",
+    "similarity": 0.97129,
+    "nameA": "Make Smallest Number Possible",
+    "nameB": "Remove K Digits"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2535",
+    "problemIdB": "3019",
+    "similarity": 0.971207,
+    "nameA": "Max Absolute value",
+    "nameB": "Maximise Expression"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4984",
+    "problemIdB": "467",
+    "similarity": 0.970712,
+    "nameA": "Sort Linked List",
+    "nameB": "Sort linked list using insertion sort"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2191",
+    "problemIdB": "2274",
+    "similarity": 0.970657,
+    "nameA": "Cubic Subsets",
+    "nameB": "Vibhu And Varun"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "950",
+    "problemIdB": "3013",
+    "similarity": 0.970376,
+    "nameA": "Tree Right View",
+    "nameB": "Right Side View"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "488",
+    "problemIdB": "5041",
+    "similarity": 0.970324,
+    "nameA": "Lowest Common Ancestor ( BST )",
+    "nameB": "Lowest Common Ancestor of a Binary Search Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4273",
+    "problemIdB": "4575",
+    "similarity": 0.970257,
+    "nameA": "Trapping Rain Water",
+    "nameB": "Save Rain Water"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2807",
+    "problemIdB": "2789",
+    "similarity": 0.970118,
+    "nameA": "Spirals - II",
+    "nameB": "Spirals"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "512",
+    "problemIdB": "3559",
+    "similarity": 0.969913,
+    "nameA": "Rain Water Harvesting [Easy]",
+    "nameB": "Rain Water Harvesting - Python"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4767",
+    "problemIdB": "4867",
+    "similarity": 0.969736,
+    "nameA": "Subarrays with K different Integers",
+    "nameB": "K-Distinct subarrays"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2526",
+    "problemIdB": "2850",
+    "similarity": 0.969586,
+    "nameA": "Water Container Problem",
+    "nameB": "Container Containing Most Water"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "516",
+    "problemIdB": "3413",
+    "similarity": 0.9695,
+    "nameA": "Push zeroes to end",
+    "nameB": "Move all zero to the end"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3066",
+    "problemIdB": "4502",
+    "similarity": 0.969201,
+    "nameA": "Anmol and Good Subarray",
+    "nameB": "Zero Zero Sum"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "294",
+    "problemIdB": "4289",
+    "similarity": 0.969167,
+    "nameA": "Reverse a Linked List",
+    "nameB": "Reverse Linked List"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "49",
+    "problemIdB": "54",
+    "similarity": 0.969144,
+    "nameA": "Pattern Magic",
+    "nameB": "Hollow Rhombus Pattern"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3698",
+    "problemIdB": "4295",
+    "similarity": 0.968859,
+    "nameA": "Sum of two numbers using Linked List",
+    "nameB": "Add Two Numbers Represented by Linked Lists"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "399",
+    "problemIdB": "909",
+    "similarity": 0.968766,
+    "nameA": "COUNT N-QUEEN",
+    "nameB": "N-Queen Hard"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "242",
+    "problemIdB": "337",
+    "similarity": 0.968603,
+    "nameA": "Strings-Remove Duplicates",
+    "nameB": "Remove Duplicates characters"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4072",
+    "problemIdB": "4621",
+    "similarity": 0.968596,
+    "nameA": "Journey Towards Numberville",
+    "nameB": "Distance Problem"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "462",
+    "problemIdB": "458",
+    "similarity": 0.968497,
+    "nameA": "Unique Number - I",
+    "nameB": "Unique Number - III"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4932",
+    "problemIdB": "4806",
+    "similarity": 0.968379,
+    "nameA": "The Number K",
+    "nameB": "Make Smallest Number Possible"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "951",
+    "problemIdB": "3451",
+    "similarity": 0.968284,
+    "nameA": "Tree Left View",
+    "nameB": "Left View of a Binary Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2497",
+    "problemIdB": "4956",
+    "similarity": 0.968184,
+    "nameA": "Bitwise AND of a Range",
+    "nameB": "Bitwise AND Range Game"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4658",
+    "problemIdB": "4372",
+    "similarity": 0.968039,
+    "nameA": "Search The Word on the Board",
+    "nameB": "Find the Word"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4556",
+    "problemIdB": "4972",
+    "similarity": 0.96797,
+    "nameA": "Elon Musk And Anagrams",
+    "nameB": "All Anagrams in a String"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4150",
+    "problemIdB": "3989",
+    "similarity": 0.967955,
+    "nameA": "Robot Path II",
+    "nameB": "Count Unique Paths"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "402",
+    "problemIdB": "1385",
+    "similarity": 0.967944,
+    "nameA": "Check Duplicate Parenthesis",
+    "nameB": "Check  Duplicate Parenthesis"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2850",
+    "problemIdB": "5010",
+    "similarity": 0.967941,
+    "nameA": "Container Containing Most Water",
+    "nameB": "Solve and Win"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3626",
+    "problemIdB": "5226",
+    "similarity": 0.967708,
+    "nameA": "Repeated String Match",
+    "nameB": "String Match"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3124",
+    "problemIdB": "3136",
+    "similarity": 0.967691,
+    "nameA": "Star Pattern",
+    "nameB": "Downward Triangle Pattern"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "817",
+    "problemIdB": "818",
+    "similarity": 0.967446,
+    "nameA": "Magical String 2",
+    "nameB": "Magical String 3"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2621",
+    "problemIdB": "4764",
+    "similarity": 0.967187,
+    "nameA": "Partition Array into Disjoint Intervals",
+    "nameB": "Partition Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "548",
+    "problemIdB": "550",
+    "similarity": 0.967066,
+    "nameA": "Selection Sort ( Iterative , Linked List)",
+    "nameB": "Insertion Sort ( Iterative , Linked List)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "512",
+    "problemIdB": "4273",
+    "similarity": 0.966557,
+    "nameA": "Rain Water Harvesting [Easy]",
+    "nameB": "Trapping Rain Water"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2983",
+    "problemIdB": "4242",
+    "similarity": 0.966215,
+    "nameA": "New Superhero",
+    "nameB": "Adarsh's Palindromic Substring"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "545",
+    "problemIdB": "544",
+    "similarity": 0.9661,
+    "nameA": "Insertion Sort ( Recursive , Linked List)",
+    "nameB": "Selection Sort ( Recursive , Linked List)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2686",
+    "problemIdB": "5003",
+    "similarity": 0.965721,
+    "nameA": "Longest Valid Parentheses",
+    "nameB": "Monu bhaiya loves parenthesis"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3704",
+    "problemIdB": "4984",
+    "similarity": 0.965712,
+    "nameA": "Insetion sort on linked list",
+    "nameB": "Sort Linked List"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4232",
+    "problemIdB": "2653",
+    "similarity": 0.965339,
+    "nameA": "Stairs of heaven",
+    "nameB": "Climbing Stairs"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2136",
+    "problemIdB": "3327",
+    "similarity": 0.965224,
+    "nameA": "Trailing zeroes",
+    "nameB": "Factorial Trailing Zeroes"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "910",
+    "problemIdB": "3558",
+    "similarity": 0.96521,
+    "nameA": "Generate Parenthesis",
+    "nameB": "Generate Parentheses - Python"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3024",
+    "problemIdB": "4083",
+    "similarity": 0.965198,
+    "nameA": "Search the Longest AP",
+    "nameB": "Longest Arithmetic Subsequence"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2671",
+    "problemIdB": "4682",
+    "similarity": 0.965166,
+    "nameA": "Increasing Temperature",
+    "nameB": "Warmer Day"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "220",
+    "problemIdB": "218",
+    "similarity": 0.964725,
+    "nameA": "Arrays-Spiral Print Clockwise",
+    "nameB": "Arrays-Wave print Column Wise"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "173",
+    "problemIdB": "174",
+    "similarity": 0.964696,
+    "nameA": "Pattern Rhombus",
+    "nameB": "Pattern Mountain"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2658",
+    "problemIdB": "4176",
+    "similarity": 0.964473,
+    "nameA": "3 Sum Closest",
+    "nameB": "Three Sum Closest"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2533",
+    "problemIdB": "5499",
+    "similarity": 0.96416,
+    "nameA": "Max Xor",
+    "nameB": "Maximum Xor Pair"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3698",
+    "problemIdB": "3705",
+    "similarity": 0.963701,
+    "nameA": "Sum of two numbers using Linked List",
+    "nameB": "Add Two Numbers II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4291",
+    "problemIdB": "4317",
+    "similarity": 0.963502,
+    "nameA": "Remove Duplicates from Sorted List",
+    "nameB": "Remove Duplicates"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1398",
+    "problemIdB": "2435",
+    "similarity": 0.963383,
+    "nameA": "Evaluation of Postfix Expression",
+    "nameB": "Evaluate an Expression"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "219",
+    "problemIdB": "218",
+    "similarity": 0.963358,
+    "nameA": "Arrays-Spiral Print Anticlockwise",
+    "nameB": "Arrays-Wave print Column Wise"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2468",
+    "problemIdB": "1033",
+    "similarity": 0.963289,
+    "nameA": "Length of Longest Substring Without Repeating Characters",
+    "nameB": "Longest substring non-repeating characters"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2649",
+    "problemIdB": "4145",
+    "similarity": 0.963163,
+    "nameA": "Profit From Gold II",
+    "nameB": "Profit from Gold"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "451",
+    "problemIdB": "474",
+    "similarity": 0.962963,
+    "nameA": "Structurally identical( Generic tree)",
+    "nameB": "Structurally Identical (Binary Tree)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1034",
+    "problemIdB": "751",
+    "similarity": 0.962922,
+    "nameA": "Vipul and his love for strings",
+    "nameB": "String Subsequences"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3426",
+    "problemIdB": "5506",
+    "similarity": 0.962695,
+    "nameA": "Sort an array containing 0's, 1's, 2's.",
+    "nameB": "Sort an Array of 0's, 1's, and 2's"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "652",
+    "problemIdB": "676",
+    "similarity": 0.962574,
+    "nameA": "Arranging Boxes",
+    "nameB": "Arranging Boxes-II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2677",
+    "problemIdB": "4886",
+    "similarity": 0.962474,
+    "nameA": "Coding Challenge II",
+    "nameB": "Maximum Result in Binary Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "505",
+    "problemIdB": "3420",
+    "similarity": 0.962457,
+    "nameA": "Find the greater element",
+    "nameB": "Next Greater Element II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3135",
+    "problemIdB": "3159",
+    "similarity": 0.962087,
+    "nameA": "Square Pattern",
+    "nameB": "Square Pyramid Pattern"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "505",
+    "problemIdB": "4937",
+    "similarity": 0.962084,
+    "nameA": "Find the greater element",
+    "nameB": "Next Greater element -II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "315",
+    "problemIdB": "3702",
+    "similarity": 0.961498,
+    "nameA": "Even-After-Odd",
+    "nameB": "Even and Odd using linked list"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2687",
+    "problemIdB": "3662",
+    "similarity": 0.961192,
+    "nameA": "Count Palindromic Substrings",
+    "nameB": "Count Palindrome Sub-Strings"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2769",
+    "problemIdB": "2525",
+    "similarity": 0.960886,
+    "nameA": "Kth From the End",
+    "nameB": "Delete Nth node from end of the linked list"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4557",
+    "problemIdB": "4155",
+    "similarity": 0.96085,
+    "nameA": "Kartik Bhaiya wants to rotate a sorted array",
+    "nameB": "Find Minimum in Rotated Sorted Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "543",
+    "problemIdB": "545",
+    "similarity": 0.9607,
+    "nameA": "Bubble Sort ( Recursive , Linked List)",
+    "nameB": "Insertion Sort ( Recursive , Linked List)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2892",
+    "problemIdB": "4591",
+    "similarity": 0.960614,
+    "nameA": "Word Ladder",
+    "nameB": "Minimum Steps"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2987",
+    "problemIdB": "4051",
+    "similarity": 0.960494,
+    "nameA": "First & Last",
+    "nameB": "First and Last"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2856",
+    "problemIdB": "4803",
+    "similarity": 0.960485,
+    "nameA": "Sheldon Coopers Unique String",
+    "nameB": "Monu Bhaiya and Strings"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2524",
+    "problemIdB": "3183",
+    "similarity": 0.960262,
+    "nameA": "Pairwise Hamming Distance",
+    "nameB": "Sum of bit differences"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3258",
+    "problemIdB": "4161",
+    "similarity": 0.960228,
+    "nameA": "Reverse Vowels of a String",
+    "nameB": "Reverse Vowels"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3715",
+    "problemIdB": "2451",
+    "similarity": 0.960222,
+    "nameA": "LRU cache data structure",
+    "nameB": "LRU Cache"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2526",
+    "problemIdB": "5010",
+    "similarity": 0.960071,
+    "nameA": "Water Container Problem",
+    "nameB": "Solve and Win"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3757",
+    "problemIdB": "2752",
+    "similarity": 0.96,
+    "nameA": "Best time to buy/sell stock",
+    "nameB": "Buy and Sell Stock -II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "549",
+    "problemIdB": "550",
+    "similarity": 0.959977,
+    "nameA": "Bubble Sort ( Iterative , Linked List)",
+    "nameB": "Insertion Sort ( Iterative , Linked List)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "105",
+    "problemIdB": "515",
+    "similarity": 0.959944,
+    "nameA": "Sort just Zeroes and Ones",
+    "nameB": "Sort 0 and 1 ( Time Complexity)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3393",
+    "problemIdB": "4145",
+    "similarity": 0.959799,
+    "nameA": "Best Time to Buy And Sell Stocks-1",
+    "nameB": "Profit from Gold"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "177",
+    "problemIdB": "178",
+    "similarity": 0.959792,
+    "nameA": "Decimal To Octal",
+    "nameB": "Octal To Binary"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "910",
+    "problemIdB": "3773",
+    "similarity": 0.959712,
+    "nameA": "Generate Parenthesis",
+    "nameB": "Generate all Parentheses II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "53",
+    "problemIdB": "364",
+    "similarity": 0.959435,
+    "nameA": "Pascal Triangle 1",
+    "nameB": "Pascal's Triangle"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2997",
+    "problemIdB": "4863",
+    "similarity": 0.958992,
+    "nameA": "Minimum in Rotated Sorted Array",
+    "nameB": "Find minimum in rotated sorted array - II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "404",
+    "problemIdB": "330",
+    "similarity": 0.95897,
+    "nameA": "Stock Span",
+    "nameB": "Stock Span Problem"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "516",
+    "problemIdB": "2676",
+    "similarity": 0.958959,
+    "nameA": "Push zeroes to end",
+    "nameB": "Move zeroes"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "297",
+    "problemIdB": "261",
+    "similarity": 0.958849,
+    "nameA": "Linked List - Reverse a Linked List (Recursive, Pointer)",
+    "nameB": "Linked List - Reverse a linked list (iterative, data)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "382",
+    "problemIdB": "379",
+    "similarity": 0.958689,
+    "nameA": "Mazepath_D2(Count ,Print)",
+    "nameB": "Maze_path( Count,  Print)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3769",
+    "problemIdB": "3526",
+    "similarity": 0.958269,
+    "nameA": "Sudoku",
+    "nameB": "SUDOKU SOLVER - Python"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3552",
+    "problemIdB": "2752",
+    "similarity": 0.958194,
+    "nameA": "Best Time to Buy and Sell Stock II - Python",
+    "nameB": "Buy and Sell Stock -II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3704",
+    "problemIdB": "467",
+    "similarity": 0.957933,
+    "nameA": "Insetion sort on linked list",
+    "nameB": "Sort linked list using insertion sort"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "219",
+    "problemIdB": "216",
+    "similarity": 0.957915,
+    "nameA": "Arrays-Spiral Print Anticlockwise",
+    "nameB": "Arrays-Wave Print Row Wise"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "216",
+    "problemIdB": "220",
+    "similarity": 0.95775,
+    "nameA": "Arrays-Wave Print Row Wise",
+    "nameB": "Arrays-Spiral Print Clockwise"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2947",
+    "problemIdB": "886",
+    "similarity": 0.957532,
+    "nameA": "Merge K Sorted Lists",
+    "nameB": "Merge K sorted Arrays"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "391",
+    "problemIdB": "3769",
+    "similarity": 0.957333,
+    "nameA": "SUDOKU SOLVER",
+    "nameB": "Sudoku"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2997",
+    "problemIdB": "4155",
+    "similarity": 0.957327,
+    "nameA": "Minimum in Rotated Sorted Array",
+    "nameB": "Find Minimum in Rotated Sorted Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "570",
+    "problemIdB": "3772",
+    "similarity": 0.957285,
+    "nameA": "Rat Chases its cheese",
+    "nameB": "Rat and Maze"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "543",
+    "problemIdB": "544",
+    "similarity": 0.957261,
+    "nameA": "Bubble Sort ( Recursive , Linked List)",
+    "nameB": "Selection Sort ( Recursive , Linked List)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "302",
+    "problemIdB": "3697",
+    "similarity": 0.957247,
+    "nameA": "Merge Linked Lists",
+    "nameB": "Merge Sorted Lists(recursion,linked list)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2395",
+    "problemIdB": "4863",
+    "similarity": 0.957192,
+    "nameA": "Rotated Array",
+    "nameB": "Find minimum in rotated sorted array - II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4806",
+    "problemIdB": "5451",
+    "similarity": 0.957002,
+    "nameA": "Make Smallest Number Possible",
+    "nameB": "Monu Bhaiya Removes Digits"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2038",
+    "problemIdB": "4571",
+    "similarity": 0.956985,
+    "nameA": "Next Permutation",
+    "nameB": "Next Greater permutation"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3558",
+    "problemIdB": "3773",
+    "similarity": 0.956924,
+    "nameA": "Generate Parentheses - Python",
+    "nameB": "Generate all Parentheses II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2769",
+    "problemIdB": "4950",
+    "similarity": 0.956883,
+    "nameA": "Kth From the End",
+    "nameB": "Remove kth Node from End of LL"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2685",
+    "problemIdB": "5031",
+    "similarity": 0.956498,
+    "nameA": "Minimum Window Size Substring",
+    "nameB": "Drake and Substrings"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "117",
+    "problemIdB": "3697",
+    "similarity": 0.956244,
+    "nameA": "Merge Sorted Linked Lists",
+    "nameB": "Merge Sorted Lists(recursion,linked list)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4291",
+    "problemIdB": "4983",
+    "similarity": 0.956199,
+    "nameA": "Remove Duplicates from Sorted List",
+    "nameB": "Perform Removal Operation on Sorted List"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "545",
+    "problemIdB": "467",
+    "similarity": 0.956125,
+    "nameA": "Insertion Sort ( Recursive , Linked List)",
+    "nameB": "Sort linked list using insertion sort"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "549",
+    "problemIdB": "548",
+    "similarity": 0.955999,
+    "nameA": "Bubble Sort ( Iterative , Linked List)",
+    "nameB": "Selection Sort ( Iterative , Linked List)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1040",
+    "problemIdB": "1301",
+    "similarity": 0.955874,
+    "nameA": "Maximum Sum Subarray",
+    "nameB": "Maximum sum rectangle in a 2D matrix"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "5184",
+    "problemIdB": "5340",
+    "similarity": 0.955677,
+    "nameA": "Trip in a Bus",
+    "nameB": "Coding Block tour"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4652",
+    "problemIdB": "4820",
+    "similarity": 0.955549,
+    "nameA": "Staircase Using Coins",
+    "nameB": "Arrange Coins"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2395",
+    "problemIdB": "4557",
+    "similarity": 0.955178,
+    "nameA": "Rotated Array",
+    "nameB": "Kartik Bhaiya wants to rotate a sorted array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "206",
+    "problemIdB": "3384",
+    "similarity": 0.955119,
+    "nameA": "Arrays-Bubble Sort",
+    "nameB": "Bubble Sort"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "395",
+    "problemIdB": "468",
+    "similarity": 0.954881,
+    "nameA": "MERGESORT",
+    "nameB": "Sort linked list using merge sort"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1281",
+    "problemIdB": "1280",
+    "similarity": 0.954808,
+    "nameA": "Modified the BST Part - 2",
+    "nameB": "Print BST keys in the given range"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3187",
+    "problemIdB": "3462",
+    "similarity": 0.954499,
+    "nameA": "Sum of left subtree",
+    "nameB": "Convert a given tree to its Sum Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3414",
+    "problemIdB": "3426",
+    "similarity": 0.95423,
+    "nameA": "Sort binary array",
+    "nameB": "Sort an array containing 0's, 1's, 2's."
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4693",
+    "problemIdB": "4907",
+    "similarity": 0.954001,
+    "nameA": "Mrs. Krishna and her hotel",
+    "nameB": "Air Conditioner"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3630",
+    "problemIdB": "4568",
+    "similarity": 0.953896,
+    "nameA": "Length of  longest substring without repeating characters",
+    "nameB": "Longest Good Substring"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2842",
+    "problemIdB": "4597",
+    "similarity": 0.953832,
+    "nameA": "Diagonal Traversal",
+    "nameB": "Snake Loves Diagonal Move"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2945",
+    "problemIdB": "1606",
+    "similarity": 0.953584,
+    "nameA": "Modify BST With Sum of Greater Nodes",
+    "nameB": "Replace with Sum of greater nodes"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4051",
+    "problemIdB": "4573",
+    "similarity": 0.953143,
+    "nameA": "First and Last",
+    "nameB": "Find in Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "179",
+    "problemIdB": "106",
+    "similarity": 0.953029,
+    "nameA": "Conversion(Any To Any)",
+    "nameB": "Playing with number system"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4932",
+    "problemIdB": "5451",
+    "similarity": 0.952823,
+    "nameA": "The Number K",
+    "nameB": "Monu Bhaiya Removes Digits"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "87",
+    "problemIdB": "88",
+    "similarity": 0.952543,
+    "nameA": "Found At",
+    "nameB": "Found At Last"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3000",
+    "problemIdB": "4996",
+    "similarity": 0.952367,
+    "nameA": "Maximum Sized square of ones",
+    "nameB": "Maximal Square"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "439",
+    "problemIdB": "5504",
+    "similarity": 0.952254,
+    "nameA": "Rotate Image!",
+    "nameB": "Rotate Matrix"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3984",
+    "problemIdB": "5018",
+    "similarity": 0.952225,
+    "nameA": "Count Ways to reach N'th Stair",
+    "nameB": "Cheems Climbs Stairs"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3703",
+    "problemIdB": "4893",
+    "similarity": 0.951988,
+    "nameA": "Reorder List",
+    "nameB": "Odd Even List"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2400",
+    "problemIdB": "4573",
+    "similarity": 0.951444,
+    "nameA": "Range Search",
+    "nameB": "Find in Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1041",
+    "problemIdB": "4235",
+    "similarity": 0.951409,
+    "nameA": "Find maximum possible stolen value from houses",
+    "nameB": "House Robber"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2476",
+    "problemIdB": "5031",
+    "similarity": 0.951099,
+    "nameA": "Window String",
+    "nameB": "Drake and Substrings"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2395",
+    "problemIdB": "4155",
+    "similarity": 0.951025,
+    "nameA": "Rotated Array",
+    "nameB": "Find Minimum in Rotated Sorted Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2854",
+    "problemIdB": "4920",
+    "similarity": 0.95063,
+    "nameA": "Find Majority Elements - 2",
+    "nameB": "Majority Element II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3918",
+    "problemIdB": "5299",
+    "similarity": 0.950479,
+    "nameA": "First Unique Character in String",
+    "nameB": "Unique Character"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "5752",
+    "problemIdB": "88",
+    "similarity": 0.95039,
+    "nameA": "Recursion-Last Occurrence in Array",
+    "nameB": "Found At Last"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3000",
+    "problemIdB": "4277",
+    "similarity": 0.950366,
+    "nameA": "Maximum Sized square of ones",
+    "nameB": "Largest Rectangular Island"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4556",
+    "problemIdB": "4697",
+    "similarity": 0.950182,
+    "nameA": "Elon Musk And Anagrams",
+    "nameB": "Monu Bhaiya going to Shimla"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4917",
+    "problemIdB": "4807",
+    "similarity": 0.949883,
+    "nameA": "132 Pattern",
+    "nameB": "Pattern in an Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2171",
+    "problemIdB": "3750",
+    "similarity": 0.94965,
+    "nameA": "Reverse K elements of Queue",
+    "nameB": "Reverse elements in Queue"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "5030",
+    "problemIdB": "2624",
+    "similarity": 0.94928,
+    "nameA": "Is Anagram?",
+    "nameB": "Valid Anagram"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "207",
+    "problemIdB": "3383",
+    "similarity": 0.949237,
+    "nameA": "Arrays-Selection Sort",
+    "nameB": "Selection sort"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "172",
+    "problemIdB": "163",
+    "similarity": 0.949223,
+    "nameA": "Pattern Triangle",
+    "nameB": "Pattern with Zeros"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "5250",
+    "problemIdB": "3530",
+    "similarity": 0.949197,
+    "nameA": "Mr. Blocks' Binary Sorting Adventure",
+    "nameB": "Sort array by set bits"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "173",
+    "problemIdB": "163",
+    "similarity": 0.948848,
+    "nameA": "Pattern Rhombus",
+    "nameB": "Pattern with Zeros"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3327",
+    "problemIdB": "2899",
+    "similarity": 0.948696,
+    "nameA": "Factorial Trailing Zeroes",
+    "nameB": "Count Zeros"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "143",
+    "problemIdB": "2982",
+    "similarity": 0.948617,
+    "nameA": "BST -- Sum nodes",
+    "nameB": "binary search tree to greater sum tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4591",
+    "problemIdB": "5249",
+    "similarity": 0.948397,
+    "nameA": "Minimum Steps",
+    "nameB": "The Quest of Mr. Blocks: Journey to Transform Words"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3579",
+    "problemIdB": "4886",
+    "similarity": 0.948373,
+    "nameA": "Binary Tree Maximum Path Sum - Python",
+    "nameB": "Maximum Result in Binary Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2997",
+    "problemIdB": "4557",
+    "similarity": 0.948259,
+    "nameA": "Minimum in Rotated Sorted Array",
+    "nameB": "Kartik Bhaiya wants to rotate a sorted array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2486",
+    "problemIdB": "2487",
+    "similarity": 0.948068,
+    "nameA": "Power of Two",
+    "nameB": "Power of Four"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2396",
+    "problemIdB": "3323",
+    "similarity": 0.947881,
+    "nameA": "Find Square Root",
+    "nameB": "Sqrt(x)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "462",
+    "problemIdB": "2481",
+    "similarity": 0.947855,
+    "nameA": "Unique Number - I",
+    "nameB": "Single Number"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "82",
+    "problemIdB": "626",
+    "similarity": 0.947713,
+    "nameA": "R3 - Pattern 2",
+    "nameB": "Pattern Numbers & Stars - 2"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1394",
+    "problemIdB": "4934",
+    "similarity": 0.947705,
+    "nameA": "Next Greater Element",
+    "nameB": "Next Greater element - I"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2892",
+    "problemIdB": "5249",
+    "similarity": 0.947681,
+    "nameA": "Word Ladder",
+    "nameB": "The Quest of Mr. Blocks: Journey to Transform Words"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4557",
+    "problemIdB": "4863",
+    "similarity": 0.947469,
+    "nameA": "Kartik Bhaiya wants to rotate a sorted array",
+    "nameB": "Find minimum in rotated sorted array - II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4802",
+    "problemIdB": "4954",
+    "similarity": 0.947135,
+    "nameA": "Ball Collision",
+    "nameB": "Asteroid Collision"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "174",
+    "problemIdB": "163",
+    "similarity": 0.947007,
+    "nameA": "Pattern Mountain",
+    "nameB": "Pattern with Zeros"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2667",
+    "problemIdB": "3316",
+    "similarity": 0.946716,
+    "nameA": "Longest Subsequence with Consecutive Numbers",
+    "nameB": "Longest subsequence of consecutive integers"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3321",
+    "problemIdB": "1006",
+    "similarity": 0.946645,
+    "nameA": "Longest Increasing Subsequence using LCS",
+    "nameB": "Longest Increasing subsequence"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2987",
+    "problemIdB": "4573",
+    "similarity": 0.94663,
+    "nameA": "First & Last",
+    "nameB": "Find in Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "301",
+    "problemIdB": "4291",
+    "similarity": 0.946543,
+    "nameA": "Eliminate Duplicates",
+    "nameB": "Remove Duplicates from Sorted List"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2775",
+    "problemIdB": "3706",
+    "similarity": 0.946245,
+    "nameA": "Swap Nodes in Pair",
+    "nameB": "Swapping in morning Assembly"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "183",
+    "problemIdB": "184",
+    "similarity": 0.946154,
+    "nameA": "Mirror Inverse Of Number",
+    "nameB": "Is Mirror Inverse"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "489",
+    "problemIdB": "2982",
+    "similarity": 0.946151,
+    "nameA": "Replace with Sum ( BST )",
+    "nameB": "binary search tree to greater sum tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "550",
+    "problemIdB": "4984",
+    "similarity": 0.946104,
+    "nameA": "Insertion Sort ( Iterative , Linked List)",
+    "nameB": "Sort Linked List"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3697",
+    "problemIdB": "4887",
+    "similarity": 0.946,
+    "nameA": "Merge Sorted Lists(recursion,linked list)",
+    "nameB": "Merge Two Sorted Linked Lists"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "206",
+    "problemIdB": "374",
+    "similarity": 0.945906,
+    "nameA": "Arrays-Bubble Sort",
+    "nameB": "Recursive-Bubble Sort"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1996",
+    "problemIdB": "4063",
+    "similarity": 0.945898,
+    "nameA": "Erase Duplicates",
+    "nameB": "Kill The Duplicates"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2798",
+    "problemIdB": "3384",
+    "similarity": 0.945751,
+    "nameA": "Help Lakshita Sort-1",
+    "nameB": "Bubble Sort"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3668",
+    "problemIdB": "4957",
+    "similarity": 0.94573,
+    "nameA": "Chess Knight Problem | Find the shortest path from source to destination",
+    "nameB": "Chess Knight Problem"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2680",
+    "problemIdB": "3862",
+    "similarity": 0.945602,
+    "nameA": "The Rotated Array Conundrum: Mr. Block's Binary Search Adventure",
+    "nameB": "Search rotated sorted array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2680",
+    "problemIdB": "2483",
+    "similarity": 0.945206,
+    "nameA": "The Rotated Array Conundrum: Mr. Block's Binary Search Adventure",
+    "nameB": "Rotated Search"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "987",
+    "problemIdB": "2150",
+    "similarity": 0.945086,
+    "nameA": "Subarrays Again",
+    "nameB": "Garima Mam and the Kid"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2649",
+    "problemIdB": "3393",
+    "similarity": 0.945085,
+    "nameA": "Profit From Gold II",
+    "nameB": "Best Time to Buy And Sell Stocks-1"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4295",
+    "problemIdB": "3705",
+    "similarity": 0.945035,
+    "nameA": "Add Two Numbers Represented by Linked Lists",
+    "nameB": "Add Two Numbers II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3290",
+    "problemIdB": "4196",
+    "similarity": 0.944786,
+    "nameA": "Doubled Pairs",
+    "nameB": "SPY Test"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "313",
+    "problemIdB": "4892",
+    "similarity": 0.944724,
+    "nameA": "Palindrome LinkedList",
+    "nameB": "Check if List is a Palindrome"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2947",
+    "problemIdB": "2446",
+    "similarity": 0.944687,
+    "nameA": "Merge K Sorted Lists",
+    "nameB": "Merge K sorted linked lists"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4825",
+    "problemIdB": "4653",
+    "similarity": 0.944662,
+    "nameA": "Find All Numbers Disappeared in an Array",
+    "nameB": "Missing Numbers"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3259",
+    "problemIdB": "4594",
+    "similarity": 0.944612,
+    "nameA": "Valid Palindrome",
+    "nameB": "Beautiful String"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3283",
+    "problemIdB": "5060",
+    "similarity": 0.944498,
+    "nameA": "Coin Change Problem",
+    "nameB": "Coin Change II"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4082",
+    "problemIdB": "3775",
+    "similarity": 0.944406,
+    "nameA": "Time To Cheat",
+    "nameB": "Permutation of the Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "953",
+    "problemIdB": "961",
+    "similarity": 0.944257,
+    "nameA": "Tree top view",
+    "nameB": "Vertical Order Print Binary Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3703",
+    "problemIdB": "4316",
+    "similarity": 0.944167,
+    "nameA": "Reorder List",
+    "nameB": "Kartik bhaiya with odd Even Linked List"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "83",
+    "problemIdB": "626",
+    "similarity": 0.943956,
+    "nameA": "R4 -- Pattern",
+    "nameB": "Pattern Numbers & Stars - 2"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2132",
+    "problemIdB": "3415",
+    "similarity": 0.943771,
+    "nameA": "Sort a Linked List of 0's,1's and 2's.",
+    "nameB": "Sort linked list containing 0's, 1's, 2's."
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4802",
+    "problemIdB": "5006",
+    "similarity": 0.943738,
+    "nameA": "Ball Collision",
+    "nameB": "Monu bhaiya and asteroid"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "5010",
+    "problemIdB": "1599",
+    "similarity": 0.943578,
+    "nameA": "Solve and Win",
+    "nameB": "Bob And the container"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "757",
+    "problemIdB": "829",
+    "similarity": 0.943248,
+    "nameA": "SEQ - Recursive Sequence",
+    "nameB": "SPP - Recursive Sequence (Version II)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3480",
+    "problemIdB": "4813",
+    "similarity": 0.943087,
+    "nameA": "Vertical traversal of a binary tree",
+    "nameB": "Column-wise(Vertical Order) Traversal of a Binary Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3018",
+    "problemIdB": "3702",
+    "similarity": 0.943047,
+    "nameA": "Arrange Odd Even linked list",
+    "nameB": "Even and Odd using linked list"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3539",
+    "problemIdB": "4597",
+    "similarity": 0.942951,
+    "nameA": "Diagonal Traversal - Python",
+    "nameB": "Snake Loves Diagonal Move"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "407",
+    "problemIdB": "3986",
+    "similarity": 0.942418,
+    "nameA": "Nth_Fibonacci (O(n))",
+    "nameB": "Fibonacci Number"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "165",
+    "problemIdB": "175",
+    "similarity": 0.942347,
+    "nameA": "Fibonacci Pattern (Pattern 4)",
+    "nameB": "Pascal Triangle(Pattern 3)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "484",
+    "problemIdB": "1283",
+    "similarity": 0.942243,
+    "nameA": "Create Tree (Using Postorder and Inorder)",
+    "nameB": "Create Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "953",
+    "problemIdB": "3480",
+    "similarity": 0.94216,
+    "nameA": "Tree top view",
+    "nameB": "Vertical traversal of a binary tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "197",
+    "problemIdB": "5746",
+    "similarity": 0.942147,
+    "nameA": "Arrays-Max Value In Array",
+    "nameB": "Recursion-Maximum Element in an Array"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "458",
+    "problemIdB": "4964",
+    "similarity": 0.942109,
+    "nameA": "Unique Number - III",
+    "nameB": "Unique Number Game"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3862",
+    "problemIdB": "433",
+    "similarity": 0.942029,
+    "nameA": "Search rotated sorted array",
+    "nameB": "Help Rahul"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "5772",
+    "problemIdB": "5771",
+    "similarity": 0.941775,
+    "nameA": "Recursion-Largest Digit in a Number",
+    "nameB": "Recursion-Smallest Digit in a Number"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "481",
+    "problemIdB": "3429",
+    "similarity": 0.941733,
+    "nameA": "Level Order ( Zigzag , Binary Tree)",
+    "nameB": "Reverse Level Order Traversal"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "117",
+    "problemIdB": "4887",
+    "similarity": 0.941396,
+    "nameA": "Merge Sorted Linked Lists",
+    "nameB": "Merge Two Sorted Linked Lists"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1287",
+    "problemIdB": "316",
+    "similarity": 0.941294,
+    "nameA": "K-reverse",
+    "nameB": "Linked List-K Append"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "4881",
+    "problemIdB": "2525",
+    "similarity": 0.941194,
+    "nameA": "Node removal from LL",
+    "nameB": "Delete Nth node from end of the linked list"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "440",
+    "problemIdB": "4597",
+    "similarity": 0.94111,
+    "nameA": "SPIRAL PRINT OF 2D ARRAY",
+    "nameB": "Snake Loves Diagonal Move"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "1399",
+    "problemIdB": "2177",
+    "similarity": 0.941043,
+    "nameA": "Find Minimum sum",
+    "nameB": "Strings With Benefits"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "550",
+    "problemIdB": "544",
+    "similarity": 0.940974,
+    "nameA": "Insertion Sort ( Iterative , Linked List)",
+    "nameB": "Selection Sort ( Recursive , Linked List)"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2947",
+    "problemIdB": "2822",
+    "similarity": 0.94085,
+    "nameA": "Merge K Sorted Lists",
+    "nameB": "Conquer the city"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2805",
+    "problemIdB": "4286",
+    "similarity": 0.940752,
+    "nameA": "median of two sorted arrays",
+    "nameB": "Solve Puzzle"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "951",
+    "problemIdB": "3453",
+    "similarity": 0.940723,
+    "nameA": "Tree Left View",
+    "nameB": "Top View of a Binary Tree"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "76",
+    "problemIdB": "513",
+    "similarity": 0.940491,
+    "nameA": "Subsets - Recursion",
+    "nameB": "Subset_problem ( Recursion )"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "3862",
+    "problemIdB": "3868",
+    "similarity": 0.940358,
+    "nameA": "Search rotated sorted array",
+    "nameB": "Search rotated sorted array ll"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2760",
+    "problemIdB": "2764",
+    "similarity": 0.940303,
+    "nameA": "K Most Frequent Elements",
+    "nameB": "K Most Frequent Words"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "391",
+    "problemIdB": "3526",
+    "similarity": 0.940276,
+    "nameA": "SUDOKU SOLVER",
+    "nameB": "SUDOKU SOLVER - Python"
+  },
+  {
+    "label": "potential near-duplicates",
+    "problemIdA": "2149",
+    "problemIdB": "3697",
+    "similarity": 0.940152,
+    "nameA": "Sum of two Linked Lists",
+    "nameB": "Merge Sorted Lists(recursion,linked list)"
   }
 ]

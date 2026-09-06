@@ -17,13 +17,23 @@ export class GeminiEmbeddingClient {
   constructor(config = embeddingConfig()) {
     this.config = config;
     this.nextKey = 0;
+    this.disabledKeys = new Set();
+  }
+
+  nextAvailableKey() {
+    for (let offset = 0; offset < this.config.keys.length; offset += 1) {
+      const keyIndex = this.nextKey++ % this.config.keys.length;
+      if (!this.disabledKeys.has(keyIndex)) return keyIndex;
+    }
+    return null;
   }
 
   async embed(text, taskType = "RETRIEVAL_DOCUMENT") {
     let lastError = null;
     const maxRetries = Math.max(2, Number.parseInt(process.env.GEMINI_EMBEDDING_MAX_RETRIES ?? "4", 10) || 4);
     for (let attempt = 0; attempt < maxRetries; attempt += 1) {
-      const keyIndex = this.nextKey++ % this.config.keys.length;
+      const keyIndex = this.nextAvailableKey();
+      if (keyIndex === null) break;
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), Math.max(5000, Number.parseInt(process.env.GEMINI_EMBEDDING_TIMEOUT_MS ?? "60000", 10) || 60000));
       try {
@@ -47,8 +57,11 @@ export class GeminiEmbeddingClient {
         return values;
       } catch (error) {
         lastError = error;
+        const credentialFailure = error?.status === 401 || error?.status === 403;
+        if (credentialFailure) this.disabledKeys.add(keyIndex);
         const transient = error?.transient || error?.name === "AbortError" || /network|fetch/i.test(error?.message ?? "");
-        if (!transient || attempt >= maxRetries - 1) break;
+        if ((!transient && !credentialFailure) || attempt >= maxRetries - 1) break;
+        if (credentialFailure) continue;
         const retryAfter = Number.isFinite(error?.retryAfterMs) && error.retryAfterMs > 0 ? Math.min(120000, error.retryAfterMs) : Math.min(60000, 1000 * 2 ** attempt);
         await sleep(retryAfter);
       } finally {
