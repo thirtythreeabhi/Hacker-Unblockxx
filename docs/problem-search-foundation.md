@@ -49,3 +49,7 @@ node --env-file=.env.local scripts/find-near-duplicates.mjs
 ```
 
 This writes `data/problem-near-duplicates.json` using a conservative threshold (default `0.94`). It reports candidates only; it never merges or deletes records.
+
+## Practice next
+
+Authenticated users can request deterministic recommendations from `GET /api/recommendations` with `mode=continue`, `harder`, `bookmarked`, `random`, or `weak`, plus `limit`, `topic`, and `currentProblemId`. Completed problems are excluded by default. The route reads only the signed-in user's progress, scores shared corpus rows by cosine similarity, topic overlap, difficulty progression, bookmark state, and a per-user daily rotation seed, then removes known near-duplicate pairs from the selected set. No generative Gemini call is used for ranking or reasons.

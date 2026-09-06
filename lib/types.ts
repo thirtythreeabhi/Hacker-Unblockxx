@@ -81,6 +81,7 @@ export type ProblemSearchResult = {
   primaryTopics: string[];
   domain: string | null;
   similarity: number;
+  reason?: string;
   completed?: boolean;
   bookmarked?: boolean;
 };

@@ -9,6 +9,7 @@ import { difficultyLabel } from "./DifficultyBadge";
 import QuestionDrawer from "./QuestionDrawer";
 import Stats from "./Stats";
 import SemanticSearchResults from "./SemanticSearchResults";
+import PracticePanel from "./PracticePanel";
 
 const PAGE_SIZE = 50;
 
@@ -121,6 +122,10 @@ export default function BrowserApp() {
     if (result.contestId && result.contentId) openQuestion(result.contestId, { contentId: result.contentId, problemId: result.problemId, name: result.name, difficulty: result.difficulty, type: "problem", verified: false });
   }
 
+  function openRecommendation(result: ProblemSearchResult) {
+    if (result.contestId && result.contentId) openQuestion(result.contestId, { contentId: result.contentId, problemId: result.problemId, name: result.name, difficulty: result.difficulty, type: "problem", verified: false });
+  }
+
   function toggleContest(contestId: string) {
     setOpenContests((current) => {
       const next = new Set(current);
@@ -158,6 +163,7 @@ export default function BrowserApp() {
         </div>
       </header>
       {index && <Stats stats={index.stats} />}
+      <div className="content-shell practice-shell"><PracticePanel onOpen={openRecommendation} /></div>
       <section className="content-shell">
         <div className="list-heading"><div><p className="eyebrow">{searchMode === "semantic" ? "PROBLEM DISCOVERY" : "CONTESTS"}</p><h2>{searchMode === "semantic" ? "Semantic matches" : search || statusFilter !== "all" || difficultyFilter !== "all" || progressFilter !== "all" ? "Filtered contests" : "Your problem archive"}</h2></div><p className="snapshot-status">{statusText}</p></div>
         {progressError && user && <p className="progress-error">Progress could not be loaded: {progressError}</p>}

@@ -49,6 +49,23 @@ kbd { padding: 4px 7px; border: 1px solid #293547; border-radius: 5px; color: #7
 .stat span { color: #768499; font-size: 10px; line-height: 1.3; }
 .stat-violet { color: #a893ff; } .stat-green { color: #62d3a3; } .stat-red { color: #ff837d; } .stat-blue { color: #6ea8fe; } .stat-gold { color: #eab86a; } .stat-pink { color: #e794cd; }
 .content-shell { padding: 51px 0 90px; }
+.practice-shell { padding-top: 22px; padding-bottom: 0; }
+.practice-panel { padding: 18px; border: 1px solid #2f4655; border-radius: 11px; background: linear-gradient(120deg, rgba(17, 36, 44, .8), rgba(16, 21, 31, .82)); }
+.practice-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
+.practice-heading h2 { margin: 3px 0 5px; color: #f1f5fa; font-size: 20px; letter-spacing: -.04em; }
+.practice-heading p:not(.eyebrow) { max-width: 580px; margin: 0; color: #8291a5; font-size: 11px; line-height: 1.45; }
+.practice-private { padding: 6px 8px; border: 1px solid rgba(89, 216, 208, .25); border-radius: 6px; color: var(--cyan); font: 9px 'DM Mono', monospace; white-space: nowrap; }
+.practice-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 15px; }
+.practice-muted { margin: 13px 0 0; color: #718096; font-size: 11px; }
+.practice-list { display: grid; gap: 7px; margin-top: 14px; }
+.practice-item { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 11px 12px; border: 1px solid #293a4b; border-radius: 7px; background: rgba(7, 13, 20, .44); }
+.practice-item-main { min-width: 0; }
+.practice-item-main h3 { overflow: hidden; margin: 0 0 4px; color: #e1eaf2; font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+.practice-item-main p { margin: 0 0 5px; color: #718096; font: 9px 'DM Mono', monospace; }
+.practice-item-main small { color: #9bb0bd; font-size: 10px; }
+.practice-item-actions { display: flex; align-items: center; flex-wrap: wrap; justify-content: flex-end; gap: 5px; }
+.practice-skip { border: 0; background: transparent; color: #718096; font-size: 10px; }
+.practice-skip:hover { color: #c4d0dc; }
 .list-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; margin-bottom: 17px; }
 .list-heading h2 { margin-bottom: 0; font-size: 24px; letter-spacing: -.045em; }
 .snapshot-status { margin-bottom: 2px; color: #68778d; font: 10px 'DM Mono', monospace; }
