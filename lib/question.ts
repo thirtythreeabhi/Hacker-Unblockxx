@@ -27,26 +27,29 @@ export function htmlishToText(value: unknown): string | null {
     .replace(/<\/li\s*>/gi, "\n")
     .replace(/<\/?(?:p|div|h[1-6])\b[^>]*>/gi, "\n\n")
     .replace(/<[^>]*>/g, "")
-    .replace(/&(#(?:x[\da-f]+|\d+)|[a-z][a-z\d]+);/gi, (entity, key: string) => {
-      const normalizedKey = key.toLowerCase();
-      if (normalizedKey in HTML_ENTITIES) return HTML_ENTITIES[normalizedKey];
+    .replace(
+      /&(#(?:x[\da-f]+|\d+)|[a-z][a-z\d]+);/gi,
+      (entity, key: string) => {
+        const normalizedKey = key.toLowerCase();
+        if (normalizedKey in HTML_ENTITIES) return HTML_ENTITIES[normalizedKey];
 
-      if (normalizedKey.startsWith("#x")) {
-        const codePoint = Number.parseInt(normalizedKey.slice(2), 16);
-        return Number.isSafeInteger(codePoint) && codePoint <= 0x10ffff
-          ? String.fromCodePoint(codePoint)
-          : entity;
-      }
+        if (normalizedKey.startsWith("#x")) {
+          const codePoint = Number.parseInt(normalizedKey.slice(2), 16);
+          return Number.isSafeInteger(codePoint) && codePoint <= 0x10ffff
+            ? String.fromCodePoint(codePoint)
+            : entity;
+        }
 
-      if (normalizedKey.startsWith("#")) {
-        const codePoint = Number.parseInt(normalizedKey.slice(1), 10);
-        return Number.isSafeInteger(codePoint) && codePoint <= 0x10ffff
-          ? String.fromCodePoint(codePoint)
-          : entity;
-      }
+        if (normalizedKey.startsWith("#")) {
+          const codePoint = Number.parseInt(normalizedKey.slice(1), 10);
+          return Number.isSafeInteger(codePoint) && codePoint <= 0x10ffff
+            ? String.fromCodePoint(codePoint)
+            : entity;
+        }
 
-      return entity;
-    })
+        return entity;
+      },
+    )
     .replace(/[ \t]+\n/g, "\n")
     .replace(/\n[ \t]*\n(?:[ \t]*\n)+/g, "\n\n")
     .trim();
@@ -54,7 +57,10 @@ export function htmlishToText(value: unknown): string | null {
   return text || null;
 }
 
-export function normalizeQuestion(payload: any, fallbackContentId: string): Question {
+export function normalizeQuestion(
+  payload: any,
+  fallbackContentId: string,
+): Question {
   const content = payload?.data ?? {};
   const contentAttributes = content?.attributes ?? {};
   const problem = Array.isArray(payload?.included)
@@ -65,12 +71,19 @@ export function normalizeQuestion(payload: any, fallbackContentId: string): Ques
   const stubsByLanguage = new Map<string, SolutionStub>();
   if (Array.isArray(payload?.included)) {
     for (const resource of payload.included) {
-      if (resource?.type !== "solution_stubs" || typeof resource?.attributes?.body !== "string") continue;
+      if (
+        resource?.type !== "solution_stubs" ||
+        typeof resource?.attributes?.body !== "string"
+      )
+        continue;
 
       const language = stringOrNull(resource.attributes.language) ?? "unknown";
       const languageKey = language.toLowerCase();
       if (!stubsByLanguage.has(languageKey)) {
-        stubsByLanguage.set(languageKey, { language, body: resource.attributes.body });
+        stubsByLanguage.set(languageKey, {
+          language,
+          body: resource.attributes.body,
+        });
       }
     }
   }
@@ -83,7 +96,9 @@ export function normalizeQuestion(payload: any, fallbackContentId: string): Ques
       : content?.relationships?.problem?.data?.id
         ? String(content.relationships.problem.data.id)
         : null,
-    name: String(contentAttributes.name ?? problemAttributes.name ?? "Untitled question"),
+    name: String(
+      contentAttributes.name ?? problemAttributes.name ?? "Untitled question",
+    ),
     difficulty:
       typeof problemAttributes.difficulty === "number"
         ? problemAttributes.difficulty

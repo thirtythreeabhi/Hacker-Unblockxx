@@ -1,6 +1,10 @@
 import { createBrowserClient } from "@supabase/ssr";
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { assertSupabaseConfig, supabasePublishableKey, supabaseUrl } from "./config";
+import {
+  assertSupabaseConfig,
+  supabasePublishableKey,
+  supabaseUrl,
+} from "./config";
 
 let browserClient: SupabaseClient | undefined;
 

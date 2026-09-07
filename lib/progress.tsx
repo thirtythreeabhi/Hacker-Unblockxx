@@ -22,23 +22,45 @@ type ProgressContextValue = {
   loading: boolean;
   error: string | null;
   progress: Map<string, ProblemProgress>;
-  progressKey: (content: Pick<IndexedContent, "problemId" | "contentId"> | { problemId?: string | null; contentId: string }) => string;
-  getProgress: (problemId: string | null | undefined, contentId: string) => ProblemProgress | undefined;
-  toggleBookmark: (problemId: string | null | undefined, contentId: string) => Promise<void>;
-  toggleCompleted: (problemId: string | null | undefined, contentId: string) => Promise<void>;
-  saveNotes: (problemId: string | null | undefined, contentId: string, notes: string) => Promise<void>;
+  progressKey: (
+    content:
+      | Pick<IndexedContent, "problemId" | "contentId">
+      | { problemId?: string | null; contentId: string },
+  ) => string;
+  getProgress: (
+    problemId: string | null | undefined,
+    contentId: string,
+  ) => ProblemProgress | undefined;
+  toggleBookmark: (
+    problemId: string | null | undefined,
+    contentId: string,
+  ) => Promise<void>;
+  toggleCompleted: (
+    problemId: string | null | undefined,
+    contentId: string,
+  ) => Promise<void>;
+  saveNotes: (
+    problemId: string | null | undefined,
+    contentId: string,
+    notes: string,
+  ) => Promise<void>;
 };
 
 const ProgressContext = createContext<ProgressContextValue | null>(null);
 
-export function getProblemProgressKey(problemId: string | null | undefined, contentId: string) {
+export function getProblemProgressKey(
+  problemId: string | null | undefined,
+  contentId: string,
+) {
   return problemId || contentId;
 }
 
 export function ProgressProvider({ children }: { children: React.ReactNode }) {
   const supabase = useMemo(() => createClient(), []);
   const [user, setUser] = useState<User | null>(null);
-  const [progress, setProgress] = useState<Map<string, ProblemProgress>>(new Map());
+  const [progress, setProgress] = useState<Map<string, ProblemProgress>>(
+    new Map(),
+  );
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -66,7 +88,11 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
         setProgress(new Map());
       } else {
         setError(null);
-        setProgress(new Map((data as ProblemProgress[]).map((row) => [row.problem_id, row])));
+        setProgress(
+          new Map(
+            (data as ProblemProgress[]).map((row) => [row.problem_id, row]),
+          ),
+        );
       }
       setLoading(false);
     }
@@ -77,11 +103,13 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       void loadProgress(data.session?.user ?? null);
     });
 
-    const { data: authListener } = supabase.auth.onAuthStateChange((_event, session) => {
-      if (!active) return;
-      setUser(session?.user ?? null);
-      void loadProgress(session?.user ?? null);
-    });
+    const { data: authListener } = supabase.auth.onAuthStateChange(
+      (_event, session) => {
+        if (!active) return;
+        setUser(session?.user ?? null);
+        void loadProgress(session?.user ?? null);
+      },
+    );
 
     return () => {
       active = false;
@@ -92,7 +120,12 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
   async function upsert(
     problemId: string | null | undefined,
     contentId: string,
-    patch: Partial<Pick<ProblemProgress, "bookmarked" | "completed" | "notes" | "completed_at">>,
+    patch: Partial<
+      Pick<
+        ProblemProgress,
+        "bookmarked" | "completed" | "notes" | "completed_at"
+      >
+    >,
   ) {
     if (!user) throw new Error("Log in to save your progress.");
 
@@ -112,39 +145,60 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
 
     const previous = new Map(progress);
     setProgress((currentMap) => new Map(currentMap).set(key, next));
-    const { error: upsertError } = await supabase.from("problem_progress").upsert(next, { onConflict: "user_id,problem_id" });
+    const { error: upsertError } = await supabase
+      .from("problem_progress")
+      .upsert(next, { onConflict: "user_id,problem_id" });
     if (upsertError) {
       setProgress(previous);
       throw new Error(upsertError.message);
     }
   }
 
-  const value = useMemo<ProgressContextValue>(() => ({
-    user,
-    loading,
-    error,
-    progress,
-    progressKey: (content) => getProblemProgressKey(content.problemId, content.contentId),
-    getProgress: (problemId, contentId) => progress.get(getProblemProgressKey(problemId, contentId)),
-    toggleBookmark: async (problemId, contentId) => {
-      const current = progress.get(getProblemProgressKey(problemId, contentId));
-      await upsert(problemId, contentId, { bookmarked: !(current?.bookmarked ?? false) });
-    },
-    toggleCompleted: async (problemId, contentId) => {
-      const current = progress.get(getProblemProgressKey(problemId, contentId));
-      const completed = !(current?.completed ?? false);
-      await upsert(problemId, contentId, { completed, completed_at: completed ? new Date().toISOString() : null });
-    },
-    saveNotes: async (problemId, contentId, notes) => {
-      await upsert(problemId, contentId, { notes: notes.trim() || null });
-    },
-  }), [error, loading, progress, user]);
+  const value = useMemo<ProgressContextValue>(
+    () => ({
+      user,
+      loading,
+      error,
+      progress,
+      progressKey: (content) =>
+        getProblemProgressKey(content.problemId, content.contentId),
+      getProgress: (problemId, contentId) =>
+        progress.get(getProblemProgressKey(problemId, contentId)),
+      toggleBookmark: async (problemId, contentId) => {
+        const current = progress.get(
+          getProblemProgressKey(problemId, contentId),
+        );
+        await upsert(problemId, contentId, {
+          bookmarked: !(current?.bookmarked ?? false),
+        });
+      },
+      toggleCompleted: async (problemId, contentId) => {
+        const current = progress.get(
+          getProblemProgressKey(problemId, contentId),
+        );
+        const completed = !(current?.completed ?? false);
+        await upsert(problemId, contentId, {
+          completed,
+          completed_at: completed ? new Date().toISOString() : null,
+        });
+      },
+      saveNotes: async (problemId, contentId, notes) => {
+        await upsert(problemId, contentId, { notes: notes.trim() || null });
+      },
+    }),
+    [error, loading, progress, user],
+  );
 
-  return <ProgressContext.Provider value={value}>{children}</ProgressContext.Provider>;
+  return (
+    <ProgressContext.Provider value={value}>
+      {children}
+    </ProgressContext.Provider>
+  );
 }
 
 export function useProgress() {
   const context = useContext(ProgressContext);
-  if (!context) throw new Error("useProgress must be used inside ProgressProvider");
+  if (!context)
+    throw new Error("useProgress must be used inside ProgressProvider");
   return context;
 }
