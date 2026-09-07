@@ -2,5 +2,9 @@ import { Suspense } from "react";
 import AuthForm from "../../components/AuthForm";
 
 export default function LoginPage() {
-  return <Suspense fallback={<div className="page-loading">Loading…</div>}><AuthForm mode="login" /></Suspense>;
+  return (
+    <Suspense fallback={<div className="page-loading">Loading…</div>}>
+      <AuthForm mode="login" />
+    </Suspense>
+  );
 }
